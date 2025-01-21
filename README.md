@@ -12,76 +12,76 @@ Dieses Projekt umfasst die Verwaltung eines Vereins mit folgenden Modulen. Der F
 
 ## Fortschrittsübersicht
 
-| Modul                           | Beschreibung                                       | Fortschritt |
-|---------------------------------|---------------------------------------------------|-------------|
-| **Mitgliederverwaltung**        | ![43%](https://progress-bar.xyz/43?title=Verwaltung+von+Mitgliederdaten+und+Beiträgen&width=300)      | |
-| **Veranstaltungsmanagement**    | Planung und Durchführung von Veranstaltungen      | ![0%](https://progress-bar.xyz/0) |
-| **Self-Service-Portal**         | Mitglieder können ihre Daten selbst verwalten     | ![0%](https://progress-bar.xyz/0) |
-| **Integration mit Cloud-Diensten** | Nextcloud-Integration für Dateien und Benutzer    | ![0%](https://progress-bar.xyz/0) |
-| **Automatisierung**             | Automatische Benachrichtigungen und Erinnerungen  | ![0%](https://progress-bar.xyz/0) |
-| **Finanzverwaltung**            | Verwaltung von Einnahmen, Ausgaben und Spenden    | ![0%](https://progress-bar.xyz/0) |
-| **Inventarverwaltung**          | Verwaltung von Technik, Kostümen und Materialien  | ![0%](https://progress-bar.xyz/0) |
-| **Kommunikation und Chat**      | Interne Kommunikation und E-Mail-Benachrichtigungen | ![0%](https://progress-bar.xyz/0)|
-| **Kalender- und Terminplanung** | Planung von Terminen und Synchronisation          | ![0%](https://progress-bar.xyz/0) |
+| Modul                           | Beschreibung                                       
+|---------------------------------|---------------------------------------------------|
+| **Mitgliederverwaltung**        | ![43%](https://progress-bar.xyz/43?title=Verwaltung+von+Mitgliederdaten+und+Beiträgen&width=300)
+| **Veranstaltungsmanagement**    | ![0%](https://progress-bar.xyz/0?title=Planung+und+Durchführung+von+Veranstaltungen&width=300)
+| **Self-Service-Portal**         | ![0%](https://progress-bar.xyz/0?title=Mitglieder+können+ihre+Daten+selbst+verwalten&width=300)     
+| **Integration mit Cloud-Diensten** | ![0%](https://progress-bar.xyz/0?title=Nextcloud-Integration+für+Dateien+und+Benutzer&width=300)    
+| **Automatisierung**             | ![0%](https://progress-bar.xyz/0?title=Automatische+Benachrichtigungen+und+Erinnerungen&width=300)  
+| **Finanzverwaltung**            | ![0%](https://progress-bar.xyz/0?title=Verwaltung+von+Einnahmen,+Ausgaben+und+Spenden&width=300)    
+| **Inventarverwaltung**          | ![0%](https://progress-bar.xyz/0?title=Verwaltung+von+Technik,+Kostümen+und+Materialien&width=300)  
+| **Kommunikation und Chat**      | ![0%](https://progress-bar.xyz/0?title=Interne+Kommunikation+und+E-Mail-Benachrichtigungen&width=300) 
+| **Kalender- und Terminplanung** | ![0%](https://progress-bar.xyz/0?title=Planung+von+Terminen+und+Synchronisation&width=300)          
 
 ---
 
 ## Detailbeschreibung
 
 ### Mitgliederverwaltung
-- [x] Speicherung persönlicher Daten
-- [x] Verwaltung von Mitgliedsstatus
-- [x] Zuordnung von Eintritts- und Austrittsdatum
-- [ ] Verknüpfung von Mitgliedern mit Rollen
-- [ ] Automatische Rechnungsstellung
-- [ ] Verfolgung offener Zahlungen
-- [ ] Aktivitätsprotokoll und Historie
+- [x] Speicherung persönlicher Daten ![100%](https://progress-bar.xyz/100
+- [x] Verwaltung von Mitgliedsstatus ![100%](https://progress-bar.xyz/100
+- [x] Zuordnung von Eintritts- und Austrittsdatum ![100%](https://progress-bar.xyz/100
+- [ ] Verknüpfung von Mitgliedern mit Rollen ![0%](https://progress-bar.xyz/0)
+- [ ] Automatische Rechnungsstellung ![0%](https://progress-bar.xyz/0)
+- [ ] Verfolgung offener Zahlungen ![0%](https://progress-bar.xyz/0)
+- [ ] Aktivitätsprotokoll und Historie ![0%](https://progress-bar.xyz/0)
 
 ### Veranstaltungsmanagement
-- [ ] Erstellung von Veranstaltungen
-- [ ] Teilnehmerlisten für Veranstaltungen
-- [ ] Aufgaben- und Zeitmanagement
-- [ ] Einnahmen- und Ausgabenübersicht
-- [ ] Material- und Ressourcenmanagement
-- [ ] Rentabilitätsanalyse von Veranstaltungen
+- [ ] Erstellung von Veranstaltungen ![0%](https://progress-bar.xyz/0)
+- [ ] Teilnehmerlisten für Veranstaltungen ![0%](https://progress-bar.xyz/0)
+- [ ] Aufgaben- und Zeitmanagement ![0%](https://progress-bar.xyz/0)
+- [ ] Einnahmen- und Ausgabenübersicht ![0%](https://progress-bar.xyz/0)
+- [ ] Material- und Ressourcenmanagement ![0%](https://progress-bar.xyz/0)
+- [ ] Rentabilitätsanalyse von Veranstaltungen ![0%](https://progress-bar.xyz/0)
 
 ### Self-Service-Portal
-- [ ] Mitgliederzugang zu persönlichen Daten
-- [ ] Einsicht in Rechnungen und Veranstaltungen
-- [ ] Zugriff auf persönliche Dokumente
+- [ ] Mitgliederzugang zu persönlichen Daten ![0%](https://progress-bar.xyz/0)
+- [ ] Einsicht in Rechnungen und Veranstaltungen ![0%](https://progress-bar.xyz/0)
+- [ ] Zugriff auf persönliche Dokumente ![0%](https://progress-bar.xyz/0)
 
 ### Integration mit Cloud-Diensten
-- [ ] Automatische Erstellung von Nextcloud-Benutzern
-- [ ] Synchronisation von Dateien
-- [ ] Automatische Erstellung von Ordnern für Mitglieder
+- [ ] Automatische Erstellung von Nextcloud-Benutzern ![0%](https://progress-bar.xyz/0)
+- [ ] Synchronisation von Dateien ![0%](https://progress-bar.xyz/0)
+- [ ] Automatische Erstellung von Ordnern für Mitglieder ![0%](https://progress-bar.xyz/0)
 
-### Automatisierung von Benachrichtigungen und Erinnerungen
-- [ ] Geburtstagserinnerungen
-- [ ] Erinnerungen für ausstehende Zahlungen
-- [ ] Benachrichtigungen zu Veranstaltungen
-- [ ] Warnungen bei nahenden Deadlines
+### Automatisierung von Benachrichtigungen und Erinnerungen 
+- [ ] Geburtstagserinnerungen ![0%](https://progress-bar.xyz/0)
+- [ ] Erinnerungen für ausstehende Zahlungen ![0%](https://progress-bar.xyz/0)
+- [ ] Benachrichtigungen zu Veranstaltungen ![0%](https://progress-bar.xyz/0)
+- [ ] Warnungen bei nahenden Deadlines ![0%](https://progress-bar.xyz/0)
 
 ### Finanzverwaltung
-- [ ] Automatische Rechnungsstellung für Mitgliedsbeiträge
-- [ ] Verfolgung von Zahlungseingängen
-- [ ] Spendenmanagement und Erstellung von Spendenquittungen
-- [ ] Jahresabschluss und Finanzberichte
+- [ ] Automatische Rechnungsstellung für Mitgliedsbeiträge ![0%](https://progress-bar.xyz/0)
+- [ ] Verfolgung von Zahlungseingängen ![0%](https://progress-bar.xyz/0)
+- [ ] Spendenmanagement und Erstellung von Spendenquittungen ![0%](https://progress-bar.xyz/0)
+- [ ] Jahresabschluss und Finanzberichte ![0%](https://progress-bar.xyz/0)
 
 ### Inventarverwaltung
-- [ ] Verwaltung von Technik, Kostümen und Materialien
-- [ ] Automatische Reservierung für Veranstaltungen
-- [ ] Warnungen bei niedrigem Bestand
-- [ ] Ausleihmanagement
+- [ ] Verwaltung von Technik, Kostümen und Materialien ![0%](https://progress-bar.xyz/0)
+- [ ] Automatische Reservierung für Veranstaltungen ![0%](https://progress-bar.xyz/0)
+- [ ] Warnungen bei niedrigem Bestand ![0%](https://progress-bar.xyz/0)
+- [ ] Ausleihmanagement ![0%](https://progress-bar.xyz/0)
 
-### Kommunikation und Chat
-- [ ] Chat-Funktion für Mitglieder und Vorstand
-- [ ] Automatische Benachrichtigungen über Aufgaben und Fristen
-- [ ] E-Mail-Integration für Veranstalter und Sponsoren
+### Kommunikation und Chat 
+- [ ] Chat-Funktion für Mitglieder und Vorstand ![0%](https://progress-bar.xyz/0)
+- [ ] Automatische Benachrichtigungen über Aufgaben und Fristen ![0%](https://progress-bar.xyz/0)
+- [ ] E-Mail-Integration für Veranstalter und Sponsoren ![0%](https://progress-bar.xyz/0)
 
 ### Kalender- und Terminplanung
-- [ ] Proben-, Auftritts- und Veranstaltungsplanung
-- [ ] Synchronisation mit externen Kalendern
-- [ ] Automatische Erinnerungen an Termine
+- [ ] Proben-, Auftritts- und Veranstaltungsplanung ![0%](https://progress-bar.xyz/0)
+- [ ] Synchronisation mit externen Kalendern ![0%](https://progress-bar.xyz/0)
+- [ ] Automatische Erinnerungen an Termine ![0%](https://progress-bar.xyz/0)
 
 ---
 
