@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 21:57:37.030560",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nummer_praefix",
+  "section_break_anys",
+  "start_nummer",
+  "column_break_nzfa",
+  "current_number",
+  "section_break_nhnm",
+  "nummer_format",
+  "column_break_gunq",
+  "platzhalter_info",
+  "section_break_ywla",
+  "geburtstag_text"
+ ],
+ "fields": [
+  {
+   "description": "Pr\u00e4fix f\u00fcr die Mitgliedsnummer, z. B. VER.\n",
+   "fieldname": "nummer_praefix",
+   "fieldtype": "Data",
+   "label": "Pr\u00e4fix"
+  },
+  {
+   "fieldname": "section_break_nhnm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Platzhalter wie &lt;YY&gt;&lt;Initialen&gt;&lt;MM&gt;&lt;####&gt;.",
+   "fieldname": "nummer_format",
+   "fieldtype": "Data",
+   "ignore_xss_filter": 1,
+   "label": "Nummernkreis-Format"
+  },
+  {
+   "fieldname": "column_break_gunq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "\tBeschreibung der verf\u00fcgbaren Platzhalter (siehe unten).",
+   "fieldname": "platzhalter_info",
+   "fieldtype": "HTML",
+   "label": "Verf\u00fcgbare Platzhalter\t",
+   "options": "<b>Verf\u00fcgbare Platzhalter:</b>\n<ul>\n    <li><b>&lt;YY&gt;:</b> Jahr des Eintritts (z. B. 25 f\u00fcr 2025).</li>\n    <li><b>&lt;YYYY&gt;:</b> Volles Jahr (z. B. 2025).</li>\n    <li><b>&lt;MM&gt;:</b> Monat des Eintritts (z. B. 01 f\u00fcr Januar).</li>\n    <li><b>&lt;DD&gt;:</b> Tag des Eintritts (z. B. 15).</li>\n    <li><b>&lt;Initialen&gt;:</b> Initialen des Vor- und Nachnamens.</li>\n    <li><b>&lt;####&gt;:</b> Laufende Nummer mit f\u00fchrenden Nullen.</li>\n</ul>"
+  },
+  {
+   "fieldname": "section_break_anys",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Startnummer f\u00fcr den Nummernkreis (z. B. 1001).\n",
+   "fieldname": "start_nummer",
+   "fieldtype": "Int",
+   "label": "Startnummer",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_nzfa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Zeigt die aktuelle Seriennummer f\u00fcr das Pr\u00e4fix an.\n",
+   "fieldname": "current_number",
+   "fieldtype": "Read Only",
+   "label": "Aktuelle Seriennummer"
+  },
+  {
+   "description": "Nachricht f\u00fcr Geburtstags-E-Mails, z. B. \u201eAlles Gute, {name}!\u201c",
+   "fieldname": "geburtstag_text",
+   "fieldtype": "Text Editor",
+   "label": "Geburtstags-Text\t"
+  },
+  {
+   "description": "\n",
+   "fieldname": "section_break_ywla",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-01-11 18:22:12.992349",
+ "modified_by": "Administrator",
+ "module": "Mitgliederverwaltung",
+ "name": "Mitgliederverwaltung Einstellungen",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
