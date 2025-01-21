@@ -14,7 +14,7 @@ Dieses Projekt umfasst die Verwaltung eines Vereins mit folgenden Modulen. Der F
 
 | Modul                           | Beschreibung                                       | Fortschritt |
 |---------------------------------|---------------------------------------------------|-------------|
-| **Mitgliederverwaltung**        | Verwaltung von Mitgliederdaten und Beiträgen      | ![43%](https://progress-bar.xyz/43?title=<title>) |
+| **Mitgliederverwaltung**        | ![43%](https://progress-bar.xyz/43?title=Verwaltung von Mitgliederdaten und Beiträgen)      | |
 | **Veranstaltungsmanagement**    | Planung und Durchführung von Veranstaltungen      | ![0%](https://progress-bar.xyz/0) |
 | **Self-Service-Portal**         | Mitglieder können ihre Daten selbst verwalten     | ![0%](https://progress-bar.xyz/0) |
 | **Integration mit Cloud-Diensten** | Nextcloud-Integration für Dateien und Benutzer    | ![0%](https://progress-bar.xyz/0) |
