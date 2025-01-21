@@ -1,9 +1,9 @@
 [project]
-name = "members_management"
+name = "members_mamagement"
 authors = [
     { name = "Thomas Dannenberg", email = "thomas_dannenberg@web.de"}
 ]
-description = "App zur Verwaltung von Mitgliedern, Veranstaltungen und Inventar."
+description = "App zur Verwaltung von Mitgliedern, Veranstaltungen und Inventar. Sowíe vielem mehr."
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
