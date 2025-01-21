@@ -32,7 +32,7 @@ Dieses Projekt umfasst die Verwaltung eines Vereins mit folgenden Modulen. Der F
 - [x] Speicherung persönlicher Daten ![100%](https://progress-bar.xyz/100)
 - [x] Verwaltung von Mitgliedsstatus ![100%](https://progress-bar.xyz/100)
 - [x] Zuordnung von Eintritts- und Austrittsdatum ![100%](https://progress-bar.xyz/100)
-- [x] Verknüpfung von Mitgliedern mit Rollen ![10%](https://progress-bar.xyz/0)
+- [x] Verknüpfung von Mitgliedern mit Rollen ![10%](https://progress-bar.xyz/10)
 - [ ] Automatische Rechnungsstellung ![0%](https://progress-bar.xyz/0)
 - [ ] Verfolgung offener Zahlungen ![0%](https://progress-bar.xyz/0)
 - [ ] Aktivitätsprotokoll und Historie ![0%](https://progress-bar.xyz/0)
