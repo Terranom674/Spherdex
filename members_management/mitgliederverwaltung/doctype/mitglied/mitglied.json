@@ -7,8 +7,10 @@
  "field_order": [
   "mitgliedsaten_tab",
   "section_break_xclk",
+  "attach_image_olvp",
+  "section_break_mokz",
   "vorname",
-  "column_break_ajgb",
+  "column_break_uiag",
   "nachname",
   "section_break_zwpl",
   "geburtstag",
@@ -47,6 +49,19 @@
    "reqd": 1
   },
   {
+   "fieldname": "anrede",
+   "fieldtype": "Select",
+   "label": "Anrede",
+   "options": "Frau\nHerr\nn/a",
+   "reqd": 1
+  },
+  {
+   "fieldname": "geburtstag",
+   "fieldtype": "Date",
+   "label": "Geburtstag",
+   "reqd": 1
+  },
+  {
    "fieldname": "eintrittsdatum",
    "fieldtype": "Date",
    "label": "Eintrittsdatum",
@@ -60,78 +75,14 @@
    "reqd": 1
   },
   {
-   "fieldname": "mitgliedsaten_tab",
-   "fieldtype": "Tab Break",
-   "label": "Mitgliedsaten"
-  },
-  {
-   "fieldname": "name1_section",
-   "fieldtype": "Section Break",
-   "label": "Name"
-  },
-  {
-   "fieldname": "column_break_ajgb",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "section_break_kvat",
-   "fieldtype": "Section Break",
-   "label": "Status"
-  },
-  {
    "fieldname": "austrittsdatum",
    "fieldtype": "Date",
    "label": "Austrittsdatum"
   },
   {
-   "fieldname": "section_break_zwpl",
-   "fieldtype": "Section Break",
-   "label": "Geburtstag"
-  },
-  {
-   "fieldname": "geburtstag",
-   "fieldtype": "Date",
-   "label": "Geburtstag",
-   "reqd": 1
-  },
-  {
-   "fieldname": "column_break_zseg",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "anrede",
-   "fieldtype": "Select",
-   "label": "Anrede",
-   "options": "Frau\nHerr\nn/a",
-   "reqd": 1
-  },
-  {
-   "fieldname": "kontakdaten_tab",
-   "fieldtype": "Tab Break",
-   "label": "Kontakdaten"
-  },
-  {
-   "fieldname": "section_break_xclk",
-   "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "column_break_fojr",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "adresse_section",
-   "fieldtype": "Section Break",
-   "label": "Adresse"
-  },
-  {
    "fieldname": "adresse",
    "fieldtype": "Small Text",
    "label": "Adresse"
-  },
-  {
-   "fieldname": "telefonnummern_section",
-   "fieldtype": "Section Break",
-   "label": "Telefonnummern"
   },
   {
    "fieldname": "handy",
@@ -144,27 +95,86 @@
    "label": "Festnetz"
   },
   {
-   "fieldname": "column_break_kwco",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "mail_privat",
    "fieldtype": "Data",
    "label": "Mail privat"
   },
   {
+   "fieldname": "text_editor_zheh",
+   "fieldtype": "Text Editor"
+  },
+  {
+   "fieldname": "mitgliedsaten_tab",
+   "fieldtype": "Tab Break",
+   "label": "Mitgliedsaten"
+  },
+  {
+   "fieldname": "section_break_xclk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "attach_image_olvp",
+   "fieldtype": "Attach Image"
+  },
+  {
+   "fieldname": "section_break_mokz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_uiag",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_zwpl",
+   "fieldtype": "Section Break",
+   "label": "Geburtstag"
+  },
+  {
+   "fieldname": "column_break_zseg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name1_section",
+   "fieldtype": "Section Break",
+   "label": "Name"
+  },
+  {
+   "fieldname": "section_break_kvat",
+   "fieldtype": "Section Break",
+   "label": "Status"
+  },
+  {
+   "fieldname": "column_break_fojr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "kontakdaten_tab",
+   "fieldtype": "Tab Break",
+   "label": "Kontakdaten"
+  },
+  {
+   "fieldname": "adresse_section",
+   "fieldtype": "Section Break",
+   "label": "Adresse"
+  },
+  {
+   "fieldname": "telefonnummern_section",
+   "fieldtype": "Section Break",
+   "label": "Telefonnummern"
+  },
+  {
+   "fieldname": "column_break_kwco",
+   "fieldtype": "Column Break"
+  },
+  {
    "fieldname": "weitere_informationen_section",
    "fieldtype": "Section Break",
    "label": "Weitere Informationen"
-  },
-  {
-   "fieldname": "text_editor_zheh",
-   "fieldtype": "Text Editor"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-09 22:48:29.671852",
+ "modified": "2025-01-21 23:45:02.456073",
  "modified_by": "Administrator",
  "module": "Mitgliederverwaltung",
  "name": "Mitglied",
