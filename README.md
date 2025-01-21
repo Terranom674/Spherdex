@@ -16,13 +16,13 @@ Dieses Projekt umfasst die Verwaltung eines Vereins mit folgenden Modulen. Der F
 |---------------------------------|---------------------------------------------------|-------------|
 | **Mitgliederverwaltung**        | Verwaltung von Mitgliederdaten und Beiträgen      | ![43%](https://progress-bar.dev/43) |
 | **Veranstaltungsmanagement**    | Planung und Durchführung von Veranstaltungen      | ![0%](https://progress-bar.dev/0) |
-| **Self-Service-Portal**         | Mitglieder können ihre Daten selbst verwalten     | ![40%](https://progress-bar.dev/40) |
-| **Integration mit Cloud-Diensten** | Nextcloud-Integration für Dateien und Benutzer    | ![60%](https://progress-bar.dev/60) |
-| **Automatisierung**             | Automatische Benachrichtigungen und Erinnerungen  | ![30%](https://progress-bar.dev/30) |
-| **Finanzverwaltung**            | Verwaltung von Einnahmen, Ausgaben und Spenden    | ![80%](https://progress-bar.dev/80) |
-| **Inventarverwaltung**          | Verwaltung von Technik, Kostümen und Materialien  | ![20%](https://progress-bar.dev/20) |
-| **Kommunikation und Chat**      | Interne Kommunikation und E-Mail-Benachrichtigungen | ![10%](https://progress-bar.dev/10) |
-| **Kalender- und Terminplanung** | Planung von Terminen und Synchronisation          | ![50%](https://progress-bar.dev/50) |
+| **Self-Service-Portal**         | Mitglieder können ihre Daten selbst verwalten     | ![0%](https://progress-bar.dev/0) |
+| **Integration mit Cloud-Diensten** | Nextcloud-Integration für Dateien und Benutzer    | ![0%](https://progress-bar.dev/0) |
+| **Automatisierung**             | Automatische Benachrichtigungen und Erinnerungen  | ![0%](https://progress-bar.dev/0) |
+| **Finanzverwaltung**            | Verwaltung von Einnahmen, Ausgaben und Spenden    | ![0%](https://progress-bar.dev/0) |
+| **Inventarverwaltung**          | Verwaltung von Technik, Kostümen und Materialien  | ![0%](https://progress-bar.dev/0) |
+| **Kommunikation und Chat**      | Interne Kommunikation und E-Mail-Benachrichtigungen | ![0%](https://progress-bar.dev/0)|
+| **Kalender- und Terminplanung** | Planung von Terminen und Synchronisation          | ![0%](https://progress-bar.dev/0) |
 
 ---
 
