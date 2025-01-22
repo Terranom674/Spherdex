@@ -1,0 +1,78 @@
+{
+ "doctype": "DocType",
+ "name": "Mitgliederverwaltung Einstellungen",
+ "module": "Mitgliederverwaltung",
+ "field_order": [
+  "nummer_praefix",
+  "section_break_rollen",
+  "rollen",
+  "rollen_anzeige",
+  "geburtstag_text"
+ ],
+ "fields": [
+  {
+   "fieldname": "nummer_praefix",
+   "fieldtype": "Data",
+   "label": "Präfix",
+   "description": "Präfix für die Mitgliedsnummer, z. B. VER."
+  },
+  {
+   "fieldname": "section_break_rollen",
+   "fieldtype": "Section Break",
+   "label": "Rollenverwaltung"
+  },
+  {
+   "fieldname": "rollen",
+   "fieldtype": "Table",
+   "label": "Rollen",
+   "description": "Verwalten Sie die verfügbaren Rollen.",
+   "options": "Mitgliederrolle",
+   "fields": [
+    {
+     "fieldname": "idx",
+     "fieldtype": "Int",
+     "label": "Laufende Nummer",
+     "in_list_view": 1
+    },
+    {
+     "fieldname": "rollenname",
+     "fieldtype": "Data",
+     "label": "Rollenname",
+     "in_list_view": 1
+    },
+    {
+     "fieldname": "beschreibung",
+     "fieldtype": "Text",
+     "label": "Beschreibung",
+     "in_list_view": 1
+    }
+   ]
+  },
+  {
+   "fieldname": "rollen_anzeige",
+   "fieldtype": "Select",
+   "label": "Rollen-Anzeigemodus",
+   "options": "MultiSelect\nCheckbox",
+   "description": "Wählen Sie zwischen MultiSelect-Dropdown und Checkbox-Liste."
+  },
+  {
+   "fieldname": "geburtstag_text",
+   "fieldtype": "Text Editor",
+   "label": "Geburtstags-Text",
+   "description": "Nachricht für Geburtstags-E-Mails, z. B. „Alles Gute, {name}!“"
+  }
+ ],
+ "issingle": 1,
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  }
+ ],
+ "allow_import": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

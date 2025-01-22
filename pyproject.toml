@@ -1,5 +1,5 @@
 [project]
-name = "members_management"
+name = "spherdex"
 authors = [
     { name = "Thomas Dannenberg", email = "thomas_dannenberg@web.de"}
 ]
