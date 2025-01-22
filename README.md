@@ -10,7 +10,7 @@ agpl-3.0
 
 Dieses Projekt umfasst die Verwaltung eines Vereins mit folgenden Modulen. Der Fortschritt wird in Prozent angezeigt:
 
-<div style="width: 60%; height: 60%">
+<div style="width: 50%; height: 50%">
 
 ![Spherdex](https://github.com/user-attachments/assets/1b0764aa-99d3-4a2a-a38f-33e9200ef2ba)
 
