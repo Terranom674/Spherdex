@@ -28,57 +28,57 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 ## **Details zu den Modulen**
 
-### **Mitgliederverwaltung** {#mitgliederverwaltung-details}
+### **Mitgliederverwaltung** #mitgliederverwaltung-details
 Die Mitgliederverwaltung umfasst folgende Funktionen:
 - **Speicherung persönlicher Daten:** Verwaltung von Vorname, Nachname, Geburtstag und Kontaktinformationen.
 - **Mitgliedsstatus und Rollen:** Zuweisung von Rollen wie Vorsitzender oder Schatzmeister.
 - **Beiträge und Rechnungen:** Automatische Erstellung von Beitragsrechnungen und Nachverfolgung offener Zahlungen.
 - **Berichte und Analysen:** Erstellung von Statistiken zu Mitgliedschaft und Beitragszahlungen.
 
-### **Veranstaltungsmanagement** {#veranstaltungsmanagement-details}
+### **Veranstaltungsmanagement** #veranstaltungsmanagement-details
 Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
 - **Veranstaltungsplanung:** Erstellen und Verwalten von Events, Proben und Auftritten.
 - **Teilnehmerlisten:** Übersicht über bestätigte Teilnehmer.
 - **Budgetverwaltung:** Einnahmen- und Ausgabenkontrolle.
 - **Feedback:** Analyse von Veranstaltungsbewertungen.
 
-### **Self-Service-Portal** {#self-service-portal-details}
+### **Self-Service-Portal** #self-service-portal-details
 Das Self-Service-Portal ermöglicht:
 - **Datenzugriff:** Mitglieder können ihre persönlichen Informationen einsehen und bearbeiten.
 - **Dashboards:** Individualisierbare Übersicht für Mitglieder.
 - **Zugriff auf Dokumente:** Mitglieder können Rechnungen und Bescheinigungen herunterladen.
 
-### **Integration mit Cloud-Diensten** {#integration-mit-cloud-diensten-details}
+### **Integration mit Cloud-Diensten** #integration-mit-cloud-diensten-details
 Dieses Modul integriert die Software nahtlos mit Cloud-Lösungen:
 - **Dateiverwaltung:** Automatische Synchronisation mit Nextcloud.
 - **Benutzerverwaltung:** Erstellung von Cloud-Accounts direkt über die Software.
 - **Automatische Backups:** Regelmäßige Sicherung von Daten in der Cloud.
 
-### **Automatisierung** {#automatisierung-details}
+### **Automatisierung** #automatisierung-details
 Automatisierung reduziert manuellen Aufwand:
 - **Benachrichtigungen:** Erinnerungen zu Geburtstagen, Zahlungen und Fristen.
 - **Zeitgesteuerte Aktionen:** Versand von Nachrichten und Reports zu festgelegten Zeiten.
 - **Workflows:** Automatische Abläufe für häufige Aufgaben.
 
-### **Finanzverwaltung** {#finanzverwaltung-details}
+### **Finanzverwaltung** #finanzverwaltung-details
 Die Finanzverwaltung bietet:
 - **Einnahmen und Ausgaben:** Detaillierte Nachverfolgung aller finanziellen Aktivitäten.
 - **Spendenmanagement:** Erstellung und Verwaltung von Spendenquittungen.
 - **Berichte:** Steuerkonforme Jahresabschlüsse.
 
-### **Inventarverwaltung** {#inventarverwaltung-details}
+### **Inventarverwaltung** #inventarverwaltung-details
 Dieses Modul hilft bei der Verwaltung von Ressourcen:
 - **Materialübersicht:** Bestandsverwaltung von Technik, Kostümen und Materialien.
 - **Reservierungen:** Zuweisung von Ressourcen zu Veranstaltungen.
 - **Bestandswarnungen:** Automatische Benachrichtigungen bei niedrigem Bestand.
 
-### **Kommunikation und Chat** {#kommunikation-und-chat-details}
+### **Kommunikation und Chat** #kommunikation-und-chat-details
 Das Modul Kommunikation und Chat ermöglicht:
 - **Interne Kommunikation:** Nachrichten und Diskussionen innerhalb des Teams.
 - **Broadcast-Nachrichten:** Einfache Kommunikation mit allen Mitgliedern.
 - **E-Mail-Integration:** Versand von Benachrichtigungen direkt aus der Software.
 
-### **Kalender- und Terminplanung** {#kalender-und-terminplanung-details}
+### **Kalender- und Terminplanung** #kalender-und-terminplanung-details
 Zur Optimierung von Zeitplänen:
 - **Kalendersynchronisation:** Verbindung mit externen Kalenderdiensten.
 - **Gruppenkalender:** Übersicht über gemeinsame Termine.
