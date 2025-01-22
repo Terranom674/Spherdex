@@ -17,17 +17,15 @@ Dieses Projekt umfasst die Verwaltung eines Vereins mit folgenden Modulen. Der F
 
 | Modul                           | Beschreibung                                        
 |---------------------------------|---------------------------------------------------|
-|<p align="center"> 
-<img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48"> **Mitgliederverwaltung**
-</p>     | ![35%](https://progress-bar.xyz/35?title=Verwaltung+von+Mitgliederdaten+und+Beiträgen&width=600)
-| **Veranstaltungsmanagement**    | ![0%](https://progress-bar.xyz/0?title=Planung+und+Durchführung+von+Veranstaltungen&width=600)
-| **Self-Service-Portal**         | ![0%](https://progress-bar.xyz/0?title=Mitglieder+können+ihre+Daten+selbst+verwalten&width=600)     
-| **Integration mit Cloud-Diensten** | ![0%](https://progress-bar.xyz/0?title=Nextcloud-Integration+für+Dateien+und+Benutzer&width=600)    
-| **Automatisierung**             | ![0%](https://progress-bar.xyz/0?title=Automatische+Benachrichtigungen+und+Erinnerungen&width=600)  
-| **Finanzverwaltung**            | ![0%](https://progress-bar.xyz/0?title=Verwaltung+von+Einnahmen,+Ausgaben+und+Spenden&width=600)    
-| **Inventarverwaltung**          | ![0%](https://progress-bar.xyz/0?title=Verwaltung+von+Technik,+Kostümen+und+Materialien&width=600)  
-| **Kommunikation und Chat**      | ![0%](https://progress-bar.xyz/0?title=Interne+Kommunikation+und+E-Mail-Benachrichtigungen&width=600) 
-| **Kalender- und Terminplanung** | ![0%](https://progress-bar.xyz/0?title=Planung+von+Terminen+und+Synchronisation&width=600)          
+|<img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48"> **Mitgliederverwaltung**| ![35%](https://progress-bar.xyz/35?title=Verwaltung+von+Mitgliederdaten+und+Beiträgen&width=600)
+|<img src="https://github.com/user-attachments/assets/c6d55ca3-b9c5-4504-ac67-015ad67af5ff" width="48"> **Veranstaltungsmanagement**    | ![0%](https://progress-bar.xyz/0?title=Planung+und+Durchführung+von+Veranstaltungen&width=600)
+|<img src="https://github.com/user-attachments/assets/6bd9da27-2b35-476e-b07d-561a460e0c6f" width="48"> **Self-Service-Portal**         | ![0%](https://progress-bar.xyz/0?title=Mitglieder+können+ihre+Daten+selbst+verwalten&width=600)     
+|<img src="https://github.com/user-attachments/assets/4041d589-fb78-401a-87ea-b9b1f8ee73cc" width="48"> **Integration mit Cloud-Diensten** | ![0%](https://progress-bar.xyz/0?title=Nextcloud-Integration+für+Dateien+und+Benutzer&width=600)    
+|<img src="https://github.com/user-attachments/assets/8e904845-a574-4a9a-b1fe-724b45213eb2" width="48"> **Automatisierung**             | ![0%](https://progress-bar.xyz/0?title=Automatische+Benachrichtigungen+und+Erinnerungen&width=600)  
+|<img src="https://github.com/user-attachments/assets/6503df2d-0d20-403c-89d7-43eefc3fcc7b" width="48"> **Finanzverwaltung**            | ![0%](https://progress-bar.xyz/0?title=Verwaltung+von+Einnahmen,+Ausgaben+und+Spenden&width=600)    
+|<img src="https://github.com/user-attachments/assets/f74e0778-bd02-48cb-8beb-d4896227a8da" width="48"> **Inventarverwaltung**          | ![0%](https://progress-bar.xyz/0?title=Verwaltung+von+Technik,+Kostümen+und+Materialien&width=600)  
+|<img src="https://github.com/user-attachments/assets/0eccb399-abd4-454f-8f12-180ec7ebf984" width="48"> **Kommunikation und Chat**      | ![0%](https://progress-bar.xyz/0?title=Interne+Kommunikation+und+E-Mail-Benachrichtigungen&width=600) 
+|<img src="https://github.com/user-attachments/assets/59e248f2-9fc2-403d-96ac-3431c924d56d" width="48"> **Kalender- und Terminplanung** | ![0%](https://progress-bar.xyz/0?title=Planung+von+Terminen+und+Synchronisation&width=600)          
 
 ---
 
