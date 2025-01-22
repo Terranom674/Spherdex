@@ -10,6 +10,12 @@ agpl-3.0
 
 Dieses Projekt umfasst die Verwaltung eines Vereins mit folgenden Modulen. Der Fortschritt wird in Prozent angezeigt:
 
+
+
+![image](https://github.com/user-attachments/assets/2ae0e8bf-9c0d-4d10-bae3-363b61f2e2c3)
+
+
+
 ## Fortschrittsübersicht
 
 | Modul                           | Beschreibung                                        
