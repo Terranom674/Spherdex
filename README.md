@@ -26,7 +26,7 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 ## **Details zu den Modulen**
 
-### **Mitgliederverwaltung** {#mitgliederverwaltung-details}
+### **Mitgliederverwaltung** (#mitgliederverwaltung-details)
 Die Mitgliederverwaltung umfasst folgende Funktionen:
 - **Speicherung persönlicher Daten:** Verwaltung von Vorname, Nachname, Geburtstag und Kontaktinformationen.
 - **Mitgliedsstatus und Rollen:** Zuweisung von Rollen wie Vorsitzender oder Schatzmeister.
