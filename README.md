@@ -12,7 +12,7 @@ Dieses Projekt umfasst die Verwaltung eines Vereins mit folgenden Modulen. Der F
 
 <div style="width: 50%; height: 50%">
 
-![Spherdex](https://github.com/user-attachments/assets/1b0764aa-99d3-4a2a-a38f-33e9200ef2ba)
+![Spherdex](https://github.com/user-attachments/assets/1b0764aa-99d3-4a2a-a38f-33e9200ef2ba) | width=100
 
 </div>
 
