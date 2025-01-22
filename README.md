@@ -1,7 +1,5 @@
 # Spherdex: Die modulare Verwaltungssoftware
 
-<img src="https://github.com/user-attachments/assets/1b0764aa-99d3-4a2a-a38f-33e9200ef2ba" width="50%">
-
 **Spherdex** ist eine innovative Softwarelösung zur Verwaltung von Mitgliedern, Veranstaltungen, Inventar und vielem mehr. Eine Komplettlösung für Vereine, Clubs und Verbünde.
 
 ![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue)
@@ -28,61 +26,51 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 ## **Details zu den Modulen**
 
-### **Mitgliederverwaltung** mitgliederverwaltung
-Die Mitgliederverwaltung umfasst folgende Funktionen:
-- **Speicherung persönlicher Daten:** Verwaltung von Vorname, Nachname, Geburtstag und Kontaktinformationen.
-- **Mitgliedsstatus und Rollen:** Zuweisung von Rollen wie Vorsitzender oder Schatzmeister.
-- **Beiträge und Rechnungen:** Automatische Erstellung von Beitragsrechnungen und Nachverfolgung offener Zahlungen.
-- **Berichte und Analysen:** Erstellung von Statistiken zu Mitgliedschaft und Beitragszahlungen.
+### **Mitgliederverwaltung**
+- **Fortschritt:** ![35%](https://progress-bar.xyz/35)
+- **Beschreibung:** Verwaltung von Mitgliedsdaten, Beiträgen und Rollen.
+- **Status:** In Arbeit  
+[Mehr erfahren...](#mitgliederverwaltung)
 
-### **Veranstaltungsmanagement** veranstaltungsmanagement
-Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
-- **Veranstaltungsplanung:** Erstellen und Verwalten von Events, Proben und Auftritten.
-- **Teilnehmerlisten:** Übersicht über bestätigte Teilnehmer.
-- **Budgetverwaltung:** Einnahmen- und Ausgabenkontrolle.
-- **Feedback:** Analyse von Veranstaltungsbewertungen.
+### **Veranstaltungsmanagement**
+- **Fortschritt:** ![0%](https://progress-bar.xyz/0)
+- **Beschreibung:** Planung und Organisation von Veranstaltungen.  
+[Mehr erfahren...](#veranstaltungsmanagement)
 
-### **Self-Service-Portal** self-service-portal
-Das Self-Service-Portal ermöglicht:
-- **Datenzugriff:** Mitglieder können ihre persönlichen Informationen einsehen und bearbeiten.
-- **Dashboards:** Individualisierbare Übersicht für Mitglieder.
-- **Zugriff auf Dokumente:** Mitglieder können Rechnungen und Bescheinigungen herunterladen.
+### **Self-Service-Portal**
+- **Fortschritt:** ![0%](https://progress-bar.xyz/0)
+- **Beschreibung:** Mitglieder können ihre Daten selbst verwalten.  
+[Mehr erfahren...](#self-service-portal)
 
-### **Integration mit Cloud-Diensten** integration-mit-cloud-diensten
-Dieses Modul integriert die Software nahtlos mit Cloud-Lösungen:
-- **Dateiverwaltung:** Automatische Synchronisation mit Nextcloud.
-- **Benutzerverwaltung:** Erstellung von Cloud-Accounts direkt über die Software.
-- **Automatische Backups:** Regelmäßige Sicherung von Daten in der Cloud.
+### **Integration mit Cloud-Diensten**
+- **Fortschritt:** ![0%](https://progress-bar.xyz/0)
+- **Beschreibung:** Nahtlose Integration mit Diensten wie Nextcloud.  
+[Mehr erfahren...](#integration-mit-cloud-diensten)
 
-### **Automatisierung** automatisierung
-Automatisierung reduziert manuellen Aufwand:
-- **Benachrichtigungen:** Erinnerungen zu Geburtstagen, Zahlungen und Fristen.
-- **Zeitgesteuerte Aktionen:** Versand von Nachrichten und Reports zu festgelegten Zeiten.
-- **Workflows:** Automatische Abläufe für häufige Aufgaben.
+### **Automatisierung**
+- **Fortschritt:** ![0%](https://progress-bar.xyz/0)
+- **Beschreibung:** Automatische Benachrichtigungen und Erinnerungen.  
+[Mehr erfahren...](#automatisierung)
 
-### **Finanzverwaltung** finanzverwaltung
-Die Finanzverwaltung bietet:
-- **Einnahmen und Ausgaben:** Detaillierte Nachverfolgung aller finanziellen Aktivitäten.
-- **Spendenmanagement:** Erstellung und Verwaltung von Spendenquittungen.
-- **Berichte:** Steuerkonforme Jahresabschlüsse.
+### **Finanzverwaltung**
+- **Fortschritt:** ![0%](https://progress-bar.xyz/0)
+- **Beschreibung:** Verwaltung von Einnahmen, Ausgaben und Spenden.  
+[Mehr erfahren...](#finanzverwaltung)
 
-### **Inventarverwaltung** inventarverwaltung
-Dieses Modul hilft bei der Verwaltung von Ressourcen:
-- **Materialübersicht:** Bestandsverwaltung von Technik, Kostümen und Materialien.
-- **Reservierungen:** Zuweisung von Ressourcen zu Veranstaltungen.
-- **Bestandswarnungen:** Automatische Benachrichtigungen bei niedrigem Bestand.
+### **Inventarverwaltung**
+- **Fortschritt:** ![0%](https://progress-bar.xyz/0)
+- **Beschreibung:** Verfolgung von Beständen, Technik und Ressourcen.  
+[Mehr erfahren...](#inventarverwaltung)
 
-### **Kommunikation und Chat** kommunikation-und-chat
-Das Modul Kommunikation und Chat ermöglicht:
-- **Interne Kommunikation:** Nachrichten und Diskussionen innerhalb des Teams.
-- **Broadcast-Nachrichten:** Einfache Kommunikation mit allen Mitgliedern.
-- **E-Mail-Integration:** Versand von Benachrichtigungen direkt aus der Software.
+### **Kommunikation und Chat**
+- **Fortschritt:** ![0%](https://progress-bar.xyz/0)
+- **Beschreibung:** Interne Kommunikation und Chat-Funktionen.  
+[Mehr erfahren...](#kommunikation-und-chat)
 
-### **Kalender- und Terminplanung** kalender-und-terminplanung
-Zur Optimierung von Zeitplänen:
-- **Kalendersynchronisation:** Verbindung mit externen Kalenderdiensten.
-- **Gruppenkalender:** Übersicht über gemeinsame Termine.
-- **Erinnerungen:** Automatische Benachrichtigungen zu wichtigen Terminen.
+### **Kalender- und Terminplanung**
+- **Fortschritt:** ![0%](https://progress-bar.xyz/0)
+- **Beschreibung:** Planung und Synchronisation von Terminen.  
+[Mehr erfahren...](#kalender-und-terminplanung)
 
 ---
 
