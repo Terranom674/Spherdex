@@ -32,47 +32,47 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 - **Fortschritt:** ![35%](https://progress-bar.xyz/35)
 - **Beschreibung:** Verwaltung von Mitgliedsdaten, Beiträgen und Rollen.
 - **Status:** In Arbeit  
-[Mehr erfahren...](#mitgliederverwaltung)
+[Mehr erfahren...](#mitgliederverwaltung-details)
 
 ### **Veranstaltungsmanagement**
 - **Fortschritt:** ![0%](https://progress-bar.xyz/0)
 - **Beschreibung:** Planung und Organisation von Veranstaltungen.  
-[Mehr erfahren...](#veranstaltungsmanagement)
+[Mehr erfahren...](#veranstaltungsmanagement-details)
 
 ### **Self-Service-Portal**
 - **Fortschritt:** ![0%](https://progress-bar.xyz/0)
 - **Beschreibung:** Mitglieder können ihre Daten selbst verwalten.  
-[Mehr erfahren...](#self-service-portal)
+[Mehr erfahren...](#self-service-portal-details)
 
 ### **Integration mit Cloud-Diensten**
 - **Fortschritt:** ![0%](https://progress-bar.xyz/0)
 - **Beschreibung:** Nahtlose Integration mit Diensten wie Nextcloud.  
-[Mehr erfahren...](#integration-mit-cloud-diensten)
+[Mehr erfahren...](#integration-mit-cloud-diensten-details)
 
 ### **Automatisierung**
 - **Fortschritt:** ![0%](https://progress-bar.xyz/0)
 - **Beschreibung:** Automatische Benachrichtigungen und Erinnerungen.  
-[Mehr erfahren...](#automatisierung)
+[Mehr erfahren...](#automatisierung-details)
 
 ### **Finanzverwaltung**
 - **Fortschritt:** ![0%](https://progress-bar.xyz/0)
 - **Beschreibung:** Verwaltung von Einnahmen, Ausgaben und Spenden.  
-[Mehr erfahren...](#finanzverwaltung)
+[Mehr erfahren...](#finanzverwaltung-details)
 
 ### **Inventarverwaltung**
 - **Fortschritt:** ![0%](https://progress-bar.xyz/0)
 - **Beschreibung:** Verfolgung von Beständen, Technik und Ressourcen.  
-[Mehr erfahren...](#inventarverwaltung)
+[Mehr erfahren...](#inventarverwaltung-details)
 
 ### **Kommunikation und Chat**
 - **Fortschritt:** ![0%](https://progress-bar.xyz/0)
 - **Beschreibung:** Interne Kommunikation und Chat-Funktionen.  
-[Mehr erfahren...](#kommunikation-und-chat)
+[Mehr erfahren...](#kommunikation-und-chat-details)
 
 ### **Kalender- und Terminplanung**
 - **Fortschritt:** ![0%](https://progress-bar.xyz/0)
 - **Beschreibung:** Planung und Synchronisation von Terminen.  
-[Mehr erfahren...](#kalender-und-terminplanung)
+[Mehr erfahren...](#kalender-und-terminplanung-details)
 
 ---
 
