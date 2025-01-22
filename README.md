@@ -14,7 +14,7 @@ Dieses Projekt umfasst die Verwaltung eines Vereins mit folgenden Modulen. Der F
 
 | Modul                           | Beschreibung                                        
 |---------------------------------|---------------------------------------------------|
-| **Mitgliederverwaltung**        | ![38%](https://progress-bar.xyz/38?title=Verwaltung+von+Mitgliederdaten+und+Beiträgen&width=600)
+| **Mitgliederverwaltung**        | ![35%](https://progress-bar.xyz/35?title=Verwaltung+von+Mitgliederdaten+und+Beiträgen&width=600)
 | **Veranstaltungsmanagement**    | ![0%](https://progress-bar.xyz/0?title=Planung+und+Durchführung+von+Veranstaltungen&width=600)
 | **Self-Service-Portal**         | ![0%](https://progress-bar.xyz/0?title=Mitglieder+können+ihre+Daten+selbst+verwalten&width=600)     
 | **Integration mit Cloud-Diensten** | ![0%](https://progress-bar.xyz/0?title=Nextcloud-Integration+für+Dateien+und+Benutzer&width=600)    
@@ -32,7 +32,7 @@ Dieses Projekt umfasst die Verwaltung eines Vereins mit folgenden Modulen. Der F
 - [x] Speicherung persönlicher Daten ![100%](https://progress-bar.xyz/100)
 - [x] Verwaltung von Mitgliedsstatus ![100%](https://progress-bar.xyz/100)
 - [x] Zuordnung von Eintritts- und Austrittsdatum ![100%](https://progress-bar.xyz/100)
-- [x] Verknüpfung von Mitgliedern mit Rollen ![80%](https://progress-bar.xyz/80)
+- [x] Verknüpfung von Mitgliedern mit Rollen ![50%](https://progress-bar.xyz/50)
 - [ ] Automatische Rechnungsstellung ![0%](https://progress-bar.xyz/0)
 - [ ] Verfolgung offener Zahlungen ![0%](https://progress-bar.xyz/0)
 - [ ] Aktivitätsprotokoll und Historie ![0%](https://progress-bar.xyz/0)
