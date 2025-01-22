@@ -11,9 +11,7 @@ agpl-3.0
 Dieses Projekt umfasst die Verwaltung eines Vereins mit folgenden Modulen. Der Fortschritt wird in Prozent angezeigt:
 
 
-
-![image](https://github.com/user-attachments/assets/2ae0e8bf-9c0d-4d10-bae3-363b61f2e2c3)
-
+![DALL·E 2025-01-22 19 35 26 - Design a single, clear, and modern logo for _Spherdex _ The logo should feature the name _Spherdex_ in clean, bold typography next to a simple, geomet](https://github.com/user-attachments/assets/1b0764aa-99d3-4a2a-a38f-33e9200ef2ba)
 
 
 ## Fortschrittsübersicht
