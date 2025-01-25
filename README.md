@@ -6,7 +6,7 @@
 
 ![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue) 
 
-|![Mitgliederverwaltung: 0.9.0](https://img.shields.io/badge/Mitgliederverwaltung-0.9.0-green) 
+|![Mitgliederverwaltung: 0.9.0](https://img.shields.io/badge/Mitgliederverwaltung-0.9.0-green) |
 |-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | ![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey) | ![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)
 | ![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey) | ![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)
