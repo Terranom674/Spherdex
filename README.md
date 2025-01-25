@@ -14,7 +14,7 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 | Modul                           | Fortschritt                                                                 |
 |---------------------------------|-----------------------------------------------------------------------------|
-|<img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48"> **[Mitgliederverwaltung](#mitgliederverwaltung)**| ![38%](https://progress-bar.xyz/35?title=Mitgliederverwaltung&width=300) |
+|<img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48"> **[Mitgliederverwaltung](#mitgliederverwaltung)**| ![90%](https://progress-bar.xyz/90?title=Mitgliederverwaltung&width=300) |
 |<img src="https://github.com/user-attachments/assets/c6d55ca3-b9c5-4504-ac67-015ad67af5ff" width="48"> **[Veranstaltungsmanagement](#veranstaltungsmanagement)**| ![0%](https://progress-bar.xyz/0?title=Veranstaltungsmanagement&width=300) |
 |<img src="https://github.com/user-attachments/assets/6bd9da27-2b35-476e-b07d-561a460e0c6f" width="48"> **[Self-Service-Portal](#self-service-portal)**| ![0%](https://progress-bar.xyz/0?title=Self-Service-Portal&width=300) |
 |<img src="https://github.com/user-attachments/assets/4041d589-fb78-401a-87ea-b9b1f8ee73cc" width="48"> **[Integration mit Cloud-Diensten](#integration-mit-cloud-diensten)**| ![0%](https://progress-bar.xyz/0?title=Cloud-Integration&width=300) |
@@ -30,66 +30,88 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 ### Mitgliederverwaltung
 Die Mitgliederverwaltung umfasst folgende Funktionen:
-- **Speicherung persönlicher Daten:** Verwaltung von Vorname, Nachname, Geburtstag und Kontaktinformationen.
-- **Mitgliedsstatus und Rollen:** Zuweisung von Rollen wie Vorsitzender oder Schatzmeister.
-- **Beiträge und Rechnungen:** Automatische Erstellung von Beitragsrechnungen und Nachverfolgung offener Zahlungen.
-- **Berichte und Analysen:** Erstellung von Statistiken zu Mitgliedschaft und Beitragszahlungen.
+- **[Umgesetzt] Speicherung persönlicher Daten:** Verwaltung von Vorname, Nachname, Geburtstag und Kontaktinformationen.
+- **[Umgesetzt] Mitgliedsstatus und Rollen:** Zuweisung von Rollen wie Vorsitzender oder Schatzmeister.
+- **[In Entwicklung] Beiträge und Rechnungen ![50%](https://progress-bar.xyz/50):** Automatische Erstellung von Beitragsrechnungen und Nachverfolgung offener Zahlungen.
+- **[In Entwicklung] Berichte und Analysen ![40%](https://progress-bar.xyz/40):** Erstellung von Statistiken zu Mitgliedschaft und Beitragszahlungen.
 
 ### Veranstaltungsmanagement
 Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
-- **Veranstaltungsplanung:** Erstellen und Verwalten von Events, Proben und Auftritten.
-- **Teilnehmerlisten:** Übersicht über bestätigte Teilnehmer.
-- **Budgetverwaltung:** Einnahmen- und Ausgabenkontrolle.
-- **Feedback:** Analyse von Veranstaltungsbewertungen.
+- **[Geplant] Veranstaltungsplanung:** Erstellen und Verwalten von Events, Proben und Auftritten.
+- **[Geplant] Teilnehmerlisten:** Übersicht über bestätigte Teilnehmer.
+- **[Geplant] Budgetverwaltung:** Einnahmen- und Ausgabenkontrolle.
+- **[Geplant] Feedback:** Analyse von Veranstaltungsbewertungen.
 
 ### Self-Service-Portal
 Das Self-Service-Portal ermöglicht:
-- **Datenzugriff:** Mitglieder können ihre persönlichen Informationen einsehen und bearbeiten.
-- **Dashboards:** Individualisierbare Übersicht für Mitglieder.
-- **Zugriff auf Dokumente:** Mitglieder können Rechnungen und Bescheinigungen herunterladen.
+- **[Geplant] Datenzugriff:** Mitglieder können ihre persönlichen Informationen einsehen und bearbeiten.
+- **[Geplant] Dashboards:** Individualisierbare Übersicht für Mitglieder.
+- **[Geplant] Zugriff auf Dokumente:** Mitglieder können Rechnungen und Bescheinigungen herunterladen.
 
 ### Integration mit Cloud-Diensten
 Dieses Modul integriert die Software nahtlos mit Cloud-Lösungen:
-- **Dateiverwaltung:** Automatische Synchronisation mit Nextcloud.
-- **Benutzerverwaltung:** Erstellung von Cloud-Accounts direkt über die Software.
-- **Automatische Backups:** Regelmäßige Sicherung von Daten in der Cloud.
+- **[Geplant] Dateiverwaltung:** Automatische Synchronisation mit Nextcloud.
+- **[Geplant] Benutzerverwaltung:** Erstellung von Cloud-Accounts direkt über die Software.
+- **[Geplant] Automatische Backups:** Regelmäßige Sicherung von Daten in der Cloud.
 
 ### Automatisierung
 Automatisierung reduziert manuellen Aufwand:
-- **Benachrichtigungen:** Erinnerungen zu Geburtstagen, Zahlungen und Fristen.
-- **Zeitgesteuerte Aktionen:** Versand von Nachrichten und Reports zu festgelegten Zeiten.
-- **Workflows:** Automatische Abläufe für häufige Aufgaben.
+- **[Geplant] Benachrichtigungen:** Erinnerungen zu Geburtstagen, Zahlungen und Fristen.
+- **[Geplant] Zeitgesteuerte Aktionen:** Versand von Nachrichten und Reports zu festgelegten Zeiten.
+- **[Geplant] Workflows:** Automatische Abläufe für häufige Aufgaben.
 
 ### Finanzverwaltung
 Die Finanzverwaltung bietet:
-- **Einnahmen und Ausgaben:** Detaillierte Nachverfolgung aller finanziellen Aktivitäten.
-- **Spendenmanagement:** Erstellung und Verwaltung von Spendenquittungen.
-- **Berichte:** Steuerkonforme Jahresabschlüsse.
+- **[Geplant] Einnahmen und Ausgaben:** Detaillierte Nachverfolgung aller finanziellen Aktivitäten.
+- **[Geplant] Spendenmanagement:** Erstellung und Verwaltung von Spendenquittungen.
+- **[Geplant] Berichte:** Steuerkonforme Jahresabschlüsse.
 
 ### Inventarverwaltung
 Dieses Modul hilft bei der Verwaltung von Ressourcen:
-- **Materialübersicht:** Bestandsverwaltung von Technik, Kostümen und Materialien.
-- **Reservierungen:** Zuweisung von Ressourcen zu Veranstaltungen.
-- **Bestandswarnungen:** Automatische Benachrichtigungen bei niedrigem Bestand.
+- **[Geplant] Materialübersicht:** Bestandsverwaltung von Technik, Kostümen und Materialien.
+- **[Geplant] Reservierungen:** Zuweisung von Ressourcen zu Veranstaltungen.
+- **[Geplant] Bestandswarnungen:** Automatische Benachrichtigungen bei niedrigem Bestand.
 
 ### Kommunikation und Chat
 Das Modul Kommunikation und Chat ermöglicht:
-- **Interne Kommunikation:** Nachrichten und Diskussionen innerhalb des Teams.
-- **Broadcast-Nachrichten:** Einfache Kommunikation mit allen Mitgliedern.
-- **E-Mail-Integration:** Versand von Benachrichtigungen direkt aus der Software.
+- **[Geplant] Interne Kommunikation:** Nachrichten und Diskussionen innerhalb des Teams.
+- **[Geplant] Broadcast-Nachrichten:** Einfache Kommunikation mit allen Mitgliedern.
+- **[Geplant] E-Mail-Integration:** Versand von Benachrichtigungen direkt aus der Software.
 
 ### Kalender- und Terminplanung
 Zur Optimierung von Zeitplänen:
-- **Kalendersynchronisation:** Verbindung mit externen Kalenderdiensten.
-- **Gruppenkalender:** Übersicht über gemeinsame Termine.
-- **Erinnerungen:** Automatische Benachrichtigungen zu wichtigen Terminen.
+- **[Geplant] Kalendersynchronisation:** Verbindung mit externen Kalenderdiensten.
+- **[Geplant] Gruppenkalender:** Übersicht über gemeinsame Termine.
+- **[Geplant] Erinnerungen:** Automatische Benachrichtigungen zu wichtigen Terminen.
 
 ---
 
-## **Lizenz**
-Dieses Projekt wird unter der [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html) Lizenz veröffentlicht.
+### Dokumentation
+Die Dokumentation zu Spherdex wird kontinuierlich erweitert. Der Fortschritt der einzelnen Bereiche wird in Prozent angezeigt:
+
+| Bereich                         | Fortschritt                                                                 |
+|---------------------------------|-----------------------------------------------------------------------------|
+| **Installationsanleitung**      | ![0%](https://progress-bar.xyz/0?title=Installationsanleitung&width=300)   |
+| **Erste Schritte**              | ![0%](https://progress-bar.xyz/0?title=Erste+Schritte&width=300)           |
+| **Benutzerhandbuch**            | ![0%](https://progress-bar.xyz/0?title=Benutzerhandbuch&width=300)         |
+| **Entwicklerhandbuch**          | ![0%](https://progress-bar.xyz/0?title=Entwicklerhandbuch&width=300)       |
+| **API-Dokumentation**           | ![0%](https://progress-bar.xyz/0?title=API-Dokumentation&width=300)        |
+| **Fehlerbehebung und Support**  | ![0%](https://progress-bar.xyz/0?title=Fehlerbehebung+und+Support&width=300) |
+
+#### Installationsanleitung
+- [Geplant] Detaillierte Schritte zur Installation der Software.
+- [Geplant] Fehlerbehebung bei Installationsproblemen.
+
+#### Erste Schritte
+- [Geplant] Einführung in die Benutzeroberfläche und Grundfunktionen.
+- [Geplant] Anleitungen zur ersten Konfiguration.
+
+#### Benutzerhandbuch
+- [Geplant] Ausführliche Beschreibung der Module und Funktionen.
+- [Geplant] Empfehlungen für die optimale Nutzung.
+
+#### Entwicklerhandbuch
+- [Geplant] Leitfäden für Entwickler zur Erweiterung der Software.
+- [Geplant] Beispiele für API- und Modulnutzung.
 
 ---
-
-### **Mitwirkende**
-Du möchtest zum Projekt beitragen? [Hier klicken](#mitwirkung), um mehr zu erfahren.
