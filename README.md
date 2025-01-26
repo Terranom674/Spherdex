@@ -1,11 +1,23 @@
 # Spherdex: Die modulare Verwaltungssoftware
+<style>
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+   border: none;
+}
+blockquote {
+    border-left: none;
+    padding-left: 10px;
+}
+</style>
 
-<table style="width: 100%; border-collapse: collapse; border: none;">
+<table style="width: 100%;">
 <tr>
-<td style="width: 50%; vertical-align: top; border: none;">
+<td style="width: 50%; vertical-align: top;">
 <img src="https://github.com/user-attachments/assets/1b0764aa-99d3-4a2a-a38f-33e9200ef2ba" width="80%">
 </td>
-<td style="width: 50%; vertical-align: top; border: none;">
+<td style="width: 50%; vertical-align: top;">
 
 ### **Inhaltsverzeichnis**
 1. [Projektübersicht](#projektübersicht)
