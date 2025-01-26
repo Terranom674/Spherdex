@@ -35,11 +35,70 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 ## **Details zu den Modulen**
 
 ### Mitgliederverwaltung
-Die Mitgliederverwaltung umfasst folgende Funktionen:
-- **[Umgesetzt] Speicherung persönlicher Daten:** Verwaltung von Vorname, Nachname, Geburtstag und Kontaktinformationen.
-- **[Umgesetzt] Mitgliedsstatus und Rollen:** Zuweisung von Rollen wie Vorsitzender oder Schatzmeister.
-- **[In Entwicklung] Beiträge und Rechnungen ![50%](https://progress-bar.xyz/50):** Automatische Erstellung von Beitragsrechnungen und Nachverfolgung offener Zahlungen.
-- **[In Entwicklung] Berichte und Analysen ![40%](https://progress-bar.xyz/40):** Erstellung von Statistiken zu Mitgliedschaft und Beitragszahlungen.
+## **Roadmap: Mitgliederverwaltung**
+
+### **Aktueller Stand**
+- **Version:** 0.4.1
+- **Status:** In aktiver Entwicklung
+- **Ziel:** Fertigstellung und Veröffentlichung der Mitgliederverwaltung als eigenständiges, stabiles Modul (Version 1.0.0).
+
+---
+
+### **Geplante Funktionen und Fortschritt**
+
+| Funktion                          | Status                  | Fortschritt                                                                 |
+|-----------------------------------|-------------------------|-----------------------------------------------------------------------------|
+| **Mitglieder-Datenverwaltung**    | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Datenverwaltung&width=300)      |
+| **Rollenverwaltung**              | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Rollenverwaltung&width=300)     |
+| **Präfix- und Nummernänderung**   | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Pr%C3%A4fix-%26-Nummerierung&width=300) |
+| **MultiSelect/Checkbox für Rollen** | **In Entwicklung**     | ![90%](https://progress-bar.xyz/90?title=MultiSelect-%2F-Checkbox&width=300) |
+| **Beitragsverwaltung**            | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Beitragsverwaltung&width=300)       |
+| **Berichte und Statistiken**      | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Berichte+%26+Statistiken&width=300) |
+| **Geburtstagsbenachrichtigung**   | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Geburtstagsbenachrichtigung&width=300) |
+| **Datenimport/-export**           | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Datenimport-Export&width=300)       |
+
+---
+
+### **Funktionen im Detail**
+
+#### 1. Mitglieder-Datenverwaltung
+- Speicherung persönlicher Daten (Vorname, Nachname, Geburtstag, Kontaktinformationen).
+- Verwaltung von Mitgliedsstatus (Aktiv, Passiv, Gekündigt).
+
+#### 2. Rollenverwaltung
+- Zuweisung von Rollen wie Vorsitzender oder Schatzmeister.
+- Unterstützung von Checkboxen und MultiSelect zur Darstellung der Rollen.
+
+#### 3. Präfix- und Nummernänderung
+- Anpassung des Präfixes und der laufenden Nummer für alle Mitglieder.
+
+#### 4. MultiSelect/Checkbox für Rollen
+- Endanwender kann zwischen einer Checkbox-Darstellung und einer MultiSelect-Darstellung wählen.
+
+#### 5. Beitragsverwaltung
+- Automatische Erstellung und Verwaltung von Mitgliedsbeiträgen.
+- Nachverfolgung offener Zahlungen.
+
+#### 6. Berichte und Statistiken
+- Erstellung von Statistiken und Analysen zur Mitgliedschaft und Beitragszahlungen.
+
+#### 7. Geburtstagsbenachrichtigung
+- Automatische E-Mail-Benachrichtigung an Mitglieder an deren Geburtstag.
+
+#### 8. Datenimport/-export
+- **Formate für den Export:** PDF, CSV, TXT, DOC und Excel.
+- **Funktionen:** 
+  - Export aller Mitgliedsdaten oder nach Filterkriterien.
+  - Import von Daten aus CSV und Excel.
+  - Validierung der Daten beim Import.
+
+---
+
+### **Ziel für Version 1.0.0**
+- Vollständige Umsetzung aller geplanten Funktionen.
+- Testen und Stabilisieren des Moduls.
+- Vorbereitung für Integration mit anderen Modulen.
+
 
 ### Veranstaltungsmanagement
 Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
