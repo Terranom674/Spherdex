@@ -146,11 +146,13 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 ### **Veranstaltungsmanagement** <img src="https://github.com/user-attachments/assets/c6d55ca3-b9c5-4504-ac67-015ad67af5ff" width="48">
 <details>
    <summary><b>Details</b></summary>
-Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
+
+   Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
 - Veranstaltungsplanung: Erstellen und Verwalten von Events, Proben und Auftritten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Teilnehmerlisten: Übersicht über bestätigte Teilnehmer. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Budgetverwaltung: Einnahmen- und Ausgabenkontrolle. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Feedback: Analyse von Veranstaltungsbewertungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+
 </details>
 
 <details>
