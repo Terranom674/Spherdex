@@ -35,16 +35,14 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 ## **Details zu den Modulen**
 
 ### Mitgliederverwaltung
-## **Roadmap: Mitgliederverwaltung**
+### **Roadmap: Mitgliederverwaltung**
 
-### **Aktueller Stand**
+#### **Aktueller Stand**
 - **Version:** 0.4.1
 - **Status:** In aktiver Entwicklung
 - **Ziel:** Fertigstellung und Veröffentlichung der Mitgliederverwaltung als eigenständiges, stabiles Modul (Version 1.0.0).
 
----
-
-### **Geplante Funktionen und Fortschritt**
+#### **Geplante Funktionen und Fortschritt**
 
 | Funktion                          | Status                  | Fortschritt                                                                 |
 |-----------------------------------|-------------------------|-----------------------------------------------------------------------------|
@@ -57,9 +55,7 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 | **Geburtstagsbenachrichtigung**   | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Geburtstagsbenachrichtigung&width=300) |
 | **Datenimport/-export**           | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Datenimport-Export&width=300)       |
 
----
-
-### **Funktionen im Detail**
+#### **Funktionen im Detail**
 
 #### 1. Mitglieder-Datenverwaltung
 - Speicherung persönlicher Daten (Vorname, Nachname, Geburtstag, Kontaktinformationen).
@@ -92,9 +88,7 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
   - Import von Daten aus CSV und Excel.
   - Validierung der Daten beim Import.
 
----
-
-### **Ziel für Version 1.0.0**
+#### **Ziel für Version 1.0.0**
 - Vollständige Umsetzung aller geplanten Funktionen.
 - Testen und Stabilisieren des Moduls.
 - Vorbereitung für Integration mit anderen Modulen.
