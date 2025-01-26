@@ -6,14 +6,12 @@
 
 ![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue) 
 
-|![Mitgliederverwaltung: 0.4.1](https://img.shields.io/badge/Mitgliederverwaltung-0.4.1-green) | [Changelog](#changelog)| | |
+|![Mitgliederverwaltung: 0.4.1](https://img.shields.io/badge/Mitgliederverwaltung-0.4.1-green) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
 |---|---|---|---|
 | ![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey) | ![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)| ![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey) | ![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)
 | ![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey) | ![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey) | ![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey) | ![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)
 
-
 ---
-
 ## **Projektübersicht**
 
 Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wird in Prozent angezeigt:
@@ -47,7 +45,7 @@ Aktuell verfügbare Funktionen:
 - Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht eine präzise Verwaltung aller Vereinsmitglieder.
 
 <details>
-<summary><b>**Roadmap: Mitgliederverwaltung**</b></summary>
+<summary><b>**Roadmap**</b></summary>
 
 #### **Aktueller Stand**
 - **Version:** 0.4.1
@@ -106,6 +104,8 @@ Aktuell verfügbare Funktionen:
 - Vorbereitung für Integration mit anderen Modulen.
 </details>
 
+<hr>
+
 ### Veranstaltungsmanagement
 Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
 - **[Geplant] Veranstaltungsplanung:** Erstellen und Verwalten von Events, Proben und Auftritten.
@@ -113,11 +113,25 @@ Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
 - **[Geplant] Budgetverwaltung:** Einnahmen- und Ausgabenkontrolle.
 - **[Geplant] Feedback:** Analyse von Veranstaltungsbewertungen.
 
+<details>
+<summary><b>**Roadmap**</b></summary>
+Folgt bald
+</details>
+
+<hr>
+
 ### Self-Service-Portal
 Das Self-Service-Portal ermöglicht:
 - **[Geplant] Datenzugriff:** Mitglieder können ihre persönlichen Informationen einsehen und bearbeiten.
 - **[Geplant] Dashboards:** Individualisierbare Übersicht für Mitglieder.
 - **[Geplant] Zugriff auf Dokumente:** Mitglieder können Rechnungen und Bescheinigungen herunterladen.
+
+<details>
+<summary><b>**Roadmap**</b></summary>
+Folgt bald
+</details>
+
+<hr>
 
 ### Integration mit Cloud-Diensten
 Dieses Modul integriert die Software nahtlos mit Cloud-Lösungen:
@@ -125,11 +139,25 @@ Dieses Modul integriert die Software nahtlos mit Cloud-Lösungen:
 - **[Geplant] Benutzerverwaltung:** Erstellung von Cloud-Accounts direkt über die Software.
 - **[Geplant] Automatische Backups:** Regelmäßige Sicherung von Daten in der Cloud.
 
+<details>
+<summary><b>**Roadmap**</b></summary>
+Folgt bald
+</details>
+
+<hr>
+
 ### Automatisierung
 Automatisierung reduziert manuellen Aufwand:
 - **[Geplant] Benachrichtigungen:** Erinnerungen zu Geburtstagen, Zahlungen und Fristen.
 - **[Geplant] Zeitgesteuerte Aktionen:** Versand von Nachrichten und Reports zu festgelegten Zeiten.
 - **[Geplant] Workflows:** Automatische Abläufe für häufige Aufgaben.
+
+<details>
+<summary><b>**Roadmap**</b></summary>
+Folgt bald
+</details>
+
+<hr>
 
 ### Finanzverwaltung
 Die Finanzverwaltung bietet:
@@ -137,11 +165,25 @@ Die Finanzverwaltung bietet:
 - **[Geplant] Spendenmanagement:** Erstellung und Verwaltung von Spendenquittungen.
 - **[Geplant] Berichte:** Steuerkonforme Jahresabschlüsse.
 
+<details>
+<summary><b>**Roadmap**</b></summary>
+Folgt bald
+</details>
+
+<hr>
+
 ### Inventarverwaltung
 Dieses Modul hilft bei der Verwaltung von Ressourcen:
 - **[Geplant] Materialübersicht:** Bestandsverwaltung von Technik, Kostümen und Materialien.
 - **[Geplant] Reservierungen:** Zuweisung von Ressourcen zu Veranstaltungen.
 - **[Geplant] Bestandswarnungen:** Automatische Benachrichtigungen bei niedrigem Bestand.
+
+<details>
+<summary><b>**Roadmap**</b></summary>
+Folgt bald
+</details>
+
+<hr>
 
 ### Kommunikation und Chat
 Das Modul Kommunikation und Chat ermöglicht:
@@ -149,16 +191,34 @@ Das Modul Kommunikation und Chat ermöglicht:
 - **[Geplant] Broadcast-Nachrichten:** Einfache Kommunikation mit allen Mitgliedern.
 - **[Geplant] E-Mail-Integration:** Versand von Benachrichtigungen direkt aus der Software.
 
+<details>
+<summary><b>**Roadmap**</b></summary>
+Folgt bald
+</details>
+
+<hr>
+
 ### Kalender- und Terminplanung
 Zur Optimierung von Zeitplänen:
 - **[Geplant] Kalendersynchronisation:** Verbindung mit externen Kalenderdiensten.
 - **[Geplant] Gruppenkalender:** Übersicht über gemeinsame Termine.
 - **[Geplant] Erinnerungen:** Automatische Benachrichtigungen zu wichtigen Terminen.
 
+<details>
+<summary><b>**Roadmap**</b></summary>
+Folgt bald
+</details>
+
 ---
 
-### Dokumentation
-Die Dokumentation zu Spherdex wird kontinuierlich erweitert. Der Fortschritt der einzelnen Bereiche wird in Prozent angezeigt:
+## Handuch
+Ein umfassendes Handbuch ist in Arbeit. Es wird:
+- Anleitungen zur Konfiguration und Nutzung der Module enthalten.
+- Beispiele und Anwendungsfälle beschreiben.
+- In einem einfach zugänglichen Format (z. B. PDF, Online-Link oder direkt in der README.md) bereitgestellt
+
+<details>
+<summary><b>**Roadmap**</b></summary>
 
 | Bereich                         | Fortschritt                                                                 |
 |---------------------------------|-----------------------------------------------------------------------------|
@@ -184,6 +244,7 @@ Die Dokumentation zu Spherdex wird kontinuierlich erweitert. Der Fortschritt der
 #### Entwicklerhandbuch
 - [Geplant] Leitfäden für Entwickler zur Erweiterung der Software.
 - [Geplant] Beispiele für API- und Modulnutzung.
+</details>
 
 ---
 ## Changelog
