@@ -32,10 +32,11 @@
 
 ![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue) 
 
-|![Mitgliederverwaltung: 0.4.1](https://img.shields.io/badge/Mitgliederverwaltung-0.4.1-green) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
+| [![Mitgliederverwaltung: 0.4.1](https://img.shields.io/badge/Mitgliederverwaltung-0.4.1-green)](#mitgliederverwaltung) | [Changelog](#changelog) | [Handbuch](#handbuch) | |
 |---|---|---|---|
-| ![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey) | ![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)| ![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey) | ![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)
-| ![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey) | ![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey) | ![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey) | ![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)
+| [![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey)](#veranstaltungsmanagement) | [![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)](#self-service-portal) | [![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey)](#integration-mit-cloud-diensten) | [![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)](#automatisierung) |
+| [![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey)](#finanzverwaltung) | [![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey)](#inventarverwaltung) | [![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey)](#kommunikation-und-chat) | [![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)](#kalender-und-terminplanung) |
+
 
 ---
 
@@ -362,7 +363,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 - In einem einfach zugänglichen Format (z. B. PDF, Online-Link oder direkt in der README.md) bereitgestellt
 
 <details>
-<summary><b>**Roadmap**</b></summary>
+<summary><b>Roadmap</b></summary>
 
 | Bereich                         | Fortschritt                                                                 |
 |---------------------------------|-----------------------------------------------------------------------------|
@@ -391,6 +392,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 </details>
 
 ---
+
 ## Changelog
 
 <details>
