@@ -175,8 +175,6 @@ Automatisierung reduziert manuellen Aufwand:
 Folgt bald
 </details>
 
-<hr>
-
 ### Finanzverwaltung <img src="https://github.com/user-attachments/assets/6503df2d-0d20-403c-89d7-43eefc3fcc7b" width="48">
 Die Finanzverwaltung bietet:
 - Einnahmen und Ausgaben: Detaillierte Nachverfolgung aller finanziellen Aktivitäten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
