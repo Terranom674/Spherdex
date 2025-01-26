@@ -394,41 +394,36 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 ## **Changelog**
 
 <details>
-<summary><b>Version 0.4.1</b></summary>
-<ul>
-  <li><b>Behoben:</b> Das Feld "Standard Rollen-Anzeigemodus" hat nach der Installation keinen Standardwert angezeigt.</li>
-  <li><b>Neu:</b> Beispielrollen werden jetzt korrekt installiert.</li>
-</ul>
+<summary>**Version 0.4.1**</summary>
+
+   - [Behoben] Das Feld "Standard Rollen-Anzeigemodus" hat nach der Installation keinen Standardwert angezeigt.
+   - [Neu] Beispielrollen werden jetzt korrekt installiert.
 </details>
 
 <details>
-<summary><b>Version 0.4.0</b></summary>
-<ul>
-  <li><b>Neu:</b> Grundlegende Mitglieder-Datenverwaltung hinzugefügt.</li>
-  <li><b>Neu:</b> Möglichkeit zur Präfix- und Nummernänderung eingeführt.</li>
-  <li><b>Neu:</b> Erste Version der Rollenverwaltung implementiert.</li>
-</ul>
+<summary>**Version 0.4.0**</summary>
+
+   - [Neu] Grundlegende Mitglieder-Datenverwaltung hinzugefügt.
+   - [Neu] Möglichkeit zur Präfix- und Nummernänderung eingeführt.
+   - [Neu] Erste Version der Rollenverwaltung implementiert.
 </details>
 
 <details>
-<summary><b>Version 0.3.0</b></summary>
-<ul>
-  <li><b>Neu:</b> Projektstruktur und grundlegendes Framework aufgesetzt.</li>
-  <li><b>Neu:</b> Initiale Modulübersicht hinzugefügt.</li>
-</ul>
+<summary>**Version 0.3.0**</summary>
+
+   - [Neu] Projektstruktur und grundlegendes Framework aufgesetzt.
+   - [Neu] Initiale Modulübersicht hinzugefügt.
 </details>
 
 <details>
-<summary><b>Version 0.2.0</b></summary>
-<ul>
-  <li><b>Neu:</b> Konzept für die Mitgliederverwaltung definiert.</li>
-  <li><b>Neu:</b> Initialer Aufbau des Repositorys und Grundfunktionen geplant.</li>
-</ul>
+<summary>**Version 0.2.0**</summary>
+
+   - [Neu] Konzept für die Mitgliederverwaltung definiert.
+   - [Neu] Initialer Aufbau des Repositorys und Grundfunktionen geplant.
 </details>
 
 <details>
-<summary><b>Version 0.1.0</b></summary>
-<ul>
-  <li><b>Neu:</b> Projektstart und Festlegung der modularen Struktur.</li>
-</ul>
+<summary>**Version 0.1.0**</summary>
+
+   - [Neu] Projektstart und Festlegung der modularen Struktur.
 </details>
