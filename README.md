@@ -32,27 +32,31 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 ## **Details zu den Modulen**
 
-### Mitgliederverwaltung
+### **Mitgliederverwaltung**
 
 Die Mitgliederverwaltung ist das zentrale Modul von Spherdex und bietet umfassende Funktionen zur Erfassung und Organisation von Mitgliedern.
 
 Aktuell verfügbare Funktionen:
-- Speichern persönlicher Daten wie Name, Adresse und Kontaktinformationen.
-- Verwaltung von Mitgliedsstatus (Aktiv, Passiv, Gekündigt).
-- Zuweisung und Verwaltung von Rollen (z. B. Vorsitzender, Schatzmeister).
-- Anpassung von Mitgliedsnummern (inkl. Präfix und laufender Nummer).
-- Möglichkeit, Rollen flexibel über Checkboxen oder MultiSelect darzustellen.
-- Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht eine präzise Verwaltung aller Vereinsmitglieder.
+- ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) Mitglieder-Datenverwaltung: Verwaltung von persönlichen Daten wie Vorname, Nachname, Geburtstag und Kontaktinformationen.
+- ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) Rollenverwaltung: Zuweisung von Rollen wie Vorsitzender, Schatzmeister oder Mitglied.
+- ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) Präfix- und Nummernänderung: Anpassung des Präfixes und der laufenden Nummer für Mitgliedsnummern.
+- ![In Entwicklung](https://img.shields.io/badge/In_Entwicklung-yellow) MultiSelect/Checkbox für Rollen: Auswahl und Anzeige von Rollen als Checkboxen oder in einem Dropdown-Menü.
+- ![Geplant](https://img.shields.io/badge/Geplant-lightgrey) Beitragsverwaltung: Verwaltung und Nachverfolgung von Mitgliedsbeiträgen und offenen Zahlungen.
+- ![Geplant](https://img.shields.io/badge/Geplant-lightgrey) Berichte und Statistiken: Erstellung von Analysen und Übersichten zur Mitgliedschaft und Beitragszahlungen.
+- ![In Entwicklung](https://img.shields.io/badge/In_Entwicklung-yellow) Geburtstagsbenachrichtigung: Automatischer Versand von Geburtstagsgrüßen per E-Mail.
+- ![Geplant](https://img.shields.io/badge/Geplant-lightgrey) Datenimport/-export: Import und Export von Mitgliedsdaten in Formaten wie PDF, CSV, TXT, DOC und Excel.
+
+Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht eine präzise Verwaltung aller Vereinsmitglieder.
 
 <details>
 <summary><b>**Roadmap**</b></summary>
 
-#### **Aktueller Stand**
-- **Version:** 0.4.1
-- **Status:** In aktiver Entwicklung
-- **Ziel:** Fertigstellung und Veröffentlichung der Mitgliederverwaltung als eigenständiges, stabiles Modul (Version 1.0.0).
+#### Aktueller Stand
+- Version: 0.4.1
+- Status: In aktiver Entwicklung
+- Ziel: Fertigstellung und Veröffentlichung der Mitgliederverwaltung als eigenständiges, stabiles Modul (Version 1.0.0).
 
-#### **Geplante Funktionen und Fortschritt**
+#### Geplante Funktionen und Fortschritt
 
 | Funktion                          | Status                  | Fortschritt                                                                 |
 |-----------------------------------|-------------------------|-----------------------------------------------------------------------------|
@@ -62,10 +66,10 @@ Aktuell verfügbare Funktionen:
 | **MultiSelect/Checkbox für Rollen** | **In Entwicklung**     | ![90%](https://progress-bar.xyz/90?title=MultiSelect-%2F-Checkbox&width=300) |
 | **Beitragsverwaltung**            | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Beitragsverwaltung&width=300)       |
 | **Berichte und Statistiken**      | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Berichte+%26+Statistiken&width=300) |
-| **Geburtstagsbenachrichtigung**   | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Geburtstagsbenachrichtigung&width=300) |
+| **Geburtstagsbenachrichtigung**   | **In Entwicklung**            | ![10%](https://progress-bar.xyz/10?title=Geburtstagsbenachrichtigung&width=300) |
 | **Datenimport/-export**           | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Datenimport-Export&width=300)       |
 
-#### **Funktionen im Detail**
+#### Funktionen im Detail
 
 #### 1. Mitglieder-Datenverwaltung
 - Speicherung persönlicher Daten (Vorname, Nachname, Geburtstag, Kontaktinformationen).
@@ -97,47 +101,43 @@ Aktuell verfügbare Funktionen:
   - Export aller Mitgliedsdaten oder nach Filterkriterien.
   - Import von Daten aus CSV und Excel.
   - Validierung der Daten beim Import.
+    
+#### 9. Optimierung und Debuggung
 
-#### **Ziel für Version 1.0.0**
+#### Ziel für Version 1.0.0
 - Vollständige Umsetzung aller geplanten Funktionen.
 - Testen und Stabilisieren des Moduls.
 - Vorbereitung für Integration mit anderen Modulen.
 </details>
 
-<hr>
-
-### Veranstaltungsmanagement
+### **Veranstaltungsmanagement**
 Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
-- **[Geplant] Veranstaltungsplanung:** Erstellen und Verwalten von Events, Proben und Auftritten.
-- **[Geplant] Teilnehmerlisten:** Übersicht über bestätigte Teilnehmer.
-- **[Geplant] Budgetverwaltung:** Einnahmen- und Ausgabenkontrolle.
-- **[Geplant] Feedback:** Analyse von Veranstaltungsbewertungen.
+- [Geplant] Veranstaltungsplanung: Erstellen und Verwalten von Events, Proben und Auftritten.
+- [Geplant] Teilnehmerlisten: Übersicht über bestätigte Teilnehmer.
+- [Geplant] Budgetverwaltung: Einnahmen- und Ausgabenkontrolle.
+- [Geplant] Feedback: Analyse von Veranstaltungsbewertungen.
 
 <details>
 <summary><b>**Roadmap**</b></summary>
 Folgt bald
 </details>
 
-<hr>
-
-### Self-Service-Portal
+### **Self-Service-Portal**
 Das Self-Service-Portal ermöglicht:
-- **[Geplant] Datenzugriff:** Mitglieder können ihre persönlichen Informationen einsehen und bearbeiten.
-- **[Geplant] Dashboards:** Individualisierbare Übersicht für Mitglieder.
-- **[Geplant] Zugriff auf Dokumente:** Mitglieder können Rechnungen und Bescheinigungen herunterladen.
+- [Geplant] Datenzugriff: Mitglieder können ihre persönlichen Informationen einsehen und bearbeiten.
+- [Geplant] Dashboards: Individualisierbare Übersicht für Mitglieder.
+- [Geplant] Zugriff auf Dokumente:** Mitglieder können Rechnungen und Bescheinigungen herunterladen.
 
 <details>
 <summary><b>**Roadmap**</b></summary>
 Folgt bald
 </details>
-
-<hr>
 
 ### Integration mit Cloud-Diensten
 Dieses Modul integriert die Software nahtlos mit Cloud-Lösungen:
-- **[Geplant] Dateiverwaltung:** Automatische Synchronisation mit Nextcloud.
-- **[Geplant] Benutzerverwaltung:** Erstellung von Cloud-Accounts direkt über die Software.
-- **[Geplant] Automatische Backups:** Regelmäßige Sicherung von Daten in der Cloud.
+- [Geplant] Dateiverwaltung: Automatische Synchronisation mit Nextcloud.
+- [Geplant] Benutzerverwaltung: Erstellung von Cloud-Accounts direkt über die Software.
+- [Geplant] Automatische Backups: Regelmäßige Sicherung von Daten in der Cloud.
 
 <details>
 <summary><b>**Roadmap**</b></summary>
@@ -179,7 +179,7 @@ Dieses Modul hilft bei der Verwaltung von Ressourcen:
 - **[Geplant] Bestandswarnungen:** Automatische Benachrichtigungen bei niedrigem Bestand.
 
 <details>
-<summary><b>**Roadmap**</b></summary>
+<summary><b>Roadmap</b></summary>
 Folgt bald
 </details>
 
@@ -192,7 +192,7 @@ Das Modul Kommunikation und Chat ermöglicht:
 - **[Geplant] E-Mail-Integration:** Versand von Benachrichtigungen direkt aus der Software.
 
 <details>
-<summary><b>**Roadmap**</b></summary>
+<summary><b>Roadmap</b></summary>
 Folgt bald
 </details>
 
@@ -205,7 +205,7 @@ Zur Optimierung von Zeitplänen:
 - **[Geplant] Erinnerungen:** Automatische Benachrichtigungen zu wichtigen Terminen.
 
 <details>
-<summary><b>**Roadmap**</b></summary>
+<summary><b>Roadmap</b></summary>
 Folgt bald
 </details>
 
