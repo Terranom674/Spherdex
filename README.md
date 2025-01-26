@@ -212,7 +212,7 @@ Folgt bald
 ---
 
 ## Handuch
-Ein umfassendes Handbuch ist in Arbeit. Es wird:
+Eine umfassende Dokumentation ist in Arbeit. Es wird:
 - Anleitungen zur Konfiguration und Nutzung der Module enthalten.
 - Beispiele und Anwendungsfälle beschreiben.
 - In einem einfach zugänglichen Format (z. B. PDF, Online-Link oder direkt in der README.md) bereitgestellt
@@ -229,19 +229,19 @@ Ein umfassendes Handbuch ist in Arbeit. Es wird:
 | **API-Dokumentation**           | ![0%](https://progress-bar.xyz/0?title=API-Dokumentation&width=300)        |
 | **Fehlerbehebung und Support**  | ![0%](https://progress-bar.xyz/0?title=Fehlerbehebung+und+Support&width=300) |
 
-#### Installationsanleitung
+### Installationsanleitung
 - [Geplant] Detaillierte Schritte zur Installation der Software.
 - [Geplant] Fehlerbehebung bei Installationsproblemen.
 
-#### Erste Schritte
+### Erste Schritte
 - [Geplant] Einführung in die Benutzeroberfläche und Grundfunktionen.
 - [Geplant] Anleitungen zur ersten Konfiguration.
 
-#### Benutzerhandbuch
+### Benutzerhandbuch
 - [Geplant] Ausführliche Beschreibung der Module und Funktionen.
 - [Geplant] Empfehlungen für die optimale Nutzung.
 
-#### Entwicklerhandbuch
+### Entwicklerhandbuch
 - [Geplant] Leitfäden für Entwickler zur Erweiterung der Software.
 - [Geplant] Beispiele für API- und Modulnutzung.
 </details>
