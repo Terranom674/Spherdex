@@ -35,7 +35,19 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 ## **Details zu den Modulen**
 
 ### Mitgliederverwaltung
-### **Roadmap: Mitgliederverwaltung**
+
+Die Mitgliederverwaltung ist das zentrale Modul von Spherdex und bietet umfassende Funktionen zur Erfassung und Organisation von Mitgliedern.
+
+Aktuell verfügbare Funktionen:
+- Speichern persönlicher Daten wie Name, Adresse und Kontaktinformationen.
+- Verwaltung von Mitgliedsstatus (Aktiv, Passiv, Gekündigt).
+- Zuweisung und Verwaltung von Rollen (z. B. Vorsitzender, Schatzmeister).
+- Anpassung von Mitgliedsnummern (inkl. Präfix und laufender Nummer).
+- Möglichkeit, Rollen flexibel über Checkboxen oder MultiSelect darzustellen.
+- Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht eine präzise Verwaltung aller Vereinsmitglieder.
+
+<details>
+<summary><b>**Roadmap: Mitgliederverwaltung**</b></summary>
 
 #### **Aktueller Stand**
 - **Version:** 0.4.1
@@ -92,7 +104,7 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 - Vollständige Umsetzung aller geplanten Funktionen.
 - Testen und Stabilisieren des Moduls.
 - Vorbereitung für Integration mit anderen Modulen.
-
+</details>
 
 ### Veranstaltungsmanagement
 Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
@@ -177,7 +189,6 @@ Die Dokumentation zu Spherdex wird kontinuierlich erweitert. Der Fortschritt der
 ## Changelog
 <details>
 <summary><b>Version 0.4.1</b></summary>
-### Änderungen in Version 0.9.1
 </br>- [Behoben] Das Feld "Standard Rollen-Anzeigemodus" hat nach der Installation keinen Standardwert angezeigt.
 </br>- [Neu] Beispielrollen werden jetzt korrekt installiert.
 </details>
