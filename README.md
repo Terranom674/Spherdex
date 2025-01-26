@@ -391,39 +391,47 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 </details>
 
 ---
-## **Changelog**
+## Changelog
 
 <details>
-<summary>**Version 0.4.1**</summary>
+<summary><b>Version 0.4.1</b></summary>
 
-   - [Behoben] Das Feld "Standard Rollen-Anzeigemodus" hat nach der Installation keinen Standardwert angezeigt.
-   - [Neu] Beispielrollen werden jetzt korrekt installiert.
+   - ![Neu](https://img.shields.io/badge/Neu-Announcement-brightgreen) Beispielrollen werden jetzt korrekt installiert.
+   - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Das Feld "Standard Rollen-Anzeigemodus" hat nach der Installation keinen Standardwert angezeigt.
+
 </details>
 
 <details>
-<summary>**Version 0.4.0**</summary>
+<summary><b>Version 0.4.0</b></summary>
 
-   - [Neu] Grundlegende Mitglieder-Datenverwaltung hinzugefügt.
-   - [Neu] Möglichkeit zur Präfix- und Nummernänderung eingeführt.
-   - [Neu] Erste Version der Rollenverwaltung implementiert.
+   - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Die Mitgliederverwaltung wurde implementiert.
+   - ![Geändert](https://img.shields.io/badge/Ge%C3%A4ndert-Update-yellow) Die Präfix- und Nummernänderung wurde erweitert.
+   - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Fehler bei der Sortierung der Mitgliederliste wurde behoben.
+
 </details>
 
 <details>
-<summary>**Version 0.3.0**</summary>
+<summary><b>Version 0.3.0</b></summary>
 
-   - [Neu] Projektstruktur und grundlegendes Framework aufgesetzt.
-   - [Neu] Initiale Modulübersicht hinzugefügt.
+   - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Einführung der Rollenverwaltung für Mitglieder.
+   - ![Geändert](https://img.shields.io/badge/Ge%C3%A4ndert-Update-yellow) Anpassung der Datenbankstruktur für bessere Performance.
+   - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Fehler in der API-Dokumentation behoben.
+
 </details>
 
 <details>
-<summary>**Version 0.2.0**</summary>
+<summary><b>Version 0.2.0</b></summary>
 
-   - [Neu] Konzept für die Mitgliederverwaltung definiert.
-   - [Neu] Initialer Aufbau des Repositorys und Grundfunktionen geplant.
+   - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Einführung der Präfix- und Seriennummernverwaltung.
+   - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Probleme mit der Mitglieder-Datenbank wurden behoben.
+
 </details>
 
 <details>
-<summary>**Version 0.1.0**</summary>
+<summary><b>Version 0.1.0</b></summary>
 
-   - [Neu] Projektstart und Festlegung der modularen Struktur.
+   - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Erstes Release mit grundlegenden Funktionen.
+   - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Unterstützung für die Verwaltung persönlicher Daten (Vorname, Nachname, Geburtstag).
+   - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Erste Fehlerkorrekturen nach dem initialen Release.
+
 </details>
