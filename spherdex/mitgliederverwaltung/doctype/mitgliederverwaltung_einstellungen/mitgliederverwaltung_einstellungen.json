@@ -1,0 +1,196 @@
+{
+ "doctype": "DocType",
+ "name": "Mitgliederverwaltung Einstellungen",
+ "module": "Mitgliederverwaltung",
+ "field_order": [
+  "nummer_praefix",
+  "default_prefix",
+  "section_break_anys",
+  "start_nummer",
+  "column_break_nzfa",
+  "current_number",
+  "section_break_nhnm",
+  "nummer_format",
+  "column_break_gunq",
+  "platzhalter_info",
+  "section_break_rollen",
+  "rollen",
+  "default_anzeigenmodus",
+  "rollen_beschreibung",
+  "standardrollen_button",
+  "prefix_aendern",
+  "neu_durchzaehlen",
+  "prefix_und_nummer",
+  "alle_mitglieder_loeschen",
+  "neues_format",
+  "section_break_ywla",
+  "geburtstags_email_aktiv",
+  "email_template",
+  "geburtstag_text"
+ ],
+ "fields": [
+  {
+   "description": "Präfix für die Mitgliedsnummer, z. B. VER.\n",
+   "fieldname": "nummer_praefix",
+   "fieldtype": "Data",
+   "label": "Präfix"
+  },
+  {
+   "fieldname": "default_prefix",
+   "fieldtype": "Data",
+   "label": "Standard Präfix",
+   "description": "Standardwert für das Präfix, wenn kein Präfix angegeben ist."
+  },
+  {
+   "fieldname": "section_break_anys",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Startnummer für den Nummernkreis (z. B. 1001).\n",
+   "fieldname": "start_nummer",
+   "fieldtype": "Int",
+   "label": "Startnummer",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_nzfa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Zeigt die aktuelle Seriennummer für das Präfix an.\n",
+   "fieldname": "current_number",
+   "fieldtype": "Read Only",
+   "label": "Aktuelle Seriennummer"
+  },
+  {
+   "fieldname": "section_break_nhnm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Platzhalter wie &lt;YY&gt;&lt;Initialen&gt;&lt;MM&gt;&lt;####&gt;.",
+   "fieldname": "nummer_format",
+   "fieldtype": "Data",
+   "ignore_xss_filter": 1,
+   "label": "Nummernkreis-Format"
+  },
+  {
+   "fieldname": "column_break_gunq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "\tBeschreibung der verfügbaren Platzhalter (siehe unten).",
+   "fieldname": "platzhalter_info",
+   "fieldtype": "HTML",
+   "label": "Verfügbare Platzhalter\t",
+   "options": "<b>Verfügbare Platzhalter:</b>\n<ul>\n    <li><b>&lt;YY&gt;:</b> Jahr des Eintritts (z. B. 25 für 2025).</li>\n    <li><b>&lt;YYYY&gt;:</b> Volles Jahr (z. B. 2025).</li>\n    <li><b>&lt;MM&gt;:</b> Monat des Eintritts (z. B. 01 für Januar).</li>\n    <li><b>&lt;DD&gt;:</b> Tag des Eintritts (z. B. 15).</li>\n    <li><b>&lt;Initialen&gt;:</b> Initialen des Vor- und Nachnamens.</li>\n    <li><b>&lt;####&gt;:</b> Laufende Nummer mit führenden Nullen.</li>\n</ul>"
+  },
+  {
+   "fieldname": "section_break_rollen",
+   "fieldtype": "Section Break",
+   "label": "Rollenverwaltung"
+  },
+  {
+   "fieldname": "rollen",
+   "fieldtype": "Table",
+   "label": "Rollen",
+   "description": "Verwalten Sie die verfügbaren Rollen.",
+   "options": "Mitgliederrolle"
+  },
+  {
+   "fieldname": "default_anzeigenmodus",
+   "fieldtype": "Select",
+   "label": "Standard Rollen-Anzeigemodus",
+   "options": "MultiSelect\nCheckbox",
+   "default": "Checkbox",
+   "description": "Standardanzeige für Rollen."
+  },
+  {
+   "fieldname": "rollen_beschreibung",
+   "fieldtype": "HTML",
+   "label": "Verfügbare Rollen",
+   "options": "Fügen Sie Rollen hinzu, die Mitgliedern zugewiesen werden können."
+  },
+  {
+   "fieldname": "standardrollen_button",
+   "fieldtype": "Button",
+   "label": "Standardrollen installieren",
+   "description": "Fügt die Standardrollen hinzu, wenn diese nicht bereits vorhanden sind."
+  },
+  {
+   "fieldname": "prefix_aendern",
+   "fieldtype": "Button",
+   "label": "Präfix ändern",
+   "description": "Ändert das Präfix für alle Mitglieder."
+  },
+  {
+   "fieldname": "neu_durchzaehlen",
+   "fieldtype": "Button",
+   "label": "Neu durchnummerieren",
+   "description": "Nummeriert alle Mitglieder neu durch."
+  },
+  {
+   "fieldname": "prefix_und_nummer",
+   "fieldtype": "Button",
+   "label": "Präfix und Nummer aktualisieren",
+   "description": "Ändert sowohl Präfix als auch Seriennummer aller Mitglieder."
+  },
+  {
+   "fieldname": "alle_mitglieder_loeschen",
+   "fieldtype": "Button",
+   "label": "Alle Mitglieder löschen",
+   "description": "Löscht alle Mitglieder aus der Datenbank."
+  },
+  {
+   "fieldname": "neues_format",
+   "fieldtype": "Button",
+   "label": "Neues Format anwenden",
+   "description": "Wendet ein neues Nummernformat an."
+  },
+  {
+   "fieldname": "section_break_ywla",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "geburtstags_email_aktiv",
+   "fieldtype": "Check",
+   "label": "Geburtstags-E-Mails aktivieren",
+   "description": "Aktivieren Sie die automatische E-Mail-Benachrichtigung an Geburtstagen."
+  },
+  {
+   "fieldname": "email_template",
+   "fieldtype": "Link",
+   "options": "Email Template",
+   "label": "E-Mail-Template",
+   "description": "Wählen Sie ein vordefiniertes E-Mail-Template aus."
+  },
+  {
+   "fieldname": "geburtstag_text",
+   "fieldtype": "Text Editor",
+   "label": "Geburtstags-Text",
+   "description": "Nachricht für Geburtstags-E-Mails, z. B. „Alles Gute, {name}!“"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-01-11 18:22:12.992349",
+ "modified_by": "Administrator",
+ "module": "Mitgliederverwaltung",
+ "name": "Mitgliederverwaltung Einstellungen",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
