@@ -48,7 +48,7 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 | Modul                           | Fortschritt                                                                 |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-|[![Mitgliederverwaltung](https://img.shields.io/badge/Mitgliederverwaltung-50%25-yellow)](#mitgliederverwaltung-)| ![50%](https://progress-bar.xyz/50?title=Mitgliederverwaltung&width=300) |
+|<img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48"> **[Mitgliederverwaltung](#mitgliederverwaltung-)**| ![50%](https://progress-bar.xyz/50?title=Mitgliederverwaltung&width=300) |
 |<img src="https://github.com/user-attachments/assets/c6d55ca3-b9c5-4504-ac67-015ad67af5ff" width="48"> **[Veranstaltungsmanagement](#veranstaltungsmanagement-)**| ![0%](https://progress-bar.xyz/0?title=Veranstaltungsmanagement&width=300) |
 |<img src="https://github.com/user-attachments/assets/6bd9da27-2b35-476e-b07d-561a460e0c6f" width="48"> **[Self-Service-Portal](#self-service-portal-)**| ![0%](https://progress-bar.xyz/0?title=Self-Service-Portal&width=300) |
 |<img src="https://github.com/user-attachments/assets/4041d589-fb78-401a-87ea-b9b1f8ee73cc" width="48"> **[Integration mit Cloud-Diensten](#integration-mit-cloud-diensten-)**| ![0%](https://progress-bar.xyz/0?title=Cloud-Integration&width=300) |
