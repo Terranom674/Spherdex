@@ -37,7 +37,7 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 Die Mitgliederverwaltung ist das zentrale Modul von Spherdex und bietet umfassende Funktionen zur Erfassung und Organisation von Mitgliedern.
 
 Aktuell verfügbare Funktionen:
-- Mitglieder-Datenverwaltung: Verwaltung von persönlichen Daten wie Vorname, Nachname, Geburtstag und Kontaktinformationen. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green)
+- <u>Mitglieder-Datenverwaltung</u>: Verwaltung von persönlichen Daten wie Vorname, Nachname, Geburtstag und Kontaktinformationen. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green)
 - Rollenverwaltung: Zuweisung von Rollen wie Vorsitzender, Schatzmeister oder Mitglied. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
 - Präfix- und Nummernänderung: Anpassung des Präfixes und der laufenden Nummer für Mitgliedsnummern. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
 - MultiSelect/Checkbox für Rollen: Auswahl und Anzeige von Rollen als Checkboxen oder in einem Dropdown-Menü. ![In Entwicklung](https://img.shields.io/badge/In_Entwicklung-yellow)
