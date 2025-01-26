@@ -1,19 +1,13 @@
 # Spherdex: Die modulare Verwaltungssoftware
 
-<img src="https://github.com/user-attachments/assets/1b0764aa-99d3-4a2a-a38f-33e9200ef2ba" width="50%">
+<table>
+<tr>
+<td>
+<img src="https://github.com/user-attachments/assets/1b0764aa-99d3-4a2a-a38f-33e9200ef2ba" width="200">
+</td>
+<td>
 
-**Spherdex** ist eine innovative Softwarelösung zur Verwaltung von Mitgliedern, Veranstaltungen, Inventar und vielem mehr. Eine Komplettlösung für Vereine, Clubs und Verbünde.
-
-![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue) 
-
-|![Mitgliederverwaltung: 0.4.1](https://img.shields.io/badge/Mitgliederverwaltung-0.4.1-green) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
-|---|---|---|---|
-| ![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey) | ![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)| ![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey) | ![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)
-| ![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey) | ![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey) | ![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey) | ![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)
-
----
-
-## Inhaltsverzeichnis
+### **Inhaltsverzeichnis**
 1. [Projektübersicht](#projektübersicht)
 2. [Details zu den Modulen](#details-zu-den-modulen)
    - [Mitgliederverwaltung](#mitgliederverwaltung)
@@ -25,10 +19,23 @@
    - [Inventarverwaltung](#inventarverwaltung)
    - [Kommunikation und Chat](#kommunikation-und-chat)
    - [Kalender- und Terminplanung](#kalender-und-terminplanung)
-3. [Langfristige Vision](#langfristige-vision)
+3. [Handbuch](#handbuch)
 4. [FAQ](#faq)
-5. [Handbuch](#handbuch)
+5. [Langfristige Vision](#langfristige-vision)
 6. [Changelog](#changelog)
+
+</td>
+</tr>
+</table>
+
+**Spherdex** ist eine innovative Softwarelösung zur Verwaltung von Mitgliedern, Veranstaltungen, Inventar und vielem mehr. Eine Komplettlösung für Vereine, Clubs und Verbünde.
+
+![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue) 
+
+|![Mitgliederverwaltung: 0.4.1](https://img.shields.io/badge/Mitgliederverwaltung-0.4.1-green) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
+|---|---|---|---|
+| ![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey) | ![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)| ![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey) | ![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)
+| ![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey) | ![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey) | ![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey) | ![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)
 
 ---
 ## **Projektübersicht**
@@ -223,35 +230,33 @@ Folgt bald
 
 ## **Langfristige Vision**
 
-Spherdex ist nicht nur eine Softwarelösung, sondern ein flexibles und modulares System, das sich den Bedürfnissen von Vereinen, Clubs und Organisationen anpasst. Unsere langfristige Vision umfasst:
-
 <details>
-<summary>**1. Modularität und Erweiterbarkeit**</summary>
+<summary><b>1. Modularität und Erweiterbarkeit</b></summary>
 Spherdex soll ein vollständig modulares System werden, das beliebig erweitert und individuell an die Anforderungen von Vereinen, Clubs und Organisationen angepasst werden kann.
 </details>
 
 <details>
-<summary>**2. Integration mit anderen Plattformen**</summary>
+<summary><b>2. Integration mit anderen Plattformen</b></summary>
 Durch API-Unterstützung und Cloud-Integrationen sollen Daten und Prozesse nahtlos mit anderen Tools verbunden werden können.
 </details>
 
 <details>
-<summary>**3. Benutzerfreundlichkeit**</summary>
+<summary><b>3. Benutzerfreundlichkeit</b></summary>
 Die Benutzeroberfläche wird kontinuierlich optimiert, um eine einfache Bedienung ohne tiefgehende technische Vorkenntnisse zu gewährleisten.
 </details>
 
 <details>
-<summary>**4. Automatisierung und Intelligenz**</summary>
+<summary><b>4. Automatisierung und Intelligenz</b></summary>
 Durch KI-gestützte Features, wie automatische Erinnerungen und Analysen, soll Spherdex den Verwaltungsaufwand weiter reduzieren.
 </details>
 
 <details>
-<summary>**5. Skalierbarkeit**</summary>
+<summary><b>5. Skalierbarkeit</b></summary>
 Die Software wird so entwickelt, dass sie für kleine Vereine genauso geeignet ist wie für größere Organisationen mit komplexen Strukturen.
 </details>
 
 <details>
-<summary>**6. Community-Engagement**</summary>
+<summary><b>6. Community-Engagement</b></summary>
 Eine aktive Community wird gefördert, um Ideen und Feedback auszutauschen, neue Features zu entwickeln und die Software weiter voranzutreiben.
 </details>
 
@@ -260,56 +265,54 @@ Eine aktive Community wird gefördert, um Ideen und Feedback auszutauschen, neue
 ## **FAQ**
 
 <details>
-<summary>**1. Was ist Spherdex?**</summary>
+<summary><b>1. Was ist Spherdex?</b></summary>
 Spherdex ist eine modulare Softwarelösung zur Verwaltung von Mitgliedern, Veranstaltungen, Finanzen, Inventar und mehr – ideal für Vereine, Clubs und ähnliche Organisationen.
 </details>
 
 <details>
-<summary>**2. Ist Spherdex kostenlos?**</summary>
+<summary><b>2. Ist Spherdex kostenlos?</b></summary>
 Ja, Spherdex ist kostenfrei und bleibt es auch in der Basisversion. Einige erweiterte Funktionen oder Module könnten jedoch in Zukunft kostenpflichtig werden, um die entstehenden Entwicklungs- und Betriebskosten zu decken. Dies betrifft beispielsweise Premium-Features oder spezielle Integrationen, die über den grundlegenden Funktionsumfang hinausgehen.
 </details>
 
 <details>
-<summary>**3. Welche Module gibt es derzeit?**</summary>
+<summary><b>3. Welche Module gibt es derzeit?</b></summary>
 Aktuell wird die Mitgliederverwaltung (Version 0.4.1) entwickelt. Weitere Module wie Veranstaltungsmanagement, Finanzverwaltung und Inventarverwaltung sind in Planung.
 </details>
 
 <details>
-<summary>**4. Kann ich Spherdex anpassen?**</summary>
+<summary><b>4. Kann ich Spherdex anpassen?</b></summary>
 Ja, Spherdex ist so gestaltet, dass es leicht an spezifische Anforderungen angepasst werden kann. Entwickler können eigene Module hinzufügen oder bestehende Module erweitern.
 </details>
 
 <details>
-<summary>**5. Wird Support angeboten?**</summary>
+<summary><b>5. Wird Support angeboten?</b></summary>
 Da Spherdex Open Source ist, erfolgt der Support durch die Community. In der Zukunft ist ein Forum oder ein Wiki für häufige Fragen und Antworten geplant.
 </details>
 
 <details>
-<summary>**6. Welche technischen Voraussetzungen gibt es?**</summary>
+<summary><b>6. Welche technischen Voraussetzungen gibt es?</b></summary>
 Spherdex basiert auf Frappe/ERPNext und benötigt eine entsprechende Serverumgebung. Eine detaillierte Installationsanleitung ist in Arbeit.
 </details>
 
 <details>
-<summary>**7. Gibt es eine API für Spherdex?**</summary>
+<summary><b>7. Gibt es eine API für Spherdex?</b></summary>
 Eine API ist in Planung und wird in zukünftigen Versionen implementiert, um Integrationen mit anderen Systemen zu erleichtern.
 </details>
 
 <details>
-<summary>**8. Kann ich mehrere Module gleichzeitig nutzen?**</summary>
+<summary><b>8. Kann ich mehrere Module gleichzeitig nutzen?</b></summary>
 Ja, sobald die Module verfügbar sind, können sie beliebig kombiniert und eingesetzt werden. Jedes Modul ist eigenständig, die Mitgliederverwaltung ist jedoch Voraussetzung.
 </details>
 
 <details>
-<summary>**9. Wird Spherdex regelmäßig aktualisiert?**</summary>
+<summary><b>9. Wird Spherdex regelmäßig aktualisiert?</b></summary>
 Ja, regelmäßige Updates und neue Funktionen sind geplant, um die Software kontinuierlich zu verbessern.
 </details>
 
 <details>
-<summary>**10. Wie kann ich zur Entwicklung beitragen?**</summary>
+<summary><b>10. Wie kann ich zur Entwicklung beitragen?</b></summary>
 Sie können zur Entwicklung beitragen, indem Sie Vorschläge einreichen, Code beisteuern oder die Software testen. Mehr Informationen dazu folgen bald.
 </details>
-
-
 
 --- 
 
@@ -349,33 +352,44 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 </details>
 
 ---
-## Changelog
+## **Changelog**
+
 <details>
-<summary>**Version 0.4.1**</summary>
-- [Behoben] Das Feld "Standard Rollen-Anzeigemodus" hat nach der Installation keinen Standardwert angezeigt.
-- [Neu] Beispielrollen werden jetzt korrekt installiert.
+<summary><b>Version 0.4.1</b></summary>
+<ul>
+  <li><b>Behoben:</b> Das Feld "Standard Rollen-Anzeigemodus" hat nach der Installation keinen Standardwert angezeigt.</li>
+  <li><b>Neu:</b> Beispielrollen werden jetzt korrekt installiert.</li>
+</ul>
 </details>
 
 <details>
-<summary>**Version 0.4.0**</summary>
-- [Neu] Grundlegende Mitglieder-Datenverwaltung hinzugefügt.
-- [Neu] Möglichkeit zur Präfix- und Nummernänderung eingeführt.
-- [Neu] Erste Version der Rollenverwaltung implementiert.
+<summary><b>Version 0.4.0</b></summary>
+<ul>
+  <li><b>Neu:</b> Grundlegende Mitglieder-Datenverwaltung hinzugefügt.</li>
+  <li><b>Neu:</b> Möglichkeit zur Präfix- und Nummernänderung eingeführt.</li>
+  <li><b>Neu:</b> Erste Version der Rollenverwaltung implementiert.</li>
+</ul>
 </details>
 
 <details>
-<summary>**Version 0.3.0**</summary>
-- [Neu] Projektstruktur und grundlegendes Framework aufgesetzt.
-- [Neu] Initiale Modulübersicht hinzugefügt.
+<summary><b>Version 0.3.0</b></summary>
+<ul>
+  <li><b>Neu:</b> Projektstruktur und grundlegendes Framework aufgesetzt.</li>
+  <li><b>Neu:</b> Initiale Modulübersicht hinzugefügt.</li>
+</ul>
 </details>
 
 <details>
-<summary>**Version 0.2.0**</summary>
-- [Neu] Konzept für die Mitgliederverwaltung definiert.
-- [Neu] Initialer Aufbau des Repositorys und Grundfunktionen geplant.
+<summary><b>Version 0.2.0</b></summary>
+<ul>
+  <li><b>Neu:</b> Konzept für die Mitgliederverwaltung definiert.</li>
+  <li><b>Neu:</b> Initialer Aufbau des Repositorys und Grundfunktionen geplant.</li>
+</ul>
 </details>
 
 <details>
-<summary>**Version 0.1.0**</summary>
-- [Neu] Projektstart und Festlegung der modularen Struktur.
+<summary><b>Version 0.1.0</b></summary>
+<ul>
+  <li><b>Neu:</b> Projektstart und Festlegung der modularen Struktur.</li>
+</ul>
 </details>
