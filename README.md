@@ -104,7 +104,7 @@ Aktuell verfügbare Funktionen:
 - Vorbereitung für Integration mit anderen Modulen.
 </details>
 
-<hr style="height:1px;">
+<hr>
 
 ### Veranstaltungsmanagement
 Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
@@ -211,7 +211,7 @@ Folgt bald
 
 ---
 
-## Handuch
+## Handbuch
 Eine umfassende Dokumentation ist in Arbeit. Es wird:
 - Anleitungen zur Konfiguration und Nutzung der Module enthalten.
 - Beispiele und Anwendungsfälle beschreiben.
