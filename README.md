@@ -37,19 +37,19 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 Die Mitgliederverwaltung ist das zentrale Modul von Spherdex und bietet umfassende Funktionen zur Erfassung und Organisation von Mitgliedern.
 
 Aktuell verfügbare Funktionen:
-- ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) Mitglieder-Datenverwaltung: Verwaltung von persönlichen Daten wie Vorname, Nachname, Geburtstag und Kontaktinformationen.
-- ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) Rollenverwaltung: Zuweisung von Rollen wie Vorsitzender, Schatzmeister oder Mitglied.
-- ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) Präfix- und Nummernänderung: Anpassung des Präfixes und der laufenden Nummer für Mitgliedsnummern.
-- ![In Entwicklung](https://img.shields.io/badge/In_Entwicklung-yellow) MultiSelect/Checkbox für Rollen: Auswahl und Anzeige von Rollen als Checkboxen oder in einem Dropdown-Menü.
-- ![Geplant](https://img.shields.io/badge/Geplant-lightgrey) Beitragsverwaltung: Verwaltung und Nachverfolgung von Mitgliedsbeiträgen und offenen Zahlungen.
-- ![Geplant](https://img.shields.io/badge/Geplant-lightgrey) Berichte und Statistiken: Erstellung von Analysen und Übersichten zur Mitgliedschaft und Beitragszahlungen.
-- ![In Entwicklung](https://img.shields.io/badge/In_Entwicklung-yellow) Geburtstagsbenachrichtigung: Automatischer Versand von Geburtstagsgrüßen per E-Mail.
-- ![Geplant](https://img.shields.io/badge/Geplant-lightgrey) Datenimport/-export: Import und Export von Mitgliedsdaten in Formaten wie PDF, CSV, TXT, DOC und Excel.
+- Mitglieder-Datenverwaltung: Verwaltung von persönlichen Daten wie Vorname, Nachname, Geburtstag und Kontaktinformationen. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green)
+- Rollenverwaltung: Zuweisung von Rollen wie Vorsitzender, Schatzmeister oder Mitglied. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
+- Präfix- und Nummernänderung: Anpassung des Präfixes und der laufenden Nummer für Mitgliedsnummern. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
+- MultiSelect/Checkbox für Rollen: Auswahl und Anzeige von Rollen als Checkboxen oder in einem Dropdown-Menü. ![In Entwicklung](https://img.shields.io/badge/In_Entwicklung-yellow)
+- Beitragsverwaltung: Verwaltung und Nachverfolgung von Mitgliedsbeiträgen und offenen Zahlungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Berichte und Statistiken: Erstellung von Analysen und Übersichten zur Mitgliedschaft und Beitragszahlungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Geburtstagsbenachrichtigung: Automatischer Versand von Geburtstagsgrüßen per E-Mail. ![In Entwicklung](https://img.shields.io/badge/In_Entwicklung-yellow)
+- Datenimport/-export: Import und Export von Mitgliedsdaten in Formaten wie PDF, CSV, TXT, DOC und Excel. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht eine präzise Verwaltung aller Vereinsmitglieder.
 
 <details>
-<summary><b>**Roadmap**</b></summary>
+<summary><b>Roadmap</b></summary>
 
 #### Aktueller Stand
 - Version: 0.4.1
@@ -63,10 +63,10 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 | **Mitglieder-Datenverwaltung**    | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Datenverwaltung&width=300)      |
 | **Rollenverwaltung**              | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Rollenverwaltung&width=300)     |
 | **Präfix- und Nummernänderung**   | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Pr%C3%A4fix-%26-Nummerierung&width=300) |
-| **MultiSelect/Checkbox für Rollen** | **In Entwicklung**     | ![90%](https://progress-bar.xyz/90?title=MultiSelect-%2F-Checkbox&width=300) |
+| **MultiSelect/Checkbox für Rollen** | **In Entwicklung**    | ![90%](https://progress-bar.xyz/90?title=MultiSelect-%2F-Checkbox&width=300) |
 | **Beitragsverwaltung**            | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Beitragsverwaltung&width=300)       |
 | **Berichte und Statistiken**      | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Berichte+%26+Statistiken&width=300) |
-| **Geburtstagsbenachrichtigung**   | **In Entwicklung**            | ![10%](https://progress-bar.xyz/10?title=Geburtstagsbenachrichtigung&width=300) |
+| **Geburtstagsbenachrichtigung**   | **In Entwicklung**      | ![10%](https://progress-bar.xyz/10?title=Geburtstagsbenachrichtigung&width=300) |
 | **Datenimport/-export**           | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Datenimport-Export&width=300)       |
 
 #### Funktionen im Detail
@@ -112,10 +112,10 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 
 ### **Veranstaltungsmanagement**
 Das Veranstaltungsmanagement bietet Werkzeuge zur Organisation:
-- [Geplant] Veranstaltungsplanung: Erstellen und Verwalten von Events, Proben und Auftritten.
-- [Geplant] Teilnehmerlisten: Übersicht über bestätigte Teilnehmer.
-- [Geplant] Budgetverwaltung: Einnahmen- und Ausgabenkontrolle.
-- [Geplant] Feedback: Analyse von Veranstaltungsbewertungen.
+- Veranstaltungsplanung: Erstellen und Verwalten von Events, Proben und Auftritten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Teilnehmerlisten: Übersicht über bestätigte Teilnehmer. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Budgetverwaltung: Einnahmen- und Ausgabenkontrolle. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Feedback: Analyse von Veranstaltungsbewertungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 <details>
 <summary><b>**Roadmap**</b></summary>
@@ -124,9 +124,9 @@ Folgt bald
 
 ### **Self-Service-Portal**
 Das Self-Service-Portal ermöglicht:
-- [Geplant] Datenzugriff: Mitglieder können ihre persönlichen Informationen einsehen und bearbeiten.
-- [Geplant] Dashboards: Individualisierbare Übersicht für Mitglieder.
-- [Geplant] Zugriff auf Dokumente:** Mitglieder können Rechnungen und Bescheinigungen herunterladen.
+- Datenzugriff: Mitglieder können ihre persönlichen Informationen einsehen und bearbeiten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Dashboards: Individualisierbare Übersicht für Mitglieder. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Zugriff auf Dokumente:** Mitglieder können Rechnungen und Bescheinigungen herunterladen.![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 <details>
 <summary><b>**Roadmap**</b></summary>
@@ -135,23 +135,22 @@ Folgt bald
 
 ### Integration mit Cloud-Diensten
 Dieses Modul integriert die Software nahtlos mit Cloud-Lösungen:
-- [Geplant] Dateiverwaltung: Automatische Synchronisation mit Nextcloud.
-- [Geplant] Benutzerverwaltung: Erstellung von Cloud-Accounts direkt über die Software.
-- [Geplant] Automatische Backups: Regelmäßige Sicherung von Daten in der Cloud.
+- Dateiverwaltung: Automatische Synchronisation mit Nextcloud. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Benutzerverwaltung: Erstellung von Cloud-Accounts direkt über die Software. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Automatische Backups: Regelmäßige Sicherung von Daten in der Cloud. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 <details>
 <summary><b>**Roadmap**</b></summary>
 Folgt bald
 </details>
 
-<hr>
 
 ### Automatisierung
 Automatisierung reduziert manuellen Aufwand:
-- **[Geplant] Benachrichtigungen:** Erinnerungen zu Geburtstagen, Zahlungen und Fristen.
-- **[Geplant] Zeitgesteuerte Aktionen:** Versand von Nachrichten und Reports zu festgelegten Zeiten.
-- **[Geplant] Workflows:** Automatische Abläufe für häufige Aufgaben.
-
+- Benachrichtigungen:** Erinnerungen zu Geburtstagen, Zahlungen und Fristen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Zeitgesteuerte Aktionen:** Versand von Nachrichten und Reports zu festgelegten Zeiten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+-  Workflows:** Automatische Abläufe für häufige Aufgaben. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+  
 <details>
 <summary><b>**Roadmap**</b></summary>
 Folgt bald
@@ -161,48 +160,42 @@ Folgt bald
 
 ### Finanzverwaltung
 Die Finanzverwaltung bietet:
-- **[Geplant] Einnahmen und Ausgaben:** Detaillierte Nachverfolgung aller finanziellen Aktivitäten.
-- **[Geplant] Spendenmanagement:** Erstellung und Verwaltung von Spendenquittungen.
-- **[Geplant] Berichte:** Steuerkonforme Jahresabschlüsse.
+- Einnahmen und Ausgaben: Detaillierte Nachverfolgung aller finanziellen Aktivitäten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Spendenmanagement: Erstellung und Verwaltung von Spendenquittungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Berichte: Steuerkonforme Jahresabschlüsse. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 <details>
 <summary><b>**Roadmap**</b></summary>
 Folgt bald
 </details>
 
-<hr>
-
 ### Inventarverwaltung
 Dieses Modul hilft bei der Verwaltung von Ressourcen:
-- **[Geplant] Materialübersicht:** Bestandsverwaltung von Technik, Kostümen und Materialien.
-- **[Geplant] Reservierungen:** Zuweisung von Ressourcen zu Veranstaltungen.
-- **[Geplant] Bestandswarnungen:** Automatische Benachrichtigungen bei niedrigem Bestand.
+- Materialübersicht: Bestandsverwaltung von Technik, Kostümen und Materialien. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Reservierungen: Zuweisung von Ressourcen zu Veranstaltungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Bestandswarnungen: Automatische Benachrichtigungen bei niedrigem Bestand. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 <details>
 <summary><b>Roadmap</b></summary>
 Folgt bald
 </details>
-
-<hr>
 
 ### Kommunikation und Chat
-Das Modul Kommunikation und Chat ermöglicht:
-- **[Geplant] Interne Kommunikation:** Nachrichten und Diskussionen innerhalb des Teams.
-- **[Geplant] Broadcast-Nachrichten:** Einfache Kommunikation mit allen Mitgliedern.
-- **[Geplant] E-Mail-Integration:** Versand von Benachrichtigungen direkt aus der Software.
+Das Modul Kommunikation und Chat ermöglicht: 
+- Interne Kommunikation: Nachrichten und Diskussionen innerhalb des Teams. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Broadcast-Nachrichten: Einfache Kommunikation mit allen Mitgliedern. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- E-Mail-Integration: Versand von Benachrichtigungen direkt aus der Software. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 <details>
 <summary><b>Roadmap</b></summary>
 Folgt bald
 </details>
-
-<hr>
 
 ### Kalender- und Terminplanung
 Zur Optimierung von Zeitplänen:
-- **[Geplant] Kalendersynchronisation:** Verbindung mit externen Kalenderdiensten.
-- **[Geplant] Gruppenkalender:** Übersicht über gemeinsame Termine.
-- **[Geplant] Erinnerungen:** Automatische Benachrichtigungen zu wichtigen Terminen.
+- Kalendersynchronisation: Verbindung mit externen Kalenderdiensten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Gruppenkalender: Übersicht über gemeinsame Termine. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Erinnerungen: Automatische Benachrichtigungen zu wichtigen Terminen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 <details>
 <summary><b>Roadmap</b></summary>
@@ -230,20 +223,20 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 | **Fehlerbehebung und Support**  | ![0%](https://progress-bar.xyz/0?title=Fehlerbehebung+und+Support&width=300) |
 
 ### Installationsanleitung
-- [Geplant] Detaillierte Schritte zur Installation der Software.
-- [Geplant] Fehlerbehebung bei Installationsproblemen.
+- Detaillierte Schritte zur Installation der Software. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Fehlerbehebung bei Installationsproblemen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 ### Erste Schritte
-- [Geplant] Einführung in die Benutzeroberfläche und Grundfunktionen.
-- [Geplant] Anleitungen zur ersten Konfiguration.
+- Einführung in die Benutzeroberfläche und Grundfunktionen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Anleitungen zur ersten Konfiguration. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 ### Benutzerhandbuch
-- [Geplant] Ausführliche Beschreibung der Module und Funktionen.
-- [Geplant] Empfehlungen für die optimale Nutzung.
+- Ausführliche Beschreibung der Module und Funktionen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Empfehlungen für die optimale Nutzung. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 ### Entwicklerhandbuch
-- [Geplant] Leitfäden für Entwickler zur Erweiterung der Software.
-- [Geplant] Beispiele für API- und Modulnutzung.
+- Leitfäden für Entwickler zur Erweiterung der Software. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- Beispiele für API- und Modulnutzung. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 </details>
 
 ---
