@@ -12,6 +12,25 @@
 | ![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey) | ![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey) | ![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey) | ![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)
 
 ---
+
+## Inhaltsverzeichnis
+1. [Projektübersicht](#projektübersicht)
+2. [Details zu den Modulen](#details-zu-den-modulen)
+   - [Mitgliederverwaltung](#mitgliederverwaltung)
+   - [Veranstaltungsmanagement](#veranstaltungsmanagement)
+   - [Self-Service-Portal](#self-service-portal)
+   - [Integration mit Cloud-Diensten](#integration-mit-cloud-diensten)
+   - [Automatisierung](#automatisierung)
+   - [Finanzverwaltung](#finanzverwaltung)
+   - [Inventarverwaltung](#inventarverwaltung)
+   - [Kommunikation und Chat](#kommunikation-und-chat)
+   - [Kalender- und Terminplanung](#kalender-und-terminplanung)
+3. [Langfristige Vision](#langfristige-vision)
+4. [FAQ](#faq)
+5. [Handbuch](#handbuch)
+6. [Changelog](#changelog)
+
+---
 ## **Projektübersicht**
 
 Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wird in Prozent angezeigt:
@@ -203,6 +222,67 @@ Folgt bald
 </details>
 
 ---
+
+## **Langfristige Vision**
+
+Spherdex ist nicht nur eine Softwarelösung, sondern ein flexibles und modulares System, das sich den Bedürfnissen von Vereinen, Clubs und Organisationen anpasst. Unsere langfristige Vision umfasst:
+
+### 1. **Erweiterte Automatisierung**
+- Implementierung von KI-gestützten Funktionen zur automatischen Mitgliederklassifizierung und Beitragsverwaltung.
+- Zeitgesteuerte und workflow-basierte Aktionen, die manuelle Eingriffe minimieren.
+
+### 2. **Integration mit Drittanbietern**
+- API-Schnittstellen für Buchhaltungssysteme, CRM-Software und Cloud-Dienste.
+- Erweiterte Synchronisation mit gängigen Kalender- und E-Mail-Diensten.
+
+### 3. **Individualisierung**
+- Erstellen von personalisierten Dashboards und Reports.
+- Unterstützung von branchenspezifischen Anforderungen wie z. B. speziellen Vereinsregeln.
+
+### 4. **Skalierbarkeit**
+- Unterstützung von Organisationen mit Tausenden von Mitgliedern ohne Leistungseinbußen.
+- Clusterfähige Datenbankstruktur zur Verteilung der Last.
+
+### 5. **Community-Driven Entwicklung**
+- Aufbau einer Community, die Vorschläge einbringen und die Software mitgestalten kann.
+- Regelmäßige Updates und Open-Source-Erweiterungen.
+
+---
+
+## **FAQ**
+
+### **1. Was ist Spherdex?**
+Spherdex ist eine modulare Softwarelösung zur Verwaltung von Mitgliedern, Veranstaltungen, Finanzen, Inventar und mehr – ideal für Vereine, Clubs und ähnliche Organisationen.
+
+### **2. Ist Spherdex kostenlos?**
+Ja, Spherdex ist kostenfrei und bleibt es auch in der Basisversion. Einige erweiterte Funktionen oder Module könnten jedoch in Zukunft kostenpflichtig werden, um die entstehenden Entwicklungs- und Betriebskosten zu decken. Dies betrifft beispielsweise Premium-Features oder spezielle Integrationen, die über den grundlegenden Funktionsumfang hinausgehen.
+
+### **3. Welche Module gibt es derzeit?**
+Aktuell wird die Mitgliederverwaltung (Version 0.4.1) entwickelt. Weitere Module wie Veranstaltungsmanagement, Finanzverwaltung und Inventarverwaltung sind in Planung.
+
+### **4. Kann ich Spherdex anpassen?**
+Ja, Spherdex ist so gestaltet, dass es leicht an spezifische Anforderungen angepasst werden kann. Entwickler können eigene Module hinzufügen oder bestehende Module erweitern.
+
+### **5. Wird Support angeboten?**
+Da Spherdex Open Source ist, erfolgt der Support durch die Community. In der Zukunft ist ein Forum oder ein Wiki für häufige Fragen und Antworten geplant.
+
+### **6. Welche technischen Voraussetzungen gibt es?**
+Spherdex basiert auf Frappe/ERPNext und benötigt eine entsprechende Serverumgebung. Eine detaillierte Installationsanleitung ist in Arbeit.
+
+### **7. Gibt es eine API für Spherdex?**
+Eine API ist in Planung und wird in zukünftigen Versionen implementiert, um Integrationen mit anderen Systemen zu erleichtern.
+
+### **8. Kann ich mehrere Module gleichzeitig nutzen?**
+Ja, sobald die Module verfügbar sind, können sie beliebig kombiniert und eingesetzt werden. Jedes Modul ist eigenständig, die Mitgliederverwaltung ist jedoch Voraussetzung.
+
+### **9. Wird Spherdex regelmäßig aktualisiert?**
+Ja, regelmäßige Updates und neue Funktionen sind geplant, um die Software kontinuierlich zu verbessern.
+
+### **10. Wie kann ich zur Entwicklung beitragen?**
+Sie können zur Entwicklung beitragen, indem Sie Vorschläge einreichen, Code beisteuern oder die Software testen. Mehr Informationen dazu folgen bald.
+
+
+--- 
 
 ## Handbuch
 Eine umfassende Dokumentation ist in Arbeit. Es wird:
