@@ -10,15 +10,15 @@
 ### **Inhaltsverzeichnis**
 1. [Projektübersicht](#projektübersicht)
 2. [Details zu den Modulen](#details-zu-den-modulen)
-   - [Mitgliederverwaltung](#mitgliederverwaltung)
-   - [Veranstaltungsmanagement](#veranstaltungsmanagement)
-   - [Self-Service-Portal](#self-service-portal)
-   - [Integration mit Cloud-Diensten](#integration-mit-cloud-diensten)
-   - [Automatisierung](#automatisierung)
-   - [Finanzverwaltung](#finanzverwaltung)
-   - [Inventarverwaltung](#inventarverwaltung)
-   - [Kommunikation und Chat](#kommunikation-und-chat)
-   - [Kalender- und Terminplanung](#kalender-und-terminplanung)
+   - [Mitgliederverwaltung](#mitgliederverwaltung-)
+   - [Veranstaltungsmanagement](#veranstaltungsmanagement-)
+   - [Self-Service-Portal](#self-service-portal-)
+   - [Integration mit Cloud-Diensten](#integration-mit-cloud-diensten-)
+   - [Automatisierung](#automatisierung-)
+   - [Finanzverwaltung](#finanzverwaltung-)
+   - [Inventarverwaltung](#inventarverwaltung-)
+   - [Kommunikation und Chat](#kommunikation-und-chat-)
+   - [Kalender- und Terminplanung](#kalender-und-terminplanung-)
 3. [Handbuch](#handbuch)
 4. [FAQ](#faq)
 5. [Langfristige Vision](#langfristige-vision)
@@ -32,12 +32,10 @@
 
 ![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue) 
 
-| [![Mitgliederverwaltung: 0.4.1](https://img.shields.io/badge/Mitgliederverwaltung-0.4.1-green)](#mitgliederverwaltung-) | [Changelog](#changelog) | [Handbuch](#handbuch) | |
+|![Mitgliederverwaltung: 0.5.0](https://img.shields.io/badge/Mitgliederverwaltung-0.5.0-green) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
 |---|---|---|---|
-| [![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey)](#veranstaltungsmanagement-) | [![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)](#self-service-portal-) | [![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey)](#integration-mit-cloud-diensten-) | [![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)](#automatisierung-) |
-| [![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey)](#finanzverwaltung-) | [![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey)](#inventarverwaltung-) | [![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey)](#kommunikation-und-chat-) | [![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)](#kalender-und-terminplanung-) |
-
-
+| ![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey) | ![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)| ![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey) | ![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)
+| ![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey) | ![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey) | ![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey) | ![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)
 
 ---
 
@@ -50,15 +48,15 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 | Modul                           | Fortschritt                                                                 |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-|<img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48"> **[Mitgliederverwaltung](#mitgliederverwaltung)**| ![90%](https://progress-bar.xyz/90?title=Mitgliederverwaltung&width=300) |
-|<img src="https://github.com/user-attachments/assets/c6d55ca3-b9c5-4504-ac67-015ad67af5ff" width="48"> **[Veranstaltungsmanagement](#veranstaltungsmanagement)**| ![0%](https://progress-bar.xyz/0?title=Veranstaltungsmanagement&width=300) |
-|<img src="https://github.com/user-attachments/assets/6bd9da27-2b35-476e-b07d-561a460e0c6f" width="48"> **[Self-Service-Portal](#self-service-portal)**| ![0%](https://progress-bar.xyz/0?title=Self-Service-Portal&width=300) |
-|<img src="https://github.com/user-attachments/assets/4041d589-fb78-401a-87ea-b9b1f8ee73cc" width="48"> **[Integration mit Cloud-Diensten](#integration-mit-cloud-diensten)**| ![0%](https://progress-bar.xyz/0?title=Cloud-Integration&width=300) |
-|<img src="https://github.com/user-attachments/assets/8e904845-a574-4a9a-b1fe-724b45213eb2" width="48"> **[Automatisierung](#automatisierung)**| ![0%](https://progress-bar.xyz/0?title=Automatisierung&width=300) |
-|<img src="https://github.com/user-attachments/assets/6503df2d-0d20-403c-89d7-43eefc3fcc7b" width="48"> **[Finanzverwaltung](#finanzverwaltung)**| ![0%](https://progress-bar.xyz/0?title=Finanzverwaltung&width=300) |
-|<img src="https://github.com/user-attachments/assets/f74e0778-bd02-48cb-8beb-d4896227a8da" width="48"> **[Inventarverwaltung](#inventarverwaltung)**| ![0%](https://progress-bar.xyz/0?title=Inventarverwaltung&width=300) |
-|<img src="https://github.com/user-attachments/assets/0eccb399-abd4-454f-8f12-180ec7ebf984" width="48"> **[Kommunikation und Chat](#kommunikation-und-chat)**| ![0%](https://progress-bar.xyz/0?title=Kommunikation&width=300) |
-|<img src="https://github.com/user-attachments/assets/59e248f2-9fc2-403d-96ac-3431c924d56d" width="48"> **[Kalender- und Terminplanung](#kalender-und-terminplanung)**| ![0%](https://progress-bar.xyz/0?title=Kalenderplanung&width=300) |
+|<img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48"> **[Mitgliederverwaltung](#mitgliederverwaltung-)**| ![100%](https://progress-bar.xyz/100?title=Mitgliederverwaltung&width=300) |
+|<img src="https://github.com/user-attachments/assets/c6d55ca3-b9c5-4504-ac67-015ad67af5ff" width="48"> **[Veranstaltungsmanagement](#veranstaltungsmanagement-)**| ![0%](https://progress-bar.xyz/0?title=Veranstaltungsmanagement&width=300) |
+|<img src="https://github.com/user-attachments/assets/6bd9da27-2b35-476e-b07d-561a460e0c6f" width="48"> **[Self-Service-Portal](#self-service-portal-)**| ![0%](https://progress-bar.xyz/0?title=Self-Service-Portal&width=300) |
+|<img src="https://github.com/user-attachments/assets/4041d589-fb78-401a-87ea-b9b1f8ee73cc" width="48"> **[Integration mit Cloud-Diensten](#integration-mit-cloud-diensten-)**| ![0%](https://progress-bar.xyz/0?title=Cloud-Integration&width=300) |
+|<img src="https://github.com/user-attachments/assets/8e904845-a574-4a9a-b1fe-724b45213eb2" width="48"> **[Automatisierung](#automatisierung-)**| ![0%](https://progress-bar.xyz/0?title=Automatisierung&width=300) |
+|<img src="https://github.com/user-attachments/assets/6503df2d-0d20-403c-89d7-43eefc3fcc7b" width="48"> **[Finanzverwaltung](#finanzverwaltung-)**| ![0%](https://progress-bar.xyz/0?title=Finanzverwaltung&width=300) |
+|<img src="https://github.com/user-attachments/assets/f74e0778-bd02-48cb-8beb-d4896227a8da" width="48"> **[Inventarverwaltung](#inventarverwaltung-)**| ![0%](https://progress-bar.xyz/0?title=Inventarverwaltung&width=300) |
+|<img src="https://github.com/user-attachments/assets/0eccb399-abd4-454f-8f12-180ec7ebf984" width="48"> **[Kommunikation und Chat](#kommunikation-und-chat-)**| ![0%](https://progress-bar.xyz/0?title=Kommunikation&width=300) |
+|<img src="https://github.com/user-attachments/assets/59e248f2-9fc2-403d-96ac-3431c924d56d" width="48"> **[Kalender- und Terminplanung](#kalender-und-terminplanung-)**| ![0%](https://progress-bar.xyz/0?title=Kalenderplanung&width=300) |
 
 </details>
 
@@ -68,14 +66,14 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 ### **Mitgliederverwaltung** <img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48">
 <details>
-   <summary><b>Details</b></summary>
+<summary><b>Details</b></summary>
 Die Mitgliederverwaltung ist das zentrale Modul von Spherdex und bietet umfassende Funktionen zur Erfassung und Organisation von Mitgliedern.
 
-Aktuell verfügbare Funktionen:
+**Aktuell verfügbare Funktionen:**
 - <ins>Mitglieder-Datenverwaltung</ins>: Verwaltung von persönlichen Daten wie Vorname, Nachname, Geburtstag und Kontaktinformationen. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green)
 - <ins>Rollenverwaltung</ins>: Zuweisung von Rollen wie Vorsitzender, Schatzmeister oder Mitglied. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
 - <ins>Präfix- und Nummernänderung</ins>: Anpassung des Präfixes und der laufenden Nummer für Mitgliedsnummern. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
-- <ins>MultiSelect/Checkbox für Rollen</ins>: Auswahl und Anzeige von Rollen als Checkboxen oder in einem Dropdown-Menü. ![In Entwicklung](https://img.shields.io/badge/In_Entwicklung-yellow)
+- <ins>MultiSelect/Checkbox für Rollen</ins>: Auswahl und Anzeige von Rollen als Checkboxen oder in einem Dropdown-Menü, inklusive Synchronisierung und Speicherung. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green)
 - <ins>Beitragsverwaltung</ins>: Verwaltung und Nachverfolgung von Mitgliedsbeiträgen und offenen Zahlungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - <ins>Berichte und Statistiken</ins>: Erstellung von Analysen und Übersichten zur Mitgliedschaft und Beitragszahlungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - <ins>Geburtstagsbenachrichtigung</ins>: Automatischer Versand von Geburtstagsgrüßen per E-Mail. ![In Entwicklung](https://img.shields.io/badge/In_Entwicklung-yellow)
@@ -83,22 +81,22 @@ Aktuell verfügbare Funktionen:
 
 Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht eine präzise Verwaltung aller Vereinsmitglieder.
 </details>
+
 <details>
 <summary><b>Roadmap</b></summary>
 
 #### Aktueller Stand
-- Version: 0.4.1
-- Status: In aktiver Entwicklung
-- Ziel: Fertigstellung und Veröffentlichung der Mitgliederverwaltung als eigenständiges, stabiles Modul (Version 1.0.0).
+- **Version:** 0.5.0
+- **Status:** In aktiver Entwicklung
+- **Ziel:** Stabilisierung und Vorbereitung für Version 1.0.0.
 
-#### Geplante Funktionen und Fortschritt
-
+#### Fortschritt
 | Funktion                          | Status                  | Fortschritt                                                                 |
 |-----------------------------------|-------------------------|-----------------------------------------------------------------------------|
 | **Mitglieder-Datenverwaltung**    | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Datenverwaltung&width=300)      |
 | **Rollenverwaltung**              | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Rollenverwaltung&width=300)     |
 | **Präfix- und Nummernänderung**   | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Pr%C3%A4fix-%26-Nummerierung&width=300) |
-| **MultiSelect/Checkbox für Rollen** | **In Entwicklung**    | ![90%](https://progress-bar.xyz/90?title=MultiSelect-%2F-Checkbox&width=300) |
+| **MultiSelect/Checkbox für Rollen** | **Umgesetzt**          | ![100%](https://progress-bar.xyz/100?title=MultiSelect-%2F-Checkbox&width=300) |
 | **Beitragsverwaltung**            | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Beitragsverwaltung&width=300)       |
 | **Berichte und Statistiken**      | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Berichte+%26+Statistiken&width=300) |
 | **Geburtstagsbenachrichtigung**   | **In Entwicklung**      | ![10%](https://progress-bar.xyz/10?title=Geburtstagsbenachrichtigung&width=300) |
@@ -395,6 +393,17 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 ---
 
 ## Changelog
+
+<details>
+<summary><b>Version 0.5.0</b></summary>
+
+   - ![Neu](https://img.shields.io/badge/Neu-Announcement-brightgreen) Fertigstellung der MultiSelect-/Checkbox-Funktionalität mit Synchronisierung und Speicherung.
+   - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Fehler bei der Anzeige und Speicherung von Rollen wurden behoben.
+   - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Verbesserung der Sichtbarkeitssteuerung basierend auf den Einstellungen.
+   - ![Optimierung](https://img.shields.io/badge/Optimierung-Improvement-yellow) Code-Struktur verbessert und Datenflüsse optimiert.
+
+</details>
+
 
 <details>
 <summary><b>Version 0.4.1</b></summary>
