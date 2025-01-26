@@ -163,7 +163,8 @@ Folgt bald
 ### **Self-Service-Portal** <img src="https://github.com/user-attachments/assets/6bd9da27-2b35-476e-b07d-561a460e0c6f" width="48">
 <details>
    <summary><b>Details</b></summary>
-Das Self-Service-Portal ermöglicht:
+
+   Das Self-Service-Portal ermöglicht:
 - Datenzugriff: Mitglieder können ihre persönlichen Informationen einsehen und bearbeiten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Dashboards: Individualisierbare Übersicht für Mitglieder. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Zugriff auf Dokumente:** Mitglieder können Rechnungen und Bescheinigungen herunterladen.![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
@@ -177,7 +178,8 @@ Folgt bald
 ### Integration mit Cloud-Diensten <img src="https://github.com/user-attachments/assets/4041d589-fb78-401a-87ea-b9b1f8ee73cc" width="48">
 <details>
    <summary><b>Details</b></summary>
-Dieses Modul integriert die Software nahtlos mit Cloud-Lösungen:
+
+   Dieses Modul integriert die Software nahtlos mit Cloud-Lösungen:
 - Dateiverwaltung: Automatische Synchronisation mit Nextcloud. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Benutzerverwaltung: Erstellung von Cloud-Accounts direkt über die Software. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Automatische Backups: Regelmäßige Sicherung von Daten in der Cloud. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
@@ -191,7 +193,8 @@ Folgt bald
 ### Automatisierung <img src="https://github.com/user-attachments/assets/8e904845-a574-4a9a-b1fe-724b45213eb2" width="48">
 <details>
    <summary><b>Details</b></summary>
-Automatisierung reduziert manuellen Aufwand:
+
+   Automatisierung reduziert manuellen Aufwand:
 - Benachrichtigungen:** Erinnerungen zu Geburtstagen, Zahlungen und Fristen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Zeitgesteuerte Aktionen:** Versand von Nachrichten und Reports zu festgelegten Zeiten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 -  Workflows:** Automatische Abläufe für häufige Aufgaben. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
@@ -205,7 +208,8 @@ Folgt bald
 ### Finanzverwaltung <img src="https://github.com/user-attachments/assets/6503df2d-0d20-403c-89d7-43eefc3fcc7b" width="48">
 <details>
    <summary><b>Details</b></summary>
-Die Finanzverwaltung bietet:
+
+   Die Finanzverwaltung bietet:
 - Einnahmen und Ausgaben: Detaillierte Nachverfolgung aller finanziellen Aktivitäten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Spendenmanagement: Erstellung und Verwaltung von Spendenquittungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Berichte: Steuerkonforme Jahresabschlüsse. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
@@ -219,7 +223,8 @@ Folgt bald
 ### Inventarverwaltung <img src="https://github.com/user-attachments/assets/f74e0778-bd02-48cb-8beb-d4896227a8da" width="48"> 
 <details>
    <summary><b>Details</b></summary>
-Dieses Modul hilft bei der Verwaltung von Ressourcen:
+
+   Dieses Modul hilft bei der Verwaltung von Ressourcen:
 - Materialübersicht: Bestandsverwaltung von Technik, Kostümen und Materialien. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Reservierungen: Zuweisung von Ressourcen zu Veranstaltungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Bestandswarnungen: Automatische Benachrichtigungen bei niedrigem Bestand. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
@@ -233,7 +238,8 @@ Folgt bald
 ### Kommunikation und Chat <img src="https://github.com/user-attachments/assets/0eccb399-abd4-454f-8f12-180ec7ebf984" width="48">
 <details>
    <summary><b>Details</b></summary>
-Das Modul Kommunikation und Chat ermöglicht: 
+
+   Das Modul Kommunikation und Chat ermöglicht: 
 - Interne Kommunikation: Nachrichten und Diskussionen innerhalb des Teams. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Broadcast-Nachrichten: Einfache Kommunikation mit allen Mitgliedern. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - E-Mail-Integration: Versand von Benachrichtigungen direkt aus der Software. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
@@ -247,7 +253,8 @@ Folgt bald
 ### Kalender- und Terminplanung <img src="https://github.com/user-attachments/assets/59e248f2-9fc2-403d-96ac-3431c924d56d" width="48">
 <details>
    <summary><b>Details</b></summary>
-Zur Optimierung von Zeitplänen:
+
+   Zur Optimierung von Zeitplänen:
 - Kalendersynchronisation: Verbindung mit externen Kalenderdiensten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Gruppenkalender: Übersicht über gemeinsame Termine. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Erinnerungen: Automatische Benachrichtigungen zu wichtigen Terminen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
