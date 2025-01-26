@@ -178,6 +178,6 @@ Die Dokumentation zu Spherdex wird kontinuierlich erweitert. Der Fortschritt der
 <details>
 <summary><b>Version 0.4.1</b></summary>
 ### Änderungen in Version 0.9.1
-- [Behoben] Das Feld "Standard Rollen-Anzeigemodus" hat nach der Installation keinen Standardwert angezeigt.
-- [Neu] Beispielrollen werden jetzt korrekt installiert.
+</br>- [Behoben] Das Feld "Standard Rollen-Anzeigemodus" hat nach der Installation keinen Standardwert angezeigt.
+</br>- [Neu] Beispielrollen werden jetzt korrekt installiert.
 </details>
