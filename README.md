@@ -62,6 +62,9 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 ---
 
+> [!CAUTION]
+> BUG: Button in den Einstellung verursachen Inkonsistenzen
+
 ## **Details zu den Modulen**
 
 ### **Mitgliederverwaltung** <img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48">
