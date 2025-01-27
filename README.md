@@ -62,9 +62,6 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 ---
 
-> [!CAUTION]
-> BUG: Button in den Einstellung verursachen Inkonsistenzen
-
 ## **Details zu den Modulen**
 
 ### **Mitgliederverwaltung** <img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48">
@@ -396,6 +393,16 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 ---
 
 ## Changelog
+
+<details>
+<summary><b>Version 0.5.1</b></summary>
+
+- ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Seriennummernverwaltung: Probleme mit dem Neusetzen und Abrufen der aktuellen Seriennummer behoben.
+- ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Präfix- und Nummernänderung: Fehler bei der Formatierung von Mitgliedsnamen korrigiert.
+- ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Initialenberechnung: Fehlerhafte Generierung von Initialen wurde bereinigt.
+- ![Optimierung](https://img.shields.io/badge/Optimierung-Improvement-yellow) Debugging-Nachrichten aus dem Code entfernt.
+
+</details>
 
 <details>
 <summary><b>Version 0.5.0</b></summary>
