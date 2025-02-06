@@ -395,6 +395,22 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 ## Changelog
 
 <details>
+<summary><b>Version 0.5.2</b></summary>
+
+- ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Manuelle und automatische Sperrfunktion verbessert: Sperren und Entsperren funktioniert nun zuverlässig.  
+- ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Sperrprotokoll überarbeitet:  
+  - Sperrgründe (manuell oder automatisch) werden nun gespeichert.  
+  - Begrenzung auf eine festgelegte Anzahl an Einträgen mit Blätterfunktion (5, 10, 100, Alle).  
+  - Löschen-Button für das Sperrprotokoll hinzugefügt.  
+- ![Optimierung](https://img.shields.io/badge/Optimierung-Improvement-yellow) UI-Verbesserungen:  
+  - Die Buttons für die Sperrprotokoll-Navigation werden jetzt oben und unten angezeigt.  
+  - UI-Änderungen lösen kein unerwünschtes „Speichern“-Popup mehr aus.  
+- ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Protokoll wurde vorher mit idx = 1 gespeichert – jetzt wird es korrekt nummeriert.  
+
+</details>
+
+
+<details>
 <summary><b>Version 0.5.1</b></summary>
 
 - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Seriennummernverwaltung: Probleme mit dem Neusetzen und Abrufen der aktuellen Seriennummer behoben.
