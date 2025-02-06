@@ -18,7 +18,8 @@ app_license = "agpl-3.0"
 # include js in doctype views
 doctype_js = {
     "Mitgliederverwaltung Einstellungen": "public/js/mitgliederverwaltung_einstellungen.js",
-    "Mitglied": "public/js/mitglied.js"
+    "Mitglied": "public/js/mitglied.js",
+    "Admin Einstellungen": "public/js/admin_einstellungen.js"
 }
 
 # Document Events
@@ -29,6 +30,15 @@ doctype_js = {
 #        "on_trash": "spherdex.global_scripts.member_management.handle_member_deletion"
 #    }
 #}
+
+doc_events = {
+    "*": {  # Gilt für alle Doctypes
+        "before_save": "spherdex.global_scripts.utils.validate_database_lock",
+        "before_submit": "spherdex.global_scripts.utils.validate_database_lock",
+        "before_cancel": "spherdex.global_scripts.utils.validate_database_lock",
+        "before_delete": "spherdex.global_scripts.utils.validate_database_lock"
+    }
+}
 
 # Scheduled Tasks
 # ---------------
