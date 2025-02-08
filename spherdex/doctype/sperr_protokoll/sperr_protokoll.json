@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-05 22:23:26.040969",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "zeitpunkt",
+  "aktion",
+  "benutzer",
+  "sperrgrund"
+ ],
+ "fields": [
+  {
+   "fieldname": "zeitpunkt",
+   "fieldtype": "Datetime",
+   "in_standard_filter": 1,
+   "label": "Zeitpunkt"
+  },
+  {
+   "fieldname": "aktion",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Aktion",
+   "options": "Sperre aktiviert\nSperre deaktiviert"
+  },
+  {
+   "fieldname": "benutzer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Benutzer"
+  },
+  {
+   "fieldname": "sperrgrund",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Sperrgrund",
+   "options": "Manuell\nAutomatisch"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-02-05 22:26:33.494642",
+ "modified_by": "Administrator",
+ "module": "Spherdex",
+ "name": "Sperr Protokoll",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

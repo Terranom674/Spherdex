@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-02-05 11:00:51.773606",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "datenbank_gesperrt",
+  "automatische_sperre",
+  "active_user",
+  "sperr_protokoll"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "datenbank_gesperrt",
+   "fieldtype": "Check",
+   "label": "Datenbank gesperrt"
+  },
+  {
+   "default": "0",
+   "fieldname": "automatische_sperre",
+   "fieldtype": "Check",
+   "hidden": 1,
+   "label": "Automatische Sperre"
+  },
+  {
+   "fieldname": "active_user",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Aktiver Benutzer"
+  },
+  {
+   "fieldname": "sperr_protokoll",
+   "fieldtype": "Table",
+   "label": "Sperrprotokoll",
+   "options": "Sperr Protokoll",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-02-06 10:59:04.896892",
+ "modified_by": "Administrator",
+ "module": "Spherdex",
+ "name": "Admin Einstellungen",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
