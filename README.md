@@ -401,7 +401,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 ## Changelog
 
 <details>
-<summary><b>Version 0.5.3</b></summary>
+<summary><b>Version 0.6.0</b></summary>
 
 - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Mitgliederexport als CSV implementiert:  
   - Auswahl individueller Spalten für den Export.  
@@ -421,7 +421,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 </details>
 
 <details>
-<summary><b>Version 0.6.0</b></summary>
+<summary><b>Version 0.5.2</b></summary>
 
 - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Manuelle und automatische Sperrfunktion verbessert: Sperren und Entsperren funktioniert nun zuverlässig.  
 - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Sperrprotokoll überarbeitet:  
