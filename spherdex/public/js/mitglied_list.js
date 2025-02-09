@@ -7,29 +7,42 @@ frappe.listview_settings['Mitglied'] = {
         function addDownloadButton(file_url) {
             lastFileUrl = file_url;
             if (!downloadButton) {
-                downloadButton = listview.page.add_inner_button(__('📥 CSV herunterladen'), function() {
-                    window.open(lastFileUrl, "_blank");
-
-                    // 🔥 Datei NACH dem Download löschen
-                    setTimeout(() => {
-                        frappe.call({
-                            method: "spherdex.mitgliederverwaltung.doctype.mitglied.mitglied.delete_export_files",
-                            callback: function(r) {
-                                console.log("🗑 Dateien gelöscht:", r.message);
-                                if (downloadButton) {
-                                    downloadButton.hide();
-                                }
-                            }
-                        });
-                    }, 5000);  // Sicherstellen, dass die Datei erst nach Download gelöscht wird
+                downloadButton = listview.page.add_inner_button(__('📥 Datei herunterladen'), function() {
+                    triggerDownload(lastFileUrl);
                 });
                 downloadButton.hide();
             }
             downloadButton.show();
         }
 
-        // 📌 **Export-Button für den Start**
-        listview.page.add_inner_button(__('CSV Export'), function() {
+        // 📌 **Erzwingt "Speichern unter"-Dialog & löscht Datei erst nach Speichern**
+        function triggerDownload(url) {
+            let a = document.createElement("a");
+            a.href = url;
+            a.download = url.split('/').pop();  // Erzwingt "Speichern unter"
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+
+            console.log("📥 Datei wurde gespeichert – Löschung beginnt...");
+
+            // 🔥 Datei jetzt endgültig vom Server löschen
+            frappe.call({
+                method: "spherdex.global_scripts.export_utils.delete_export_files",
+                callback: function(r) {
+                    console.log("🗑 Datei gelöscht nach Speicherung:", r.message);
+                    if (downloadButton) {
+                        downloadButton.hide();
+                    }
+                },
+                error: function(err) {
+                    console.error("❌ Fehler beim Löschen:", err);
+                }
+            });
+        }
+
+        // 📌 **Export-Button mit allen Formaten**
+        listview.page.add_inner_button(__('📤 Export starten'), function() {
             let dialog = new frappe.ui.Dialog({
                 title: 'Mitglieder-Export',
                 fields: [
@@ -46,17 +59,17 @@ frappe.listview_settings['Mitglied'] = {
                       ] 
                     },
                     { fieldname: 'only_active', fieldtype: 'Check', label: 'Nur aktive Mitglieder' },
-                    { fieldname: 'since_date', fieldtype: 'Date', label: 'Eintrittsdatum ab' }
+                    { fieldname: 'file_format', fieldtype: 'Select', label: 'Exportformat', 
+                      options: ['csv', 'xlsx', 'docx', 'pdf', 'txt'], default: 'csv' }
                 ],
                 primary_action_label: 'Export starten',
                 primary_action(values) {
-                    console.log("📤 Sende Export-Request mit:", values);
+                    console.log("📤 Export wird gestartet mit Werten:", values);
 
                     frappe.call({
-                        method: "spherdex.mitgliederverwaltung.doctype.mitglied.mitglied.export_members_csv_async",
+                        method: "spherdex.global_scripts.export_utils.export_data_async",
                         args: values,
                         callback: function(r) {
-                            console.log("📩 Antwort erhalten:", r);
                             if (r.message.status === "Export gestartet") {
                                 frappe.msgprint("Export wurde gestartet. Sie erhalten eine Benachrichtigung, sobald die Datei fertig ist.");
                             } else {
@@ -97,19 +110,13 @@ frappe.listview_settings['Mitglied'] = {
 
                 // 📌 **Löschung auch über Klick auf Link ausführen**
                 setTimeout(() => {
-                    document.getElementById("exportDownloadLink").addEventListener("click", function() {
-                        setTimeout(() => {
-                            frappe.call({
-                                method: "spherdex.mitgliederverwaltung.doctype.mitglied.mitglied.delete_export_files",
-                                callback: function(r) {
-                                    console.log("🗑 Dateien gelöscht nach Link-Klick:", r.message);
-                                    if (downloadButton) {
-                                        downloadButton.hide();
-                                    }
-                                }
-                            });
-                        }, 5000);
-                    });
+                    let downloadLink = document.getElementById("exportDownloadLink");
+                    if (downloadLink) {
+                        downloadLink.addEventListener("click", function(event) {
+                            event.preventDefault();  // Direktes Öffnen verhindern
+                            triggerDownload(file_url);
+                        });
+                    }
                 }, 1000);
             } else {
                 frappe.show_alert({
