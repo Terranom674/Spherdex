@@ -81,34 +81,51 @@ def export_members_csv_async(fields="[]", only_active="false"):
 
 @frappe.whitelist()
 def export_members_csv(fields="[]", only_active="false"):
-    """CSV-Export mit Fortschrittsanzeige und Bereinigung alter Dateien."""
+    """CSV-Export mit echten Mitgliedsdaten."""
     fields = json.loads(fields)
     only_active = only_active.lower() == "true"
 
-    # ✅ Cache-Variable initialisieren
     frappe.cache().set_value("export_ready", False)
 
-    filename = f"Mitgliederliste_export.csv"
+    filename = "Mitgliederliste_export.csv"
     temp_dir = tempfile.gettempdir()
     file_path = os.path.join(temp_dir, filename)
 
     try:
         frappe.logger().info(f"📂 Speichere Datei in temporärem Ordner: {file_path}")
 
+        # ✅ Datenbankabfrage: Mitglieder mit den ausgewählten Feldern abrufen
+        filters = {"status": "Aktiv"} if only_active else {}
+        mitglieder = frappe.get_all("Mitglied", filters=filters, fields=fields)
+
+        # ✅ Datei schreiben
         with open(file_path, mode="w", newline="", encoding="utf-8") as file:
             writer = csv.writer(file)
-            writer.writerow(["Test", "Daten"])
 
-        file_doc = save_file(filename, file_path, "Mitglied", "Mitgliederliste-Export", is_private=1)
+            # ✅ Spaltenüberschriften aus den Feldern schreiben
+            writer.writerow(fields)
+
+            # ✅ Mitgliedsdaten einfügen
+            for mitglied in mitglieder:
+                writer.writerow([mitglied[field] for field in fields])
+
+        # ✅ Dateiinhalt als Bytes laden
+        with open(file_path, mode="rb") as file:
+            file_content = file.read()
+
+        # ✅ Datei in ERPNext speichern
+        file_doc = save_file(filename, file_content, "Mitglied", "Mitgliederliste-Export", is_private=1)
+
+        # ✅ Temporäre Datei löschen
         os.remove(file_path)
 
         frappe.logger().info(f"✅ Export abgeschlossen: {file_doc.file_url}")
         frappe.publish_realtime("export_complete", {"status": "success", "file_url": file_doc.file_url})
 
-        # ✅ Datei erfolgreich erstellt → Cache setzen
         frappe.cache().set_value("export_ready", True)
 
         return file_doc.file_url
+
     except Exception as e:
         frappe.logger().error(f"❌ Fehler beim Schreiben der Datei: {str(e)}")
         frappe.throw(_("Fehler beim Export: {0}").format(str(e)))
