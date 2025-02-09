@@ -32,7 +32,7 @@
 
 ![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue) 
 
-|[![Mitgliederverwaltung: 0.5.3](https://img.shields.io/badge/Mitgliederverwaltung-0.5.3-green)](#mitgliederverwaltung-) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
+|[![Mitgliederverwaltung: 0.6.0](https://img.shields.io/badge/Mitgliederverwaltung-0.6.0-green)](#mitgliederverwaltung-) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
 |---|---|---|---|
 | [![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey)](#veranstaltungsmanagement-) | [![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)](#self-service-portal-) | [![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey)](#integration-mit-cloud-diensten-) | [![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)](#automatisierung-)
 | [![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey)](#finanzverwaltung-) | [![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey)](#inventarverwaltung-) | [![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey)](#kommunikation-und-chat-) | [![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)](#kalender-und-terminplanung-)
@@ -87,7 +87,7 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 <summary><b>Roadmap</b></summary>
 
 #### Aktueller Stand
-- **Version:** 0.5.3
+- **Version:** 0.6.0
 - **Status:** In aktiver Entwicklung
 - **Ziel:** Stabilisierung und Vorbereitung für Version 1.0.0.
 
@@ -421,7 +421,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 </details>
 
 <details>
-<summary><b>Version 0.5.2</b></summary>
+<summary><b>Version 0.6.0</b></summary>
 
 - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Manuelle und automatische Sperrfunktion verbessert: Sperren und Entsperren funktioniert nun zuverlässig.  
 - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Sperrprotokoll überarbeitet:  
