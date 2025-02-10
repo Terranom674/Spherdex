@@ -1,96 +1,164 @@
 frappe.ui.form.on('Mitglied', {
     refresh: function (frm) {
-        // Abrufen der Einstellung für den Anzeigemodus
-        frappe.call({
-            method: 'spherdex.global_scripts.utils.get_settings',
-            callback: function (r) {
-                if (r.message) {
-                    const anzeigenmodus = r.message.default_anzeigenmodus;
-
-                    // Rollen abrufen und Felder initialisieren
+        if (!frm.is_new()) {
+            // 📥 Export-Button für Einzelmitglied
+            frm.add_custom_button(__('📥 Mitgliedsakte exportieren'), function() {
+                frappe.prompt([
+                    {
+                        fieldname: "format",
+                        label: "Exportformat",
+                        fieldtype: "Select",
+                        options: ["PDF", "CSV", "DOCX", "XLSX", "TXT"],
+                        default: "PDF"
+                    }
+                ], function(values) {
                     frappe.call({
-                        method: 'spherdex.global_scripts.utils.fetch_roles',
-                        callback: function (res) {
-                            if (res.message && Array.isArray(res.message)) {
-                                const rollen = res.message;
-
-                                // Aktuelle Werte aus rollen_werte laden
-                                const selectedRoles = frm.doc.rollen_werte
-                                    ? frm.doc.rollen_werte.split(', ').map(role => role.trim())
-                                    : [];
-
-                                // Checkboxen initialisieren
-                                const checkboxContainer = $(frm.fields_dict.rollen_checkboxes.wrapper).empty();
-                                let checkboxHtml = '<div class="roles-container">';
-                                rollen.forEach(role => {
-                                    const isChecked = selectedRoles.includes(role.rollenname) ? 'checked' : '';
-                                    checkboxHtml += `
-                                        <div>
-                                            <input type="checkbox" id="${role.name}" name="rollen" value="${role.rollenname}" ${isChecked}>
-                                            <label for="${role.name}">${role.rollenname}</label>
-                                        </div>
-                                    `;
+                        method: "spherdex.global_scripts.export_utils.export_data_async",
+                        args: {
+                            member_id: frm.doc.name,  // ✅ Falls gesetzt, wird nur dieses Mitglied exportiert
+                            file_format: values.format.toLowerCase()
+                        },
+                        callback: function(r) {
+                            if (r.message.status === "Export gestartet") {
+                                frappe.show_alert({
+                                    message: "Export wurde gestartet. Sie erhalten eine Benachrichtigung, sobald die Datei fertig ist.",
+                                    indicator: "blue"
                                 });
-                                checkboxHtml += '</div>';
-                                checkboxContainer.html(checkboxHtml);
-
-                                // MultiSelect initialisieren
-                                const multiSelectContainer = $(frm.fields_dict.rollen_multiselect.wrapper).empty();
-                                let multiSelectHtml = '<select multiple="multiple" style="width:100%;">';
-                                rollen.forEach(role => {
-                                    const isSelected = selectedRoles.includes(role.rollenname) ? 'selected' : '';
-                                    multiSelectHtml += `<option value="${role.rollenname}" ${isSelected}>${role.rollenname}</option>`;
-                                });
-                                multiSelectHtml += '</select>';
-                                multiSelectContainer.html(multiSelectHtml);
-
-                                // Sichtbarkeit basierend auf der Einstellung steuern
-                                if (anzeigenmodus === 'Checkbox') {
-                                    frm.fields_dict.rollen_checkboxes.df.hidden = 0;
-                                    frm.fields_dict.rollen_multiselect.df.hidden = 1;
-                                } else if (anzeigenmodus === 'MultiSelect') {
-                                    frm.fields_dict.rollen_checkboxes.df.hidden = 1;
-                                    frm.fields_dict.rollen_multiselect.df.hidden = 0;
-                                }
-
-                                frm.refresh_field('rollen_checkboxes');
-                                frm.refresh_field('rollen_multiselect');
-
-                                // Synchronisierung der Auswahl
-                                setupSynchronization(frm);
                             } else {
-                                console.error("Keine Rollen verfügbar oder API-Fehler:", res.message);
+                                frappe.msgprint("Fehler beim Export.");
                             }
                         }
                     });
-                } else {
-                    console.error("Fehler beim Abrufen der Einstellungen:", r.message);
-                }
-            }
-        });
-    },
-    before_save: function (frm) {
-        // Rollen aus dem aktiven Feld in rollen_werte synchronisieren
-        let selectedRoles = [];
-        if (frm.fields_dict.rollen_checkboxes.df.hidden === 0) {
-            // Checkbox-Feld ist sichtbar
-            $(frm.fields_dict.rollen_checkboxes.wrapper)
-                .find('input[type="checkbox"]:checked')
-                .each(function () {
-                    selectedRoles.push($(this).val());
-                });
-        } else if (frm.fields_dict.rollen_multiselect.df.hidden === 0) {
-            // MultiSelect-Feld ist sichtbar
-            selectedRoles = $(frm.fields_dict.rollen_multiselect.wrapper).find('select').val() || [];
+                }, __("Exportoptionen"), __("Export starten"));
+            }).addClass("btn-primary");
         }
 
-        // Setze die Werte in das Hidden Field
-        frm.set_value('rollen_werte', selectedRoles.join(', '));
+        // 🔔 Echtzeit-Event für Export-Abschluss
+        frappe.realtime.on("export_complete", (data) => {
+            console.log("🔔 Export abgeschlossen:", data);
+            if (data.status === "success") {
+                let file_url = data.file_url;
+
+                // 🆕 Download-Button nach Export einfügen
+                if (!frm.fields_dict.export_download_section) {
+                    frm.add_custom_button(__('📥 Datei herunterladen'), function() {
+                        window.open(file_url, "_blank");
+                    }).addClass("btn-success");
+                }
+
+                // 📥 Benachrichtigung mit Download-Link
+                frappe.show_alert({
+                    message: `📥 <b>Export abgeschlossen!</b> <br>
+                        <a href="${file_url}" target="_blank" id="exportDownloadLink"
+                           style="color: blue; font-weight: bold;">👉 Datei herunterladen</a>`,
+                    indicator: 'green'
+                }, 10);
+
+                // 🗑 Datei wird erst nach erfolgreichem Download gelöscht
+                setTimeout(() => {
+                    document.getElementById("exportDownloadLink").addEventListener("click", function() {
+                        setTimeout(() => {
+                            frappe.call({
+                                method: "spherdex.global_scripts.export_utils.delete_export_files",
+                                callback: function(r) {
+                                    console.log("🗑 Dateien gelöscht:", r.message);
+                                }
+                            });
+                        }, 5000);
+                    });
+                }, 1000);
+            } else {
+                frappe.show_alert({
+                    message: `❌ Fehler beim Export: ${data.message}`,
+                    indicator: 'red'
+                }, 10);
+            }
+        });
+
+        // 🔄 Bestehende UI-Initialisierung beibehalten
+        setupMemberUI(frm);
+    },
+    before_save: function (frm) {
+        syncRoles(frm);
     }
 });
 
+// 🔄 Bestehende UI- & Rollen-Funktionen
+function setupMemberUI(frm) {
+    frappe.call({
+        method: 'spherdex.global_scripts.utils.get_settings',
+        callback: function (r) {
+            if (r.message) {
+                const anzeigenmodus = r.message.default_anzeigenmodus;
+                loadRoles(frm, anzeigenmodus);
+            }
+        }
+    });
+}
+
+function loadRoles(frm, anzeigenmodus) {
+    frappe.call({
+        method: 'spherdex.global_scripts.utils.fetch_roles',
+        callback: function (res) {
+            if (res.message && Array.isArray(res.message)) {
+                setupRoleFields(frm, res.message, anzeigenmodus);
+            }
+        }
+    });
+}
+
+function setupRoleFields(frm, rollen, anzeigenmodus) {
+    const selectedRoles = frm.doc.rollen_werte
+        ? frm.doc.rollen_werte.split(', ').map(role => role.trim())
+        : [];
+
+    const checkboxContainer = $(frm.fields_dict.rollen_checkboxes.wrapper).empty();
+    let checkboxHtml = '<div class="roles-container">';
+    rollen.forEach(role => {
+        const isChecked = selectedRoles.includes(role.rollenname) ? 'checked' : '';
+        checkboxHtml += `
+            <div>
+                <input type="checkbox" id="${role.name}" name="rollen" value="${role.rollenname}" ${isChecked}>
+                <label for="${role.name}">${role.rollenname}</label>
+            </div>
+        `;
+    });
+    checkboxHtml += '</div>';
+    checkboxContainer.html(checkboxHtml);
+
+    const multiSelectContainer = $(frm.fields_dict.rollen_multiselect.wrapper).empty();
+    let multiSelectHtml = '<select multiple="multiple" style="width:100%;">';
+    rollen.forEach(role => {
+        const isSelected = selectedRoles.includes(role.rollenname) ? 'selected' : '';
+        multiSelectHtml += `<option value="${role.rollenname}" ${isSelected}>${role.rollenname}</option>`;
+    });
+    multiSelectHtml += '</select>';
+    multiSelectContainer.html(multiSelectHtml);
+
+    frm.fields_dict.rollen_checkboxes.df.hidden = (anzeigenmodus !== 'Checkbox') ? 1 : 0;
+    frm.fields_dict.rollen_multiselect.df.hidden = (anzeigenmodus !== 'MultiSelect') ? 1 : 0;
+
+    frm.refresh_field('rollen_checkboxes');
+    frm.refresh_field('rollen_multiselect');
+
+    setupSynchronization(frm);
+}
+
+function syncRoles(frm) {
+    let selectedRoles = [];
+    if (frm.fields_dict.rollen_checkboxes.df.hidden === 0) {
+        $(frm.fields_dict.rollen_checkboxes.wrapper)
+            .find('input[type="checkbox"]:checked')
+            .each(function () {
+                selectedRoles.push($(this).val());
+            });
+    } else if (frm.fields_dict.rollen_multiselect.df.hidden === 0) {
+        selectedRoles = $(frm.fields_dict.rollen_multiselect.wrapper).find('select').val() || [];
+    }
+    frm.set_value('rollen_werte', selectedRoles.join(', '));
+}
+
 function setupSynchronization(frm) {
-    // Synchronisierung von Checkbox -> MultiSelect
     $(frm.fields_dict.rollen_checkboxes.wrapper).on('change', 'input[type="checkbox"]', function () {
         const selectedValues = [];
         $(frm.fields_dict.rollen_checkboxes.wrapper)
@@ -99,12 +167,9 @@ function setupSynchronization(frm) {
                 selectedValues.push($(this).val());
             });
 
-        // Setze Auswahl im MultiSelect
-        const multiSelect = $(frm.fields_dict.rollen_multiselect.wrapper).find('select');
-        multiSelect.val(selectedValues).trigger('change');
+        $(frm.fields_dict.rollen_multiselect.wrapper).find('select').val(selectedValues).trigger('change');
     });
 
-    // Synchronisierung von MultiSelect -> Checkbox
     $(frm.fields_dict.rollen_multiselect.wrapper).on('change', 'select', function () {
         const selectedValues = $(this).val() || [];
         $(frm.fields_dict.rollen_checkboxes.wrapper)

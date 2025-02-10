@@ -32,7 +32,7 @@
 
 ![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue) 
 
-|[![Mitgliederverwaltung: 0.6.1](https://img.shields.io/badge/Mitgliederverwaltung-0.6.1-green)](#mitgliederverwaltung-) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
+|[![Mitgliederverwaltung: 0.6.2](https://img.shields.io/badge/Mitgliederverwaltung-0.6.2-green)](#mitgliederverwaltung-) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
 |---|---|---|---|
 | [![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey)](#veranstaltungsmanagement-) | [![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)](#self-service-portal-) | [![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey)](#integration-mit-cloud-diensten-) | [![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)](#automatisierung-)
 | [![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey)](#finanzverwaltung-) | [![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey)](#inventarverwaltung-) | [![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey)](#kommunikation-und-chat-) | [![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)](#kalender-und-terminplanung-)
@@ -87,7 +87,7 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 <summary><b>Roadmap</b></summary>
 
 #### Aktueller Stand
-- **Version:** 0.6.1
+- **Version:** 0.6.2
 - **Status:** In aktiver Entwicklung
 - **Ziel:** Stabilisierung und Vorbereitung für Version 1.0.0.
 
@@ -98,7 +98,7 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 | **Rollenverwaltung**              | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Rollenverwaltung&width=300)     |
 | **Präfix- und Nummernänderung**   | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Pr%C3%A4fix-%26-Nummerierung&width=300) |
 | **MultiSelect/Checkbox für Rollen** | **Umgesetzt**          | ![100%](https://progress-bar.xyz/100?title=MultiSelect-%2F-Checkbox&width=300) |
-| **Mitgliederexport/import**        | **In Entwicklung**           | ![45%](https://progress-bar.xyz/45?title=Mitgliederexport&width=300) |
+| **Mitgliederexport/import**        | **In Entwicklung**           | ![50%](https://progress-bar.xyz/50?title=Mitgliederexport&width=300) |
 | **Beitragsverwaltung**            | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Beitragsverwaltung&width=300)       |
 | **Berichte und Statistiken**      | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Berichte+%26+Statistiken&width=300) |
 | **Geburtstagsbenachrichtigung**   | **In Entwicklung**      | ![10%](https://progress-bar.xyz/10?title=Geburtstagsbenachrichtigung&width=300) |
@@ -399,6 +399,28 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 ---
 
 ## Changelog
+
+<details>
+<summary><b>Version 0.6.2</b></summary>
+
+   - ![Verbessert](https://img.shields.io/badge/Verbessert-Export-orange) Dynamischer Export für Einzelmitglieder:
+     - Alle zugehörigen Daten eines Mitglieds werden nun automatisch erkannt und exportiert.
+     - Hochformat (`portrait`) für Einzelmitglied-Exporte eingeführt.
+     - Tabellen werden auf mehrere Seiten umgebrochen, falls sie zu groß sind.
+   
+   - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) UI-Verbesserungen:
+     - Download-Button erscheint nun direkt nach Abschluss des Exports.
+     - Echtzeit-Benachrichtigung für abgeschlossene Exporte verbessert.
+   
+   - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Datei-Löschmechanismus angepasst:
+     - Dateien werden erst nach erfolgreichem Download entfernt.
+     - Verhindert das versehentliche Löschen noch nicht heruntergeladener Dateien.
+   
+   - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Export-Formatierung überarbeitet:
+     - PDF-Tabellen sind nun lesbarer und besser strukturiert.
+     - Zeilenumbrüche und Feldnamen werden korrekt dargestellt.
+
+</details>
 
 <details>
 <summary><b>Version 0.6.1</b></summary>
