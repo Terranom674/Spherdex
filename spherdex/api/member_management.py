@@ -1,13 +1,15 @@
 import frappe
-from spherdex.global_scripts.utils import set_database_lock
+from spherdex.utils.utils import set_database_lock
 
+@frappe.whitelist()
 def reset_series(prefix):
     """Setzt die Seriennummer für ein Präfix auf 0."""
     frappe.db.sql(
         "UPDATE `tabSeries` SET `current` = 0 WHERE `name` = %s",
         (prefix,)
     )
-
+    
+@frappe.whitelist()
 def rebuild_database_with_temp(new_prefix, new_format, renumber=False):
     """Leert die Haupttabelle und baut sie basierend auf einer temporären Tabelle neu auf."""
     
@@ -131,6 +133,7 @@ def install_standard_roles():
     settings = frappe.get_single("Mitgliederverwaltung Einstellungen")
     with_database_lock(settings, _install_roles)
 
+@frappe.whitelist()
 def _install_roles():
     standard_roles = [
         {"rollenname": "Vorsitzende(r)", "beschreibung": "Leitet den Verein."},
@@ -147,6 +150,7 @@ def _install_roles():
             })
             new_role.insert()
 
+@frappe.whitelist()
 def with_database_lock(settings, operation):
     current_user = frappe.session.user
     set_database_lock("sperren", user=current_user, automatisch=True)

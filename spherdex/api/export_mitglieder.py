@@ -175,8 +175,7 @@ def export_data_async(fields="[]", only_active="false", file_format="csv", membe
         frappe.throw("⚠ Kein Feld zum Exportieren verfügbar.")
 
     try:
-        frappe.enqueue(
-            "spherdex.global_scripts.export_utils._export_data",
+        frappe.enqueue("spherdex.api.export_mitglieder._export_data",
             queue="long",
             timeout=600,
             job_name=f"Mitglieder-{file_format}-Export",

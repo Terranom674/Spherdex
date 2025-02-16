@@ -32,7 +32,7 @@
 
 ![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue) 
 
-|[![Mitgliederverwaltung: 0.6.2](https://img.shields.io/badge/Mitgliederverwaltung-0.6.2-green)](#mitgliederverwaltung-) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
+|[![Mitgliederverwaltung: 0.7.0](https://img.shields.io/badge/Mitgliederverwaltung-0.7.0-green)](#mitgliederverwaltung-) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
 |---|---|---|---|
 | [![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey)](#veranstaltungsmanagement-) | [![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)](#self-service-portal-) | [![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey)](#integration-mit-cloud-diensten-) | [![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)](#automatisierung-)
 | [![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey)](#finanzverwaltung-) | [![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey)](#inventarverwaltung-) | [![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey)](#kommunikation-und-chat-) | [![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)](#kalender-und-terminplanung-)
@@ -48,7 +48,7 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 
 | Modul                           | Fortschritt                                                                 |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-|<img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48"> **[Mitgliederverwaltung](#mitgliederverwaltung-)**| ![55%](https://progress-bar.xyz/55?title=Mitgliederverwaltung&width=300) |
+|<img src="https://github.com/user-attachments/assets/95d988ab-7d1a-45bd-b20e-518f31e6ee34" width="48"> **[Mitgliederverwaltung](#mitgliederverwaltung-)**| ![60%](https://progress-bar.xyz/60?title=Mitgliederverwaltung&width=300) |
 |<img src="https://github.com/user-attachments/assets/c6d55ca3-b9c5-4504-ac67-015ad67af5ff" width="48"> **[Veranstaltungsmanagement](#veranstaltungsmanagement-)**| ![0%](https://progress-bar.xyz/0?title=Veranstaltungsmanagement&width=300) |
 |<img src="https://github.com/user-attachments/assets/6bd9da27-2b35-476e-b07d-561a460e0c6f" width="48"> **[Self-Service-Portal](#self-service-portal-)**| ![0%](https://progress-bar.xyz/0?title=Self-Service-Portal&width=300) |
 |<img src="https://github.com/user-attachments/assets/4041d589-fb78-401a-87ea-b9b1f8ee73cc" width="48"> **[Integration mit Cloud-Diensten](#integration-mit-cloud-diensten-)**| ![0%](https://progress-bar.xyz/0?title=Cloud-Integration&width=300) |
@@ -74,7 +74,7 @@ Die Mitgliederverwaltung ist das zentrale Modul von Spherdex und bietet umfassen
 - <ins>Rollenverwaltung</ins>: Zuweisung von Rollen wie Vorsitzender, Schatzmeister oder Mitglied. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
 - <ins>Präfix- und Nummernänderung</ins>: Anpassung des Präfixes und der laufenden Nummer für Mitgliedsnummern. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
 - <ins>MultiSelect/Checkbox für Rollen</ins>: Auswahl und Anzeige von Rollen als Checkboxen oder in einem Dropdown-Menü, inklusive Synchronisierung und Speicherung. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green)
-- <ins>Mitgliederexport</ins>: Export von Mitgliederdaten als CSV mit individuell auswählbaren Spalten. ![Neu](https://img.shields.io/badge/Neu-blue)
+- <ins>Mitgliederexport</ins>: Export von Mitgliederdaten als CSV mit individuell auswählbaren Spalten. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
 - <ins>Beitragsverwaltung</ins>: Verwaltung und Nachverfolgung von Mitgliedsbeiträgen und offenen Zahlungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - <ins>Berichte und Statistiken</ins>: Erstellung von Analysen und Übersichten zur Mitgliedschaft und Beitragszahlungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - <ins>Geburtstagsbenachrichtigung</ins>: Automatischer Versand von Geburtstagsgrüßen per E-Mail. ![In Entwicklung](https://img.shields.io/badge/In_Entwicklung-yellow)
@@ -87,7 +87,7 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 <summary><b>Roadmap</b></summary>
 
 #### Aktueller Stand
-- **Version:** 0.6.2
+- **Version:** 0.7.0
 - **Status:** In aktiver Entwicklung
 - **Ziel:** Stabilisierung und Vorbereitung für Version 1.0.0.
 
@@ -98,7 +98,7 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 | **Rollenverwaltung**              | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Rollenverwaltung&width=300)     |
 | **Präfix- und Nummernänderung**   | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Pr%C3%A4fix-%26-Nummerierung&width=300) |
 | **MultiSelect/Checkbox für Rollen** | **Umgesetzt**          | ![100%](https://progress-bar.xyz/100?title=MultiSelect-%2F-Checkbox&width=300) |
-| **Mitgliederexport/import**        | **In Entwicklung**           | ![50%](https://progress-bar.xyz/50?title=Mitgliederexport&width=300) |
+| **Mitgliederexport/import**        | **Umgesetzt**           | ![100%](https://progress-bar.xyz/100?title=Mitgliederexport&width=300) |
 | **Beitragsverwaltung**            | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Beitragsverwaltung&width=300)       |
 | **Berichte und Statistiken**      | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Berichte+%26+Statistiken&width=300) |
 | **Geburtstagsbenachrichtigung**   | **In Entwicklung**      | ![10%](https://progress-bar.xyz/10?title=Geburtstagsbenachrichtigung&width=300) |
@@ -399,6 +399,21 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 ---
 
 ## Changelog
+
+<details>
+<summary><b>Version 0.7.0</b></summary>
+
+### 🔄 Optimierungen & Refactoring  
+- ![Optimierung](https://img.shields.io/badge/Optimierung-Refactoring-yellow) **Modul- und Ordnerstruktur überarbeitet**, um eine klare Trennung und bessere Wartbarkeit zu gewährleisten.  
+- ![Optimierung](https://img.shields.io/badge/Optimierung-CodeCleanup-yellow) **Redundante Codeblöcke entfernt** und Funktionen zusammengeführt.  
+- ![Optimierung](https://img.shields.io/badge/Optimierung-Performance-yellow) **Nicht genutzte Imports und veraltete Codebestandteile entfernt.**  
+
+### 📥 Mitglieder-Import  
+- ![Neu](https://img.shields.io/badge/Neu-Import-brightgreen) **CSV-Import für Mitglieder hinzugefügt** mit direkter Integration in die bestehende Datenverwaltung.  
+- ![Neu](https://img.shields.io/badge/Neu-Datenabgleich-brightgreen) **Bestehende Mitglieder werden automatisch erkannt und aktualisiert.**  
+- ![Neu](https://img.shields.io/badge/Neu-Dateiverwaltung-brightgreen) **Importierte Dateien werden nach Abschluss des Vorgangs automatisch entfernt.**  
+
+</details>
 
 <details>
 <summary><b>Version 0.6.2</b></summary>

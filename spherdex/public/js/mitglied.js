@@ -13,9 +13,9 @@ frappe.ui.form.on('Mitglied', {
                     }
                 ], function(values) {
                     frappe.call({
-                        method: "spherdex.global_scripts.export_utils.export_data_async",
+                        method: "spherdex.api.export_mitglieder.export_data_async",  // ✅ Korrigierter Pfad
                         args: {
-                            member_id: frm.doc.name,  // ✅ Falls gesetzt, wird nur dieses Mitglied exportiert
+                            member_id: frm.doc.name,  
                             file_format: values.format.toLowerCase()
                         },
                         callback: function(r) {
@@ -59,7 +59,7 @@ frappe.ui.form.on('Mitglied', {
                     document.getElementById("exportDownloadLink").addEventListener("click", function() {
                         setTimeout(() => {
                             frappe.call({
-                                method: "spherdex.global_scripts.export_utils.delete_export_files",
+                                method: "spherdex.api.export_mitglieder.delete_export_files",  // ✅ Korrigierter Pfad
                                 callback: function(r) {
                                     console.log("🗑 Dateien gelöscht:", r.message);
                                 }
@@ -86,7 +86,7 @@ frappe.ui.form.on('Mitglied', {
 // 🔄 Bestehende UI- & Rollen-Funktionen
 function setupMemberUI(frm) {
     frappe.call({
-        method: 'spherdex.global_scripts.utils.get_settings',
+        method: 'spherdex.utils.utils.get_settings',  // ✅ Korrigierter Pfad
         callback: function (r) {
             if (r.message) {
                 const anzeigenmodus = r.message.default_anzeigenmodus;
@@ -98,7 +98,7 @@ function setupMemberUI(frm) {
 
 function loadRoles(frm, anzeigenmodus) {
     frappe.call({
-        method: 'spherdex.global_scripts.utils.fetch_roles',
+        method: 'spherdex.utils.utils.fetch_roles',  // ✅ Korrigierter Pfad
         callback: function (res) {
             if (res.message && Array.isArray(res.message)) {
                 setupRoleFields(frm, res.message, anzeigenmodus);

@@ -11,7 +11,11 @@ app_license = "agpl-3.0"
 # app_include_css = "/assets/spherdex/css/spherdex.css"
 # app_include_js = "/assets/spherdex/js/spherdex.js"
 
-app_include_js = "/assets/spherdex/js/mitglied_list.js?v=0.27"
+app_include_js = [
+    "/assets/spherdex/js/combine_onload.js",
+    "/assets/spherdex/js/mitglied_list.js",
+    "/assets/spherdex/js/member_import.js?v=0.10"
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/spherdex/css/spherdex.css"
@@ -26,19 +30,12 @@ doctype_js = {
 
 # Document Events
 # ---------------
-#doc_events = {
-#    "Mitglied": {
-#        "on_update": "spherdex.global_scripts.member_management.handle_member_update",
-#        "on_trash": "spherdex.global_scripts.member_management.handle_member_deletion"
-#    }
-#}
-
 doc_events = {
     "*": {  # Gilt für alle Doctypes
-        "before_save": "spherdex.global_scripts.utils.validate_database_lock",
-        "before_submit": "spherdex.global_scripts.utils.validate_database_lock",
-        "before_cancel": "spherdex.global_scripts.utils.validate_database_lock",
-        "before_delete": "spherdex.global_scripts.utils.validate_database_lock"
+        "before_save": "spherdex.utils.utils.validate_database_lock",
+        "before_submit": "spherdex.utils.utils.validate_database_lock",
+        "before_cancel": "spherdex.utils.utils.validate_database_lock",
+        "before_delete": "spherdex.utils.utils.validate_database_lock"
     }
 }
 
@@ -46,7 +43,7 @@ doc_events = {
 # ---------------
 # scheduler_events = {
 #     "daily": [
-#         "spherdex.global_scripts.member_management.daily_tasks"
+#         "spherdex.utils.member_management.daily_tasks"
 #     ]
 # }
 
@@ -61,10 +58,10 @@ doc_events = {
 # Permissions
 # -----------
 # permission_query_conditions = {
-#     "Mitglied": "spherdex.global_scripts.member_management.get_permission_query_conditions",
+#     "Mitglied": "spherdex.utils.member_management.get_permission_query_conditions",
 # }
 # has_permission = {
-#     "Mitglied": "spherdex.global_scripts.member_management.has_permission",
+#     "Mitglied": "spherdex.utils.member_management.has_permission",
 # }
 
 # Installation
@@ -72,7 +69,7 @@ doc_events = {
 # before_install = "spherdex.install.before_install"
 # after_install = "spherdex.install.after_install"
 
-after_install = "spherdex.global_scripts.install.after_install"
+after_install = "spherdex.config.install.after_install"
 
 # Uninstallation
 # --------------

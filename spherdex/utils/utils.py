@@ -67,6 +67,7 @@ def set_database_lock(status, user=None, automatisch=False):
 
     return f"🔒 {'Sperre aktiviert' if status == 'sperren' else 'Sperre deaktiviert'}."
 
+@frappe.whitelist()
 def validate_database_lock(doc, method=None):
     exempt_doctypes = ["Admin Einstellungen", "Mitgliederverwaltung Einstellungen", "Error Log", "ToDo", "Sperr Protokoll"]
 

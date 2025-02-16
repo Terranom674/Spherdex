@@ -5,7 +5,7 @@ import frappe
 from frappe.model.document import Document
 from frappe.utils import getdate
 from frappe.model.naming import getseries
-from ....global_scripts import initialen, serial
+from spherdex.utils import initialen, serial 
 import json, os, datetime, tempfile, time, csv
 from frappe.utils.file_manager import save_file
 from frappe import _

@@ -6,7 +6,7 @@ frappe.ui.form.on("Mitgliederverwaltung Einstellungen", {
         frm.fields_dict.standardrollen_button.$wrapper.find('button').on('click', function () {
             console.log("Button 'Standardrollen installieren' wurde geklickt!");
             frappe.call({
-                method: "spherdex.global_scripts.member_management.install_standard_roles",
+                method: "spherdex.config.standard_roles.install_standard_roles",  // ✅ Korrigierter Pfad
                 callback: function (response) {
                     frappe.msgprint("Standardrollen wurden erfolgreich installiert!");
                     frm.reload_doc(); // Neu laden
@@ -21,7 +21,7 @@ frappe.ui.form.on("Mitgliederverwaltung Einstellungen", {
                 [{ label: 'Neues Präfix', fieldname: 'new_prefix', fieldtype: 'Data', reqd: 1 }],
                 function (values) {
                     frappe.call({
-                        method: "spherdex.global_scripts.member_management.update_prefix",
+                        method: "spherdex.api.member_management.update_prefix",
                         args: { new_prefix: values.new_prefix },
                         callback: function (response) {
                             frappe.msgprint("Präfix wurde erfolgreich geändert!");
@@ -41,7 +41,7 @@ frappe.ui.form.on("Mitgliederverwaltung Einstellungen", {
                 'Möchten Sie alle Mitglieder neu durchnummerieren?',
                 function () {
                     frappe.call({
-                        method: "spherdex.global_scripts.member_management.renumber_members",
+                        method: "spherdex.api.member_management.renumber_members",
                         callback: function (response) {
                             frappe.msgprint("Alle Mitglieder wurden erfolgreich neu durchnummeriert!");
                             frm.reload_doc(); // Neu laden
@@ -58,7 +58,7 @@ frappe.ui.form.on("Mitgliederverwaltung Einstellungen", {
                 [{ label: 'Neues Präfix', fieldname: 'new_prefix', fieldtype: 'Data', reqd: 1 }],
                 function (values) {
                     frappe.call({
-                        method: "spherdex.global_scripts.member_management.update_prefix_and_number",
+                        method: "spherdex.api.member_management.update_prefix_and_number",
                         args: { new_prefix: values.new_prefix },
                         callback: function (response) {
                             frappe.msgprint("Präfix und Nummer wurden erfolgreich aktualisiert!");
@@ -78,7 +78,7 @@ frappe.ui.form.on("Mitgliederverwaltung Einstellungen", {
                 'Möchten Sie wirklich alle Mitglieder löschen? Diese Aktion kann nicht rückgängig gemacht werden.',
                 function () {
                     frappe.call({
-                        method: "spherdex.global_scripts.member_management.delete_all_members",
+                        method: "spherdex.api.member_management.delete_all_members",
                         callback: function (response) {
                             frappe.msgprint("Alle Mitglieder wurden erfolgreich gelöscht!");
                             frm.reload_doc(); // Neu laden
@@ -95,7 +95,7 @@ frappe.ui.form.on("Mitgliederverwaltung Einstellungen", {
                 [{ label: 'Neues Format', fieldname: 'new_format', fieldtype: 'Data', reqd: 1 }],
                 function (values) {
                     frappe.call({
-                        method: "spherdex.global_scripts.member_management.apply_new_format",
+                        method: "spherdex.api.member_management.apply_new_format",
                         args: { new_format: values.new_format },
                         callback: function (response) {
                             frappe.msgprint("Neues Format wurde erfolgreich angewendet!");

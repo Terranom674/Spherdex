@@ -1,5 +1,6 @@
 import frappe
 
+@frappe.whitelist()
 def install_standard_roles():
     # Definiere die Standardrollen und ihre Beschreibungen
     standard_roles = [

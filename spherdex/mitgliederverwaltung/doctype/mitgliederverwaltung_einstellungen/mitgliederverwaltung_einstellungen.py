@@ -1,7 +1,7 @@
 import frappe
 from frappe.model.document import Document
 from frappe.utils import cint
-from ....global_scripts.member_management import (
+from spherdex.api.member_management import (
     update_prefix,
     renumber_members,
     update_prefix_and_number,
