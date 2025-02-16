@@ -1,0 +1,9 @@
+site_name: Spherdex Dokumentation
+nav:
+  - Startseite: index.md
+  - Installation: installation.md
+  - Nutzung: usage.md
+  - FAQ: faq.md
+theme:
+  name: material
+repo_url: https://github.com/Terranom674/spherdex
