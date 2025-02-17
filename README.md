@@ -32,7 +32,7 @@
 
 ![License: AGPL-3.0](https://img.shields.io/badge/license-AGPL--3.0-blue) 
 
-|[![Mitgliederverwaltung: 0.7.0](https://img.shields.io/badge/Mitgliederverwaltung-0.7.0-green)](#mitgliederverwaltung-) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
+|[![Mitgliederverwaltung: 0.7.1](https://img.shields.io/badge/Mitgliederverwaltung-0.7.1-green)](#mitgliederverwaltung-) | [Changelog](#changelog)| [Handbuch](#handbuch)| |
 |---|---|---|---|
 | [![Veranstaltungsmanagement: 0.0.0](https://img.shields.io/badge/Veranstaltungsmanagement-0.0.0-lightgrey)](#veranstaltungsmanagement-) | [![Self-Service-Portal: 0.0.0](https://img.shields.io/badge/Self--Service--Portal-0.0.0-lightgrey)](#self-service-portal-) | [![Cloud-Integration: 0.0.0](https://img.shields.io/badge/Cloud--Integration-0.0.0-lightgrey)](#integration-mit-cloud-diensten-) | [![Automatisierung: 0.0.0](https://img.shields.io/badge/Automatisierung-0.0.0-lightgrey)](#automatisierung-)
 | [![Finanzverwaltung: 0.0.0](https://img.shields.io/badge/Finanzverwaltung-0.0.0-lightgrey)](#finanzverwaltung-) | [![Inventarverwaltung: 0.0.0](https://img.shields.io/badge/Inventarverwaltung-0.0.0-lightgrey)](#inventarverwaltung-) | [![Kommunikation: 0.0.0](https://img.shields.io/badge/Kommunikation-0.0.0-lightgrey)](#kommunikation-und-chat-) | [![Kalender: 0.0.0](https://img.shields.io/badge/Kalender-0.0.0-lightgrey)](#kalender-und-terminplanung-)
@@ -87,7 +87,7 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 <summary><b>Roadmap</b></summary>
 
 #### Aktueller Stand
-- **Version:** 0.7.0
+- **Version:** 0.7.1
 - **Status:** In aktiver Entwicklung
 - **Ziel:** Stabilisierung und Vorbereitung für Version 1.0.0.
 
@@ -401,7 +401,13 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 ## Changelog
 
 <details>
-<summary><b>Version 0.7.0</b></summary>
+n<details>
+<summary><b>Version 0.7.1</b></summary>
+
+- 📘 Handbuch aktualisiert
+</details>
+
+<summary><b>Version 0.7.1</b></summary>
 
 ### 🔄 Optimierungen & Refactoring  
 - ![Optimierung](https://img.shields.io/badge/Optimierung-Refactoring-yellow) **Modul- und Ordnerstruktur überarbeitet**, um eine klare Trennung und bessere Wartbarkeit zu gewährleisten.  
