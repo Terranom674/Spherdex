@@ -74,11 +74,11 @@ Die Mitgliederverwaltung ist das zentrale Modul von Spherdex und bietet umfassen
 - <ins>Rollenverwaltung</ins>: Zuweisung von Rollen wie Vorsitzender, Schatzmeister oder Mitglied. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
 - <ins>Präfix- und Nummernänderung</ins>: Anpassung des Präfixes und der laufenden Nummer für Mitgliedsnummern. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
 - <ins>MultiSelect/Checkbox für Rollen</ins>: Auswahl und Anzeige von Rollen als Checkboxen oder in einem Dropdown-Menü, inklusive Synchronisierung und Speicherung. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green)
-- <ins>Mitgliederexport</ins>: Export von Mitgliederdaten als CSV mit individuell auswählbaren Spalten. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
+- <ins>Datenimport/-export</ins>: Import und Export von Mitgliedsdaten in Formaten wie PDF, CSV, TXT, DOC und Excel. ![Umgesetzt](https://img.shields.io/badge/Umgesetzt-green) 
 - <ins>Beitragsverwaltung</ins>: Verwaltung und Nachverfolgung von Mitgliedsbeiträgen und offenen Zahlungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - <ins>Berichte und Statistiken</ins>: Erstellung von Analysen und Übersichten zur Mitgliedschaft und Beitragszahlungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - <ins>Geburtstagsbenachrichtigung</ins>: Automatischer Versand von Geburtstagsgrüßen per E-Mail. ![In Entwicklung](https://img.shields.io/badge/In_Entwicklung-yellow)
-- <ins>Datenimport/-export</ins>: Import und Export von Mitgliedsdaten in Formaten wie PDF, CSV, TXT, DOC und Excel. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+- <ins>Backup Funktionen</ins>: Exportieren und Importieren der Datenbanken ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht eine präzise Verwaltung aller Vereinsmitglieder.
 </details>
