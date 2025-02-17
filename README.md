@@ -401,12 +401,12 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 ## Changelog
 
 <details>
-n<details>
 <summary><b>Version 0.7.1</b></summary>
 
 - 📘 Handbuch aktualisiert
 </details>
 
+<details>
 <summary><b>Version 0.7.1</b></summary>
 
 ### 🔄 Optimierungen & Refactoring  
