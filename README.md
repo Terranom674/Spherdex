@@ -102,7 +102,7 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 | **Beitragsverwaltung**            | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Beitragsverwaltung&width=300)       |
 | **Berichte und Statistiken**      | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Berichte+%26+Statistiken&width=300) |
 | **Geburtstagsbenachrichtigung**   | **In Entwicklung**      | ![10%](https://progress-bar.xyz/10?title=Geburtstagsbenachrichtigung&width=300) |
-| **Datenimport/-export**           | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Datenimport-Export&width=300)       |
+| **Backupfunktion**           | **Geplant**             | ![0%](https://progress-bar.xyz/0?title=Datenimport-Export&width=300)       |
 
 #### Funktionen im Detail
 
@@ -120,9 +120,12 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 #### 4. MultiSelect/Checkbox für Rollen
 - Endanwender kann zwischen einer Checkbox-Darstellung und einer MultiSelect-Darstellung wählen.
 
-#### 5. Mitgliederexport (CSV)
-- Export von Mitgliedsdaten als CSV-Datei mit individuell auswählbaren Spalten.
-- Automatische Bereinigung der CSV-Dateien nach dem Download.
+#### 5. Datenimport/-export
+- **Formate für den Export:** PDF, CSV, TXT, DOC und Excel.
+- **Funktionen:** 
+  - Export aller Mitgliedsdaten oder nach Filterkriterien.
+  - Import von Daten aus CSV und Excel.
+  - Validierung der Daten beim Import.
 
 #### 6. Beitragsverwaltung
 - Automatische Erstellung und Verwaltung von Mitgliedsbeiträgen.
@@ -134,13 +137,10 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 #### 8. Geburtstagsbenachrichtigung
 - Automatische E-Mail-Benachrichtigung an Mitglieder an deren Geburtstag.
 
-#### 9. Datenimport/-export
-- **Formate für den Export:** PDF, CSV, TXT, DOC und Excel.
-- **Funktionen:** 
-  - Export aller Mitgliedsdaten oder nach Filterkriterien.
-  - Import von Daten aus CSV und Excel.
-  - Validierung der Daten beim Import.
-    
+#### 9. Backupfunktion
+- ** Exportieren der Datenbank **
+- ** Import der Datenbank **
+ 
 #### 10. Optimierung und Debugging
 
 #### Ziel für Version 1.0.0
