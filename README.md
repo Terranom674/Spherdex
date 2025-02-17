@@ -407,7 +407,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 </details>
 
 <details>
-<summary><b>Version 0.7.1</b></summary>
+<summary><b>Version 0.7.0</b></summary>
 
 ### 🔄 Optimierungen & Refactoring  
 - ![Optimierung](https://img.shields.io/badge/Optimierung-Refactoring-yellow) **Modul- und Ordnerstruktur überarbeitet**, um eine klare Trennung und bessere Wartbarkeit zu gewährleisten.  
