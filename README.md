@@ -360,7 +360,9 @@ Sie können zur Entwicklung beitragen, indem Sie Vorschläge einreichen, Code be
 --- 
 
 ## Handbuch 
-[Onlinehandbuch](https://terranom674.github.io/Spherdex)
+
+[![Button Icon]][Link]
+
 Eine umfassende Dokumentation ist in Arbeit. Es wird:
 - Anleitungen zur Konfiguration und Nutzung der Module enthalten.
 - Beispiele und Anwendungsfälle beschreiben.
