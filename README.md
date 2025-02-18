@@ -57,7 +57,7 @@ Dieses Projekt umfasst folgende Module. Der Fortschritt des jeweiligen Moduls wi
 |<img src="https://github.com/user-attachments/assets/f74e0778-bd02-48cb-8beb-d4896227a8da" width="48"> **[Inventarverwaltung](#inventarverwaltung-)**| ![0%](https://progress-bar.xyz/0?title=Inventarverwaltung&width=300) |
 |<img src="https://github.com/user-attachments/assets/0eccb399-abd4-454f-8f12-180ec7ebf984" width="48"> **[Kommunikation und Chat](#kommunikation-und-chat-)**| ![0%](https://progress-bar.xyz/0?title=Kommunikation&width=300) |
 |<img src="https://github.com/user-attachments/assets/59e248f2-9fc2-403d-96ac-3431c924d56d" width="48"> **[Kalender- und Terminplanung](#kalender-und-terminplanung-)**| ![0%](https://progress-bar.xyz/0?title=Kalenderplanung&width=300) |
-
+</details>
 
 ---
 
@@ -80,6 +80,7 @@ Die Mitgliederverwaltung ist das zentrale Modul von Spherdex und bietet umfassen
 - <ins>Backup Funktionen</ins>: Exportieren und Importieren der Datenbanken ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 
 Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht eine präzise Verwaltung aller Vereinsmitglieder.
+</details>
 
 <details>
 <summary><b>Roadmap</b></summary>
@@ -145,6 +146,7 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 - Vollständige Umsetzung aller geplanten Funktionen.
 - Testen und Stabilisieren des Moduls.
 - Vorbereitung für Integration mit anderen Modulen.
+</details>
 
 ### **Veranstaltungsmanagement** <img src="https://github.com/user-attachments/assets/c6d55ca3-b9c5-4504-ac67-015ad67af5ff" width="48">
 <details>
@@ -155,11 +157,12 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 - Teilnehmerlisten: Übersicht über bestätigte Teilnehmer. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Budgetverwaltung: Einnahmen- und Ausgabenkontrolle. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Feedback: Analyse von Veranstaltungsbewertungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
-
+</details>
 
 <details>
 <summary><b>Roadmap</b></summary>
 Folgt bald
+</details>
 
 ### **Self-Service-Portal** <img src="https://github.com/user-attachments/assets/6bd9da27-2b35-476e-b07d-561a460e0c6f" width="48">
 <details>
@@ -169,10 +172,12 @@ Folgt bald
 - Datenzugriff: Mitglieder können ihre persönlichen Informationen einsehen und bearbeiten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Dashboards: Individualisierbare Übersicht für Mitglieder. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Zugriff auf Dokumente:** Mitglieder können Rechnungen und Bescheinigungen herunterladen.![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+</details>
 
 <details>
 <summary><b>Roadmap</b></summary>
 Folgt bald
+</details>
 
 ### Integration mit Cloud-Diensten <img src="https://github.com/user-attachments/assets/4041d589-fb78-401a-87ea-b9b1f8ee73cc" width="48">
 <details>
@@ -182,10 +187,12 @@ Folgt bald
 - Dateiverwaltung: Automatische Synchronisation mit Nextcloud. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Benutzerverwaltung: Erstellung von Cloud-Accounts direkt über die Software. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Automatische Backups: Regelmäßige Sicherung von Daten in der Cloud. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+</details>
 
 <details>
 <summary><b>Roadmap</b></summary>
 Folgt bald
+</details>
 
 ### Automatisierung <img src="https://github.com/user-attachments/assets/8e904845-a574-4a9a-b1fe-724b45213eb2" width="48">
 <details>
@@ -195,10 +202,12 @@ Folgt bald
 - Benachrichtigungen:** Erinnerungen zu Geburtstagen, Zahlungen und Fristen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Zeitgesteuerte Aktionen:** Versand von Nachrichten und Reports zu festgelegten Zeiten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 -  Workflows:** Automatische Abläufe für häufige Aufgaben. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+</details>
 
 <details>
 <summary><b>Roadmap</b></summary>
 Folgt bald
+</details>
 
 ### Finanzverwaltung <img src="https://github.com/user-attachments/assets/6503df2d-0d20-403c-89d7-43eefc3fcc7b" width="48">
 <details>
@@ -208,11 +217,12 @@ Folgt bald
 - Einnahmen und Ausgaben: Detaillierte Nachverfolgung aller finanziellen Aktivitäten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Spendenmanagement: Erstellung und Verwaltung von Spendenquittungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Berichte: Steuerkonforme Jahresabschlüsse. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+</details>
 
 <details>
 <summary><b>Roadmap</b></summary>
 Folgt bald
-
+</details>
 ### Inventarverwaltung <img src="https://github.com/user-attachments/assets/f74e0778-bd02-48cb-8beb-d4896227a8da" width="48"> 
 <details>
    <summary><b>Details</b></summary>
@@ -221,6 +231,7 @@ Folgt bald
 - Materialübersicht: Bestandsverwaltung von Technik, Kostümen und Materialien. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Reservierungen: Zuweisung von Ressourcen zu Veranstaltungen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Bestandswarnungen: Automatische Benachrichtigungen bei niedrigem Bestand. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+</details>
 
 <details>
 <summary><b>Roadmap</b></summary>
@@ -234,10 +245,12 @@ Folgt bald
 - Interne Kommunikation: Nachrichten und Diskussionen innerhalb des Teams. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Broadcast-Nachrichten: Einfache Kommunikation mit allen Mitgliedern. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - E-Mail-Integration: Versand von Benachrichtigungen direkt aus der Software. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+</details>
 
 <details>
 <summary><b>Roadmap</b></summary>
 Folgt bald
+</details>
 
 ### Kalender- und Terminplanung <img src="https://github.com/user-attachments/assets/59e248f2-9fc2-403d-96ac-3431c924d56d" width="48">
 <details>
@@ -247,11 +260,12 @@ Folgt bald
 - Kalendersynchronisation: Verbindung mit externen Kalenderdiensten. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Gruppenkalender: Übersicht über gemeinsame Termine. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Erinnerungen: Automatische Benachrichtigungen zu wichtigen Terminen. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
+</details>
 
 <details>
 <summary><b>Roadmap</b></summary>
 Folgt bald
-
+</details>
 ---
 
 ## **Langfristige Vision**
@@ -259,27 +273,32 @@ Folgt bald
 <details>
 <summary><b>1. Modularität und Erweiterbarkeit</b></summary>
 Spherdex soll ein vollständig modulares System werden, das beliebig erweitert und individuell an die Anforderungen von Vereinen, Clubs und Organisationen angepasst werden kann.
+</details>
 
 <details>
 <summary><b>2. Integration mit anderen Plattformen</b></summary>
 Durch API-Unterstützung und Cloud-Integrationen sollen Daten und Prozesse nahtlos mit anderen Tools verbunden werden können.
+</details>
 
 <details>
 <summary><b>3. Benutzerfreundlichkeit</b></summary>
 Die Benutzeroberfläche wird kontinuierlich optimiert, um eine einfache Bedienung ohne tiefgehende technische Vorkenntnisse zu gewährleisten.
+</details>
 
 <details>
 <summary><b>4. Automatisierung und Intelligenz</b></summary>
 Durch KI-gestützte Features, wie automatische Erinnerungen und Analysen, soll Spherdex den Verwaltungsaufwand weiter reduzieren.
+</details>
 
 <details>
 <summary><b>5. Skalierbarkeit</b></summary>
 Die Software wird so entwickelt, dass sie für kleine Vereine genauso geeignet ist wie für größere Organisationen mit komplexen Strukturen.
+</details>
 
 <details>
 <summary><b>6. Community-Engagement</b></summary>
 Eine aktive Community wird gefördert, um Ideen und Feedback auszutauschen, neue Features zu entwickeln und die Software weiter voranzutreiben.
-
+</details>
 ---
 
 ## **FAQ**
@@ -287,43 +306,52 @@ Eine aktive Community wird gefördert, um Ideen und Feedback auszutauschen, neue
 <details>
 <summary><b>1. Was ist Spherdex?</b></summary>
 Spherdex ist eine modulare Softwarelösung zur Verwaltung von Mitgliedern, Veranstaltungen, Finanzen, Inventar und mehr – ideal für Vereine, Clubs und ähnliche Organisationen.
+</details>
 
 <details>
 <summary><b>2. Ist Spherdex kostenlos?</b></summary>
 Ja, Spherdex ist kostenfrei und bleibt es auch in der Basisversion. Einige erweiterte Funktionen oder Module könnten jedoch in Zukunft kostenpflichtig werden, um die entstehenden Entwicklungs- und Betriebskosten zu decken. Dies betrifft beispielsweise Premium-Features oder spezielle Integrationen, die über den grundlegenden Funktionsumfang hinausgehen.
+</details>
 
 <details>
 <summary><b>3. Welche Module gibt es derzeit?</b></summary>
 Aktuell wird die Mitgliederverwaltung (Version 0.4.1) entwickelt. Weitere Module wie Veranstaltungsmanagement, Finanzverwaltung und Inventarverwaltung sind in Planung.
+</details>
 
 <details>
 <summary><b>4. Kann ich Spherdex anpassen?</b></summary>
 Ja, Spherdex ist so gestaltet, dass es leicht an spezifische Anforderungen angepasst werden kann. Entwickler können eigene Module hinzufügen oder bestehende Module erweitern.
+</details>
 
 <details>
 <summary><b>5. Wird Support angeboten?</b></summary>
 Da Spherdex Open Source ist, erfolgt der Support durch die Community. In der Zukunft ist ein Forum oder ein Wiki für häufige Fragen und Antworten geplant.
+</details>
 
 <details>
 <summary><b>6. Welche technischen Voraussetzungen gibt es?</b></summary>
 Spherdex basiert auf Frappe/ERPNext und benötigt eine entsprechende Serverumgebung. Eine detaillierte Installationsanleitung ist in Arbeit.
+</details>
 
 <details>
 <summary><b>7. Gibt es eine API für Spherdex?</b></summary>
 Eine API ist in Planung und wird in zukünftigen Versionen implementiert, um Integrationen mit anderen Systemen zu erleichtern.
+</details>
 
 <details>
 <summary><b>8. Kann ich mehrere Module gleichzeitig nutzen?</b></summary>
 Ja, sobald die Module verfügbar sind, können sie beliebig kombiniert und eingesetzt werden. Jedes Modul ist eigenständig, die Mitgliederverwaltung ist jedoch Voraussetzung.
+</details>
 
 <details>
 <summary><b>9. Wird Spherdex regelmäßig aktualisiert?</b></summary>
 Ja, regelmäßige Updates und neue Funktionen sind geplant, um die Software kontinuierlich zu verbessern.
+</details>
 
 <details>
 <summary><b>10. Wie kann ich zur Entwicklung beitragen?</b></summary>
 Sie können zur Entwicklung beitragen, indem Sie Vorschläge einreichen, Code beisteuern oder die Software testen. Mehr Informationen dazu folgen bald.
-
+</details>
 --- 
 
 ## Handbuch
@@ -359,7 +387,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 ### Entwicklerhandbuch
 - Leitfäden für Entwickler zur Erweiterung der Software. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Beispiele für API- und Modulnutzung. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
-
+</details>
 ---
 
 ## Changelog
@@ -391,7 +419,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 - ![Neu](https://img.shields.io/badge/Neu-Import-brightgreen) **CSV-Import für Mitglieder hinzugefügt** mit direkter Integration in die bestehende Datenverwaltung.  
 - ![Neu](https://img.shields.io/badge/Neu-Datenabgleich-brightgreen) **Bestehende Mitglieder werden automatisch erkannt und aktualisiert.**  
 - ![Neu](https://img.shields.io/badge/Neu-Dateiverwaltung-brightgreen) **Importierte Dateien werden nach Abschluss des Vorgangs automatisch entfernt.**  
-
+</details>
 
 <details>
 <summary><b>Version 0.6.2</b></summary>
@@ -412,7 +440,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
    - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Export-Formatierung überarbeitet:
      - PDF-Tabellen sind nun lesbarer und besser strukturiert.
      - Zeilenumbrüche und Feldnamen werden korrekt dargestellt.
-
+</details>
 
 <details>
 <summary><b>Version 0.6.1</b></summary>
@@ -431,7 +459,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
    - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Fortschrittsanzeige beim Export korrigiert.
    - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Mehrere gleichzeitige Exporte funktionieren jetzt ohne Konflikte.
    - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Export für große Datenmengen stabilisiert.
-
+</details>
 
 <details>
 <summary><b>Version 0.6.0</b></summary>
@@ -450,7 +478,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
   - Dateien werden nach dem Download nun zuverlässig vom Server gelöscht.  
   - Einträge in der Datenbank für exportierte Dateien werden bereinigt.  
   - Mehrere Exporte hintereinander sind jetzt möglich.  
-
+</details>
 
 <details>
 <summary><b>Version 0.5.2</b></summary>
@@ -464,8 +492,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
   - Die Buttons für die Sperrprotokoll-Navigation werden jetzt oben und unten angezeigt.  
   - UI-Änderungen lösen kein unerwünschtes „Speichern“-Popup mehr aus.  
 - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Protokoll wurde vorher mit idx = 1 gespeichert – jetzt wird es korrekt nummeriert.  
-
-
+</details>
 
 <details>
 <summary><b>Version 0.5.1</b></summary>
@@ -474,7 +501,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Präfix- und Nummernänderung: Fehler bei der Formatierung von Mitgliedsnamen korrigiert.
 - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Initialenberechnung: Fehlerhafte Generierung von Initialen wurde bereinigt.
 - ![Optimierung](https://img.shields.io/badge/Optimierung-Improvement-yellow) Debugging-Nachrichten aus dem Code entfernt.
-
+</details>
 
 <details>
 <summary><b>Version 0.5.0</b></summary>
@@ -483,15 +510,14 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
    - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Fehler bei der Anzeige und Speicherung von Rollen wurden behoben.
    - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Verbesserung der Sichtbarkeitssteuerung basierend auf den Einstellungen.
    - ![Optimierung](https://img.shields.io/badge/Optimierung-Improvement-yellow) Code-Struktur verbessert und Datenflüsse optimiert.
-
-
+</details>
 
 <details>
 <summary><b>Version 0.4.1</b></summary>
 
    - ![Neu](https://img.shields.io/badge/Neu-Announcement-brightgreen) Beispielrollen werden jetzt korrekt installiert.
    - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Das Feld "Standard Rollen-Anzeigemodus" hat nach der Installation keinen Standardwert angezeigt.
-
+</details>
 
 <details>
 <summary><b>Version 0.4.0</b></summary>
@@ -499,7 +525,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
    - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Die Mitgliederverwaltung wurde implementiert.
    - ![Geändert](https://img.shields.io/badge/Ge%C3%A4ndert-Update-yellow) Die Präfix- und Nummernänderung wurde erweitert.
    - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Fehler bei der Sortierung der Mitgliederliste wurde behoben.
-
+</details>
 
 <details>
 <summary><b>Version 0.3.0</b></summary>
@@ -507,14 +533,14 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
    - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Einführung der Rollenverwaltung für Mitglieder.
    - ![Geändert](https://img.shields.io/badge/Ge%C3%A4ndert-Update-yellow) Anpassung der Datenbankstruktur für bessere Performance.
    - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Fehler in der API-Dokumentation behoben.
-
+</details>
 
 <details>
 <summary><b>Version 0.2.0</b></summary>
 
    - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Einführung der Präfix- und Seriennummernverwaltung.
    - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Probleme mit der Mitglieder-Datenbank wurden behoben.
-
+</details>
 
 <details>
 <summary><b>Version 0.1.0</b></summary>
@@ -522,4 +548,4 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
    - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Erstes Release mit grundlegenden Funktionen.
    - ![Neu](https://img.shields.io/badge/Neu-Feature-brightgreen) Unterstützung für die Verwaltung persönlicher Daten (Vorname, Nachname, Geburtstag).
    - ![Behoben](https://img.shields.io/badge/Behoben-Bugfix-blue) Erste Fehlerkorrekturen nach dem initialen Release.
-
+</details>
