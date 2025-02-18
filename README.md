@@ -359,7 +359,8 @@ Sie können zur Entwicklung beitragen, indem Sie Vorschläge einreichen, Code be
 
 --- 
 
-## Handbuch [Online](https://terranom674.github.io/Spherdex)
+## Handbuch 
+[Onlinehandbuch](https://terranom674.github.io/Spherdex)
 Eine umfassende Dokumentation ist in Arbeit. Es wird:
 - Anleitungen zur Konfiguration und Nutzung der Module enthalten.
 - Beispiele und Anwendungsfälle beschreiben.
