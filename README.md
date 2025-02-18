@@ -86,7 +86,7 @@ Dieses Modul bildet die Grundlage für weitere Erweiterungen und ermöglicht ein
 <summary><b>Roadmap</b></summary>
 
 #### Aktueller Stand
-- **Version:** 0.7.1
+- **Version:** 0.7.3
 - **Status:** In aktiver Entwicklung
 - **Ziel:** Stabilisierung und Vorbereitung für Version 1.0.0.
 
@@ -268,6 +268,7 @@ Folgt bald
 <summary><b>Roadmap</b></summary>
 Folgt bald
 </details>
+
 ---
 
 ## **Langfristige Vision**
@@ -301,6 +302,7 @@ Die Software wird so entwickelt, dass sie für kleine Vereine genauso geeignet i
 <summary><b>6. Community-Engagement</b></summary>
 Eine aktive Community wird gefördert, um Ideen und Feedback auszutauschen, neue Features zu entwickeln und die Software weiter voranzutreiben.
 </details>
+
 ---
 
 ## **FAQ**
@@ -354,9 +356,10 @@ Ja, regelmäßige Updates und neue Funktionen sind geplant, um die Software kont
 <summary><b>10. Wie kann ich zur Entwicklung beitragen?</b></summary>
 Sie können zur Entwicklung beitragen, indem Sie Vorschläge einreichen, Code beisteuern oder die Software testen. Mehr Informationen dazu folgen bald.
 </details>
+
 --- 
 
-## Handbuch
+## Handbuch [Online](https://terranom674.github.io/Spherdex)
 Eine umfassende Dokumentation ist in Arbeit. Es wird:
 - Anleitungen zur Konfiguration und Nutzung der Module enthalten.
 - Beispiele und Anwendungsfälle beschreiben.
@@ -390,6 +393,7 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 - Leitfäden für Entwickler zur Erweiterung der Software. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 - Beispiele für API- und Modulnutzung. ![Geplant](https://img.shields.io/badge/Geplant-lightgrey)
 </details>
+
 ---
 
 ## Changelog
