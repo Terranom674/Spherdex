@@ -1,1 +1,0 @@
-# Willkommen zur Spherdex-Dokumentation

@@ -14,8 +14,11 @@ app_license = "agpl-3.0"
 app_include_js = [
     "/assets/spherdex/js/combine_onload.js",
     "/assets/spherdex/js/mitglied_list.js",
-    "/assets/spherdex/js/member_import.js?v=0.10"
+    "/assets/spherdex/js/member_import.js",
+    "/assets/spherdex/js/custom_menu.js"
 ]
+
+
 
 # include js, css files in header of web template
 # web_include_css = "/assets/spherdex/css/spherdex.css"
