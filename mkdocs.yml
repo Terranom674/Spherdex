@@ -1,0 +1,19 @@
+site_name: Spherdex Dokumentation
+nav:
+  - Lizenz: lizenz.md
+  - Startseite: index.md
+  - Installation: installation.md
+  - Nutzung: usage.md
+  - FAQ: faq.md
+  - Über: über.md
+  - Lizenz: licence.md
+
+theme:
+  name: material
+
+extra_javascript:
+  - js/fix_github_links.js
+
+repo_url: https://github.com/Terranom674/Spherdex
+
+use_directory_urls: false  # Stellt sicher, dass URLs mit .html enden
