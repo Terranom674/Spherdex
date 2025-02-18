@@ -223,6 +223,7 @@ Folgt bald
 <summary><b>Roadmap</b></summary>
 Folgt bald
 </details>
+
 ### Inventarverwaltung <img src="https://github.com/user-attachments/assets/f74e0778-bd02-48cb-8beb-d4896227a8da" width="48"> 
 <details>
    <summary><b>Details</b></summary>
@@ -236,6 +237,7 @@ Folgt bald
 <details>
 <summary><b>Roadmap</b></summary>
 Folgt bald
+</details>
 
 ### Kommunikation und Chat <img src="https://github.com/user-attachments/assets/0eccb399-abd4-454f-8f12-180ec7ebf984" width="48">
 <details>
