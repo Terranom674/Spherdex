@@ -365,17 +365,17 @@ Eine umfassende Dokumentation ist in Arbeit. Es wird:
 ## Changelog
 
 <details>
-n<details>
-n<details>
 <summary><b>Version 0.7.3</b></summary>
-
 - 📘 Handbuch aktualisiert
+</details>
 
-<summary><b>Version 0.7.3</b></summary>
-
+<details>
+<summary><b>Version 0.7.2</b></summary>
 - 📘 Handbuch aktualisiert
+</details>
 
-<summary><b>Version 0.7.3</b></summary>
+<details>
+<summary><b>Version 0.7.1</b></summary>
 - 📘 Handbuch aktualisiert
 </details>
 
