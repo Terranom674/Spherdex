@@ -56,7 +56,7 @@ def inject_styles_and_scripts(html_content):
 
                     // ✅ Falls der Link relativ ist UND nicht zu `/assets/` gehört, konvertiere ihn in `/test/`
                     if (href && !href.startsWith("http") && !href.startsWith("#") && !href.startsWith("/assets/") && href.indexOf("?page=") === -1) {
-                        link.setAttribute("href", "/test/" + href);
+                        link.setAttribute("href", "/handbuch/" + href);
                     }
                 });
             });
