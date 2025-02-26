@@ -1,0 +1,96 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+    <style>
+        /* Fixiert die ERPNext Navbar */
+        .navbar {
+            position: fixed !important;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Entfernt Margin & Max-Width von der Frappe/Bootstrap .container */
+        main.container {
+            margin: 0 !important;
+            padding: 0 !important;
+            max-width: 100% !important;
+            width: 100%;
+        }
+
+        /* Entfernt alle Margin & Padding von md-main__inner.md-grid */
+        .md-main__inner.md-grid {
+            margin: 0 !important;
+            padding: 0 !important;
+            max-width: 100% !important;
+            width: 100vw !important;
+            display: flex;
+            flex-direction: row;
+        }
+
+        /* Fixiert den MkDocs Header unter der Navbar */
+        .md-header {
+            position: fixed !important;
+            top: var(--navbar-height, 60px); /* Dynamische Berechnung */
+            width: 100%;
+            z-index: 999; /* Direkt unter der ERPNext Navbar */
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Fixierte Sidebars */
+        .md-sidebar__scrollwrap {
+            position: fixed !important;
+            top: calc(var(--navbar-height, 60px) + var(--md-header-height, 50px));
+            bottom: 0;
+            overflow-y: auto;
+            height: calc(100vh - var(--navbar-height, 60px) - var(--md-header-height, 50px));
+            background: white;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Inhaltsbereich jetzt ohne jegliche Einschränkungen */
+        .md-content {
+            padding-top: calc(var(--navbar-height, 60px) + var(--md-header-height, 50px));
+            width: 100vw;
+            max-width: 100vw;
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow-x: hidden;
+        }
+
+        /* Verhindert doppelten Scroll */
+        html, body {
+            height: auto;
+            overflow-y: visible;
+        }
+    </style>
+
+    <!-- Handbuch-Inhalt direkt integriert -->
+    {{ handbuch_html | safe }}
+
+    <script>
+        function adjustHandbuchLayout() {
+            const navbar = document.querySelector('.navbar');
+            const mdHeader = document.querySelector('.md-header');
+
+            if (navbar && mdHeader) {
+                let navbarHeight = navbar.offsetHeight;
+                let mdHeaderHeight = mdHeader.offsetHeight;
+
+                // Fixiert den Header unter der ERPNext Navbar
+                mdHeader.style.top = navbarHeight + "px";
+
+                // Setzt dynamische Werte für das Layout
+                document.documentElement.style.setProperty('--navbar-height', navbarHeight + "px");
+                document.documentElement.style.setProperty('--md-header-height', mdHeaderHeight + "px");
+            }
+        }
+
+        // Aufrufen beim Laden der Seite & wenn das Fenster sich ändert
+        document.addEventListener("DOMContentLoaded", adjustHandbuchLayout);
+        window.addEventListener("resize", adjustHandbuchLayout);
+    </script>
+{% endblock %}

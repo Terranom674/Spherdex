@@ -1,0 +1,35 @@
+/* Setzt die verfügbare Breite auf 100% */
+main.container {
+    min-width: 100%; 
+    padding: 0;
+}
+
+/* Setzt die Darstellung auf 100 % der Breite */
+.md-grid {
+    max-width: 100% !important;
+}
+
+/* Fixiert den MkDocs Header unter der Navbar */
+.md-header {
+    position: fixed !important;
+    top: var(--navbar-height, 60px) !important; /* Dynamische Berechnung */
+    width: 100%;
+    z-index: 999; /* Direkt unter der ERPNext Navbar */
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Fixiert die ERPNext Navbar */
+.navbar {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Content beginnt unterhalb beider Header */
+.md-container {
+    margin-top: 3rem;
+}

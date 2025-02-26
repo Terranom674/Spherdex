@@ -1,5 +1,7 @@
 import frappe
+import os
 from datetime import datetime
+from frappe.website.path_resolver import resolve_path
 
 @frappe.whitelist()
 def set_database_lock(status, user=None, automatisch=False):
@@ -133,8 +135,3 @@ def fetch_roles():
     except Exception as e:
         frappe.log_error(message=str(e), title="Fehler beim Abrufen der Rollen")
         return {"error": str(e)}
-
-@frappe.whitelist()
-def get_settings():
-    settings = frappe.get_single("Mitgliederverwaltung Einstellungen")
-    return {"default_anzeigenmodus": settings.default_anzeigenmodus}
