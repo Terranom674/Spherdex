@@ -1,0 +1,136 @@
+/* === Basisfarben für Light & Dark Mode === */
+[data-md-color-scheme="default"] { /* Light Mode */
+    --md-primary-fg-color: #2a3b55;  /* Dunkelblau */
+    --md-accent-fg-color: #c6cbcb;  /* Mittelgrau */
+    --md-default-bg-color: #ffffff;  /* Heller Hintergrund */
+    --md-default-fg-color: #333;     /* Dunkle Schriftfarbe */
+}
+
+[data-md-color-scheme="slate"] { /* Dark Mode */
+    --md-primary-fg-color: #1b2a41;  /* Dunkleres Blau */
+    --md-accent-fg-color: #c6cbcb;  /* Grau als Akzent */
+    --md-default-bg-color: #121212;  /* Dunkler Hintergrund */
+    --md-default-fg-color: #b0b0b0; /* Angenehmes Grau für bessere Lesbarkeit */
+}
+
+/* === Sidebar & Navigation === */
+.md-sidebar, .md-sidebar__scrollwrap, .md-sidebar__inner, .md-nav {
+    background-color: #c6cbcb !important;  /* Mittelgrau */
+    margin: 0 !important; /* Einheitliche Breite */
+}
+
+/* Navigationstitel */
+.md-nav__title {
+    background-color: #c6cbcb !important;
+    color: #333 !important;  /* Dunkle Schrift */
+    box-shadow: none !important; /* Entfernt Schatten */
+}
+
+/* Navigationselemente */
+.md-nav__item, .md-nav__link {
+    background-color: #c6cbcb !important;
+    color: #2a3b55 !important;  /* Dunkelblau */
+}
+
+/* Hover-Effekt für Navigation */
+.md-nav__link:hover {
+    background-color: rgba(42, 59, 85, 0.2) !important; /* Leichter Hover-Effekt */
+    border-radius: 5px !important;
+}
+
+/* Aktiver Sidebar-Link */
+.md-nav__item .md-nav__link--active {
+    background-color: rgba(255, 85, 0, 0.3) !important;  /* Intensiverer Orange-Hintergrund */
+    border-left: 4px solid #ff5500 !important;
+}
+
+/* === Scrollleisten entfernen === */
+.md-sidebar__scrollwrap, .md-sidebar__inner, .md-nav, .md-nav__list {
+    overflow-y: auto !important;
+    scrollbar-width: none !important;  /* Für Firefox */
+    margin: 0 !important; /* Einheitliche Sidebar-Breite */
+}
+
+/* Entfernt Scrollleiste für WebKit-Browser (Chrome, Edge, Safari) */
+.md-sidebar__scrollwrap::-webkit-scrollbar,
+.md-sidebar__inner::-webkit-scrollbar,
+.md-nav::-webkit-scrollbar,
+.md-nav__list::-webkit-scrollbar {
+    width: 0px !important;
+    display: none !important;
+}
+
+/* === Standard-Linkfarbe für Light & Dark Mode === */
+[data-md-color-scheme="default"] a, 
+[data-md-color-scheme="default"] .md-nav__link {
+    color: #2a3b55 !important;  /* Dunkelblau für Light Mode */
+}
+
+[data-md-color-scheme="slate"] a, 
+[data-md-color-scheme="slate"] .md-nav__link {
+    color: #ffffff !important;  /* Weiß für Dark Mode */
+}
+
+/* === Hover-Farben für Links === */
+.md-nav__link:hover, a:hover {
+    color: #ff8800 !important;  /* Orange für Hover */
+}
+
+/* === Aktive Links === */
+.md-nav__link--active, a:active {
+    color: #ff5500 !important;  /* Intensiveres Orange für aktive Links */
+    font-weight: bolder !important;
+    border-left: 4px solid #ff5500 !important;
+}
+
+/* === Dark Mode Umschalter nach rechts & vertikal zentrieren === */
+.md-header__option {
+    margin-left: auto !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    position: absolute !important;
+    right: 15px !important;
+    top: 50%;
+    transform: translateY(-50%) !important;
+}
+
+/* === Header-Farben für Light & Dark Mode === */
+[data-md-color-scheme="default"] .md-header {
+    background-color: #ffffff !important;
+}
+
+[data-md-color-scheme="slate"] .md-header {
+    background-color: #1b2a41 !important;
+}
+
+/* Header-Linkfarben für bessere Lesbarkeit */
+[data-md-color-scheme="default"] .md-header__option a,
+[data-md-color-scheme="default"] .md-header__button {
+    color: #2a3b55 !important;
+}
+
+[data-md-color-scheme="slate"] .md-header__option a,
+[data-md-color-scheme="slate"] .md-header__button {
+    color: #b0b0b0 !important;  /* Sanftes Grau für bessere Lesbarkeit */
+}
+
+/* Hover-Farbe für Header-Links */
+.md-header__option a:hover,
+.md-header__button:hover {
+    color: #ff8800 !important;  /* Orange für Hover */
+}
+
+/* === `.md-ellipsis` Lesbarkeit verbessern === */
+[data-md-color-scheme="default"] .md-ellipsis {
+    color: #2a3b55 !important;  /* Dunkelblau für Light Mode */
+}
+
+[data-md-color-scheme="slate"] .md-ellipsis {
+    color: #3f3f3f !important;  /* Dunkleres Grau für bessere Lesbarkeit im Dark Mode */
+}
+
+/* `.md-ellipsis` Hover-Farbe */
+.md-ellipsis:hover {
+    color: #ff8800 !important;
+}
